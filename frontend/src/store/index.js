@@ -7,28 +7,41 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   state: {
     tokenAuth: localStorage.getItem('tokenAuth') || '',
+    esAdmin: localStorage.getItem('esAdmin') || '',
   },
   getters: {
     tokenAuth: (state) => state.tokenAuth,
+    esAdmin: (state) => state.esAdmin,
   },
   mutations: {
     SET_TOKEN(state, newToken) {
       state.tokenAuth = newToken
     },
 
+    SET_ADMIN(state, newToken) {
+      state.esAdmin = newToken
+    },
+
     DELETE_CREDENTIALS(state) {
       state.tokenAuth = ''
       localStorage.removeItem('tokenAuth')
     },
+
+    DELETE_ADMIN(state) {
+      state.esAdmin = ''
+      localStorage.removeItem('esAdmin')
+    },
   },
   actions: {
-    LOGIN({ commit }, formData) {
+    async LOGIN({ commit }, formData) {
       return new Promise((resolve, reject) => {
         axios
           .post('http://localhost:3000/api/auth/login', formData)
           .then((response) => {
             localStorage.setItem('tokenAuth', response.data.token)
+            localStorage.setItem('esAdmin', response.data.esAdministrador)
             commit('SET_TOKEN', response.data.token)
+            commit('SET_ADMIN', response.data.esAdministrador)
             resolve(true)
           })
           .catch((error) => reject(error))

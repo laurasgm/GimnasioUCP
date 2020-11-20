@@ -10,27 +10,30 @@
       <input v-model="form.password" type="password" placeholder="Contraseña" />
 
       <button @click="Login" class="btn btn-standar">INICIAR SESIÓN</button>
+
       <div v-if="!loading" class="text-center mt-5">
         <b-spinner variant="warning" label="Spinning"></b-spinner>
       </div>
+
     </div>
   </div>
 </template>
 
 <script>
-import { mapActions } from 'vuex'
+import { mapActions, mapGetters } from 'vuex'
 import { validateEmail } from '../utils/validations'
 import router from '../router/index'
 
 export default {
   name: 'Login',
+  esAdmin: '',
   data() {
     return {
       form: {},
       loading: true,
     }
   },
-
+  
   methods: {
     ...mapActions(['LOGIN']),
     Login() {
@@ -38,7 +41,12 @@ export default {
       if (validateEmail(this.form.email)) {
         this.LOGIN(this.form)
           .then((response) => {
-            this.$router.replace({ name: 'Inventory' })
+            let admin = localStorage.esAdmin
+            if(admin == "true"){
+              this.$router.replace({ name: 'Inventory' })
+            }else{
+              this.$router.replace({ name: 'HomeUsuario' })
+            }
             this.loading = true
           })
           .catch((error) => {

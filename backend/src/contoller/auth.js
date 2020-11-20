@@ -15,14 +15,15 @@ async function login(req, res) {
     let query = await dbAdmin.getAdminByEmail(email)
     if (query.length == 0)
       return res.status(401).send({ message: 'El usuario no existe' })
-    let admin = query[0]
-    let passwordEncrypted = admin.password
+      let admin = query[0]
+    let passwordEncrypted = admin.password;
+    let esAdministrador = admin.administrador;
     delete admin['password']
     let isCorrectPassword = await verifyPassword(password, passwordEncrypted)
     if (isCorrectPassword) {
       let token = await getToken(admin)
       return res.status(200).send({
-        token,
+        token,esAdministrador
       })
     }
     return res.status(401).send({

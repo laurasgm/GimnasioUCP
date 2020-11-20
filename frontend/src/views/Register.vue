@@ -14,7 +14,6 @@
         type="password"
         placeholder="Repetir Contraseña"
       />
-      <input v-model="code" type="password" placeholder="Código Interno" />
       <button class="btn btn-standar" @click="Register">Registrarse</button>
       <div v-if="!loading" class="text-center mt-5">
         <b-spinner variant="warning" label="Spinning"></b-spinner>
@@ -32,7 +31,6 @@ export default {
     return {
       form: {},
       repeatPass: '',
-      code: '',
       loading: true,
     }
   },
@@ -45,8 +43,7 @@ export default {
         !this.form.name_admin ||
         !this.form.email ||
         !this.form.password ||
-        this.repeatPass == '' ||
-        this.code == ''
+        this.repeatPass == ''
       ) {
         this.$snotify.error('Error, debes llenar todos los campos.')
         this.loading = true
@@ -56,15 +53,12 @@ export default {
       } else if (this.form.password != this.repeatPass) {
         this.$snotify.error('Las contraseñas no coiciden')
         this.loading = true
-      } else if (this.code != '033') {
-        this.$snotify.error('El codigo interno no es válido')
-        this.loading = true
       } else {
         this.form.id_gym = 1
         this.REGISTER(this.form)
           .then((response) => {
             this.$snotify.success('Usuario registrado satisfactoriamente')
-            this.$router.replace({ name: 'Inventory' })
+            this.$router.replace({ name: 'HomeUsuario' })
             this.loading = true
           })
           .catch((error) => {

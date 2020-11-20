@@ -1,6 +1,3 @@
--- Creación de la base de datos
-create database gimnasioUCP;
-
 -- Creacion de la tabla administrador
 create table admin(
   id_admin serial primary key,
@@ -37,6 +34,7 @@ create table resource(
 alter table resource
 add id_gym integer not null;
 
+
 alter table resource
 add foreign key (id_gym) references gym(id_gym);
 
@@ -59,4 +57,8 @@ add foreign key (id_gym) references gym(id_gym);
 -- Gimnacio UCP tendra el id 1
 insert into gym (name_gym) values ('JOSE SPORT GYM');
 
+
+-- se añade administrador a tabla admin 
+alter table admin
+add administrador BOOLEAN DEFAULT FALSE ;
 

@@ -16,8 +16,9 @@
         <router-link to="/register">Registro</router-link>
       </div>
     </div>
-    <div id="nav" v-if="tokenAuth">
+    <div id="nav" v-if="condicion1()">
       <div class="logo">
+        <h1>{{esAdmin}}</h1>
         <router-link to="/users">
           <img
             @click="this.$router.replace({ name: 'Home' })"
@@ -32,6 +33,21 @@
         <router-link to="/logout">Cerrar Sesion</router-link>
       </div>
     </div>
+     <div id="nav" v-if="condicion2()">
+      <div class="logo">
+        <h1>{{esAdmin}}</h1>
+        <router-link to="/users">
+          <img
+            @click="this.$router.replace({ name: 'Home' })"
+            src="./assets/logo.png"
+            alt="logo"
+          />
+        </router-link>
+      </div>
+      <div class="end">
+        <router-link to="/logout">Cerrar Sesion</router-link>
+      </div>
+    </div>
     <router-view />
 
     <vue-snotify></vue-snotify>
@@ -42,8 +58,21 @@
 import { mapGetters } from 'vuex'
 export default {
   computed: {
-    ...mapGetters(['tokenAuth']),
+    ...mapGetters(['tokenAuth','esAdmin']),
   },
+  methods: {
+    condicion1(){
+      let tokenAuth =  localStorage.getItem('tokenAuth')
+      let esAdmin = localStorage.getItem('esAdmin')
+      return tokenAuth && esAdmin == 'true'
+    },
+    condicion2(){
+      let tokenAuth =  localStorage.getItem('tokenAuth')
+      let esAdmin = localStorage.getItem('esAdmin')
+      return tokenAuth && esAdmin !== 'true'
+    }
+  }
+  
 }
 </script>
 

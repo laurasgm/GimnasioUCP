@@ -58,6 +58,12 @@ const routes = [
     component: () => import('../views/Logout.vue'),
     beforeEnter: multiguard([isLoggedIn]),
   },
+  {
+    path: '/homeUsuario',
+    name: 'HomeUsuario',
+    component: () => import('../views/HomeUsuarios.vue'),
+    beforeEnter: multiguard([isLoggedIn]),
+  },
 ]
 
 const router = new VueRouter({
