@@ -128,11 +128,14 @@
 
 <style lang="scss" scoped>
 .container-gruop {
-      background-color: url('../assets/img/1.jpg');
-       background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-      text-align: center;
+  display: block;
+  width: 100%;
+  background-image: url('../assets/img/1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 150px;
+  text-align: center;
   .row {
     margin: 0;
     padding: 50px 10% 0px 10%;
@@ -168,5 +171,20 @@
   .botonF1:active {
     transform: scale(1.1);
   }
+  @media (max-width: 570px) {
+    .card {
+        margin-top: 20px
+    }
+    .container-gruop{
+      background-color: url('../assets/img/1.jpg');
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      height: 100%;
+      width: 100% ;
+      text-align: center;
+    }
+}
 }
 </style>
