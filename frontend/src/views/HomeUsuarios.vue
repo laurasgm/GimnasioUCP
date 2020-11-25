@@ -27,7 +27,7 @@
               <p class="textoParrafo2">Rutinas de Gimnasio . Diferentes entrenamientos y sistemas para alcanzar la forma fisica perfecta. 
                 Aprende con estas fantasticas rutinas para el gym
               </p>
-              <mdb-btn class="btn btn-standar"><mdb-icon icon="clone left" />Entrar</mdb-btn>
+              <mdb-btn class="btn btn-standar" @click="abrirGym"><mdb-icon icon="clone left" />Entrar</mdb-btn>
             </div>
           </div>
         </mdb-card>
@@ -58,7 +58,12 @@
 			mdbView,
 			mdbMask,
 			mdbIcon
-		}
+    },
+    methods:{
+      abrirGym(){
+        this.$router.replace({ name: 'GroupExercises' })
+      }
+    }
 	}
 </script>
 

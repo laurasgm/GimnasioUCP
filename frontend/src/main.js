@@ -5,7 +5,7 @@ import store from './store'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import Snotify, { SnotifyPosition } from 'vue-snotify'
 import VModal from 'vue-js-modal'
-
+import { mdbCard, mdbCardImage, mdbCardBody, mdbCardTitle, mdbCardText } from 'mdbvue';
 const options = {
   toast: {
     position: SnotifyPosition.rightTop,
