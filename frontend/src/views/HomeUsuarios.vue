@@ -71,13 +71,13 @@
 <style lang="scss" scoped>
 .container {
   display: block;
-  width: 100%;
-  background-image: url('../assets/img/1.jpg');
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 100vh;
-  padding-top: 150px;
-  text-align: center;
+      width: 100%;
+      background-image: url('../assets/img/1.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      padding-top: 150px;
+      text-align: center;
   .row {
     margin: 0;
     padding: 50px 10% 0px 10%;

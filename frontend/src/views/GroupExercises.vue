@@ -1,138 +1,142 @@
 <template>
   <div class="container-gruop">
     <h1>Grupos de ejercicios</h1>
-	<!-- Card -->
-  <div class="row">
-    <div class="col-md-4">
-      <div class="card">
-        <!-- Card image -->
-        <div class="view overlay">
-          <img
-            class="card-img-top"
-            src="../assets/img/muslos.jpg"
-            alt="Card image cap"
-          />
-          <a>
-            <div class="mask rgba-white-slight">
-              <!-- Button -->
-              <button class="botonF1">
-                <span>
-                  >>
-                </span>
-              </button>
-            </div>
-          </a>
-        </div>
+    <!-- Card -->
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <!-- Card image -->
+          <div class="view overlay">
+            <img
+              class="card-img-top"
+              src="../assets/img/muslos.jpg"
+              alt="Card image cap"
+            />
+            <a>
+              <div class="mask rgba-white-slight">
+                <!-- Button -->
+                <button class="botonF1">
+                  <span> >> </span>
+                </button>
+              </div>
+            </a>
+          </div>
 
-        <!-- Card content -->
-        <div class="card-body">
-          <!-- Title -->
-          <h4 class="card-title">Pierna</h4>
-          <hr />
-          <!-- Text -->
-          <p class="card-text">
-            Aumentar la fuerza, la resistencia, fortalecer las articulaciones, o
-            mejorar ciertos movimientos serán algunas de las ventajas que
-            obtendremos entrenando pierna y que podremos trasladar a cualquier
-            deporte que practiquemos fuera del gimnasio.
-          </p>
-        </div>
+          <!-- Card content -->
+          <div class="card-body">
+            <!-- Title -->
+            <h4 class="card-title">Pierna</h4>
+            <hr />
+            <!-- Text -->
+            <p class="card-text">
+              Aumentar la fuerza, la resistencia, fortalecer las articulaciones,
+              o mejorar ciertos movimientos serán algunas de las ventajas que
+              obtendremos entrenando pierna y que podremos trasladar a cualquier
+              deporte que practiquemos fuera del gimnasio.
+            </p>
+          </div>
 
-        <!-- Card footer -->
-        <div class="rounded-bottom mdb-color lighten-3 text-center pt-3"></div>
+          <!-- Card footer -->
+          <div
+            class="rounded-bottom mdb-color lighten-3 text-center pt-3"
+          ></div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <!-- Card image -->
+          <div class="view overlay">
+            <img
+              class="card-img-top"
+              src="../assets/img/Hombros.jpg"
+              alt="Card image cap"
+            />
+            <a>
+              <div class="mask rgba-white-slight">
+                <!-- Button -->
+                <button class="botonF1">
+                  <span> >> </span>
+                </button>
+              </div>
+            </a>
+          </div>
+
+          <!-- Card content -->
+          <div class="card-body">
+            <!-- Title -->
+            <h4 class="card-title">Hombro</h4>
+            <hr />
+            <!-- Text -->
+            <p class="card-text">
+              Entrenar los hombros es muy importante para estar en forma. Los
+              músculos de tus hombros son el grupo muscular en la parte superior
+              del cuerpo que más usamos. Como ya hemos señalado, los hombros son
+              uno de los grupos musculares más comúnmente usados en la parte
+              superior del cuerpo.
+            </p>
+          </div>
+
+          <!-- Card footer -->
+          <div
+            class="rounded-bottom mdb-color lighten-3 text-center pt-3"
+          ></div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <!-- Card image -->
+          <div class="view overlay">
+            <img
+              class="card-img-top"
+              src="../assets/img/pecho.jpg"
+              alt="Card image cap"
+            />
+            <a>
+              <div class="mask rgba-white-slight">
+                <!-- Button -->
+                <button class="botonF1">
+                  <span> >> </span>
+                </button>
+              </div>
+            </a>
+          </div>
+
+          <!-- Card content -->
+          <div class="card-body">
+            <!-- Title -->
+            <h4 class="card-title">Pecho</h4>
+            <hr />
+            <!-- Text -->
+            <p class="card-text">
+              La musculatura pectoral se coordina con el cuello, brazos, hombros
+              y los músculos centrales para producir movimiento y fuerza. Por lo
+              tanto, realizar ejercicios para pecho es de vital importancia para
+              el bienestar general tanto en el entrenamiento como en acciones de
+              la vida cotidiana.
+            </p>
+          </div>
+
+          <!-- Card footer -->
+          <div
+            class="rounded-bottom mdb-color lighten-3 text-center pt-3"
+          ></div>
+        </div>
       </div>
     </div>
-	<div class="col-md-4">
-      <div class="card">
-        <!-- Card image -->
-        <div class="view overlay">
-          <img
-            class="card-img-top"
-            src="../assets/img/muslos.jpg"
-            alt="Card image cap"
-          />
-          <a>
-            <div class="mask rgba-white-slight">
-              <!-- Button -->
-              <button class="botonF1">
-                <span>
-                  >>
-                </span>
-              </button>
-            </div>
-          </a>
-        </div>
-
-        <!-- Card content -->
-        <div class="card-body">
-          <!-- Title -->
-          <h4 class="card-title">Pierna</h4>
-          <hr />
-          <!-- Text -->
-          <p class="card-text">
-            Aumentar la fuerza, la resistencia, fortalecer las articulaciones, o
-            mejorar ciertos movimientos serán algunas de las ventajas que
-            obtendremos entrenando pierna y que podremos trasladar a cualquier
-            deporte que practiquemos fuera del gimnasio.
-          </p>
-        </div>
-
-        <!-- Card footer -->
-        <div class="rounded-bottom mdb-color lighten-3 text-center pt-3"></div>
-      </div>
-    </div>
-	<div class="col-md-4">
-      <div class="card">
-        <!-- Card image -->
-        <div class="view overlay">
-          <img
-            class="card-img-top"
-            src="../assets/img/muslos.jpg"
-            alt="Card image cap"
-          />
-          <a>
-            <div class="mask rgba-white-slight">
-              <!-- Button -->
-              <button class="botonF1">
-                <span>
-                  >>
-                </span>
-              </button>
-            </div>
-          </a>
-        </div>
-
-        <!-- Card content -->
-        <div class="card-body">
-          <!-- Title -->
-          <h4 class="card-title">Pierna</h4>
-          <hr />
-          <!-- Text -->
-          <p class="card-text">
-            Aumentar la fuerza, la resistencia, fortalecer las articulaciones, o
-            mejorar ciertos movimientos serán algunas de las ventajas que
-            obtendremos entrenando pierna y que podremos trasladar a cualquier
-            deporte que practiquemos fuera del gimnasio.
-          </p>
-        </div>
-
-        <!-- Card footer -->
-        <div class="rounded-bottom mdb-color lighten-3 text-center pt-3"></div>
-      </div>
-    </div>
+    <!-- Card -->
   </div>
-  <!-- Card -->
-  </div>
-  
 </template>
 
 <style lang="scss" scoped>
 .container-gruop {
-      background-color: url('../assets/img/1.jpg');
-       background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-      text-align: center;
+  display: block;
+  width: 100%;
+  background-image: url("../assets/img/1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 150px;
+  text-align: center;
   .row {
     margin: 0;
     padding: 50px 10% 0px 10%;
@@ -167,6 +171,21 @@
   }
   .botonF1:active {
     transform: scale(1.1);
+  }
+  @media (max-width: 570px) {
+    .card {
+      margin-top: 20px;
+    }
+    .container-gruop {
+      background-color: url("../assets/img/1.jpg");
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+      text-align: center;
+    }
   }
 }
 </style>
