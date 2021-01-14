@@ -75,8 +75,9 @@
       background-image: url('../assets/img/1.jpg');
       background-repeat: no-repeat;
       background-attachment: fixed;
-      background-size: cover;
+      background-size: 100%;
       padding-top: 150px;
+      height: 100vh;
       text-align: center;
   .row {
     margin: 0;
@@ -88,6 +89,9 @@
    background-size: 150%;
    background-position: 30% 75%;  
    background-size: cover;
+   border-color: #aaaaaa;
+   border-width: 2px;
+   border-style: solid;
    opacity: 0.9;
 }
 .card2{
@@ -95,6 +99,9 @@
   background-size: 120%;
   background-position: 30% 75%;    
   background-size: cover;
+  border-color: #aaaaaa;
+  border-width: 2px;
+  border-style: solid;
   opacity: 0.9;
 }
 .texto{

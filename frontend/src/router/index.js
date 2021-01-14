@@ -77,10 +77,11 @@ const routes = [
     beforeEnter: multiguard([isLoggedIn]),
   },
   {
-    path: '/homeExercises',
+    path: '/homeExercises/:grupo',
     name: 'HomeExercises',
-    component: () => import('../views/HomeExercises.vue')
-  },
+    component: () => import('../views/HomeExercises.vue'),
+    beforeEnter: multiguard([isLoggedIn]),
+  }
 ]
 
 const router = new VueRouter({
