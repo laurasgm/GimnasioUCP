@@ -224,7 +224,7 @@
 
 		<!-- Card -->
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-md-4"  >
 				<section>
 					<div class="card card-cascade">
 						<div class="view overlay view-cascade">
@@ -249,30 +249,32 @@
 	</div>
 </template>
 
+
 <script>
-	import { mdbContainer, mdbRow, mdbCol, mdbCard, mdbCardImage, mdbCardHeader, mdbCardBody, mdbCardTitle, mdbCardText, mdbCardFooter, mdbCardUp, mdbCardAvatar, mdbCardGroup, mdbBtn, mdbView, mdbMask, mdbIcon } from 'mdbvue';
-	export default {
-		name: 'CardProPage',
-		components: {
-			mdbContainer,
-			mdbRow,
-			mdbCol,
-			mdbCard,
-			mdbCardImage,
-			mdbCardHeader,
-			mdbCardBody,
-			mdbCardTitle,
-			mdbCardText,
-			mdbCardFooter,
-			mdbCardUp,
-			mdbCardAvatar,
-			mdbCardGroup,
-			mdbBtn,
-			mdbView,
-			mdbMask,
-			mdbIcon
-		}
-	}
+import router from '../router/index'
+var tipoEjercicio
+var grupoMuscular;
+export default {
+  
+  name: 'HomeExercises',
+  created() {
+    debugger;
+    tipoEjercicio = this.$router.currentRoute.params.grupo;
+  },
+  beforeCreate() {
+    grupoMuscular = Object.freeze({ "Pierna": 0, "Hombro": 1, "Pecho": 2, "Abdomen": 3, "Brazo": 4, "Espalda": 5 });
+
+  },
+  data: {
+  },
+  methods: {
+    verEjercicios() {
+      debugger;
+      tipoEjercicio;
+      grupoMuscular;
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>

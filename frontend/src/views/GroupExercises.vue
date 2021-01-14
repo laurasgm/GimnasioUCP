@@ -9,13 +9,13 @@
           <div class="view overlay">
             <img
               class="card-img-top"
-              src="../assets/img/muslos.jpg"
+              src="../assets/img/GruposMusculos/Pierna/muslos.jpg"
               alt="Card image cap"
             />
             <a>
               <div class="mask rgba-white-slight">
                 <!-- Button -->
-                <button @click="detalle" class="botonF1">
+                <button class="botonF1" @click="verEjercicios(0)">
                   <span> >> </span>
                 </button>
               </div>
@@ -48,13 +48,13 @@
           <div class="view overlay">
             <img
               class="card-img-top"
-              src="../assets/img/Hombros.jpg"
+              src="../assets/img/GruposMusculos/Hombro/Hombros.jpg"
               alt="Card image cap"
             />
             <a>
               <div class="mask rgba-white-slight">
                 <!-- Button -->
-                <button  class="botonF1">
+                <button class="botonF1" @click="verEjercicios(1)">
                   <span> >> </span>
                 </button>
               </div>
@@ -88,13 +88,13 @@
           <div class="view overlay">
             <img
               class="card-img-top"
-              src="../assets/img/pecho.jpg"
+              src="../assets/img/GruposMusculos/Pecho/pecho.jpg"
               alt="Card image cap"
             />
             <a>
               <div class="mask rgba-white-slight">
                 <!-- Button -->
-                <button class="botonF1">
+                <button class="botonF1" @click="verEjercicios(2)">
                   <span> >> </span>
                 </button>
               </div>
@@ -124,20 +124,165 @@
       </div>
     </div>
     <!-- Card -->
+
+    <!-- Card -->
+    <div class="row" style="padding-bottom: 30px;">
+      <div class="col-md-4">
+        <div class="card">
+          <!-- Card image -->
+          <div class="view overlay">
+            <img
+              class="card-img-top"
+              src="../assets/img/GruposMusculos/Abdomen/abdomen.jpg"
+              alt="Card image cap"
+            />
+            <a>
+              <div class="mask rgba-white-slight">
+                <!-- Button -->
+                <button class="botonF1" @click="verEjercicios(3)">
+                  <span> >> </span>
+                </button>
+              </div>
+            </a>
+          </div>
+
+          <!-- Card content -->
+          <div class="card-body">
+            <!-- Title -->
+            <h4 class="card-title">Abdomen</h4>
+            <hr />
+            <!-- Text -->
+            <p class="card-text">
+              Ejercitar el abdomen reduce el riesgo de sufrir malestares o
+              dolencias posturales tras una larga jornada laboral. Trabajar esta
+              parte del cuerpo también ayuda a disminuir la hinchazón en la zona
+              abdominal, además mantiene en la posición correcta los órganos
+              internos, favoreciendo así el funcionamiento del organismo
+            </p>
+          </div>
+
+          <!-- Card footer -->
+          <div
+            class="rounded-bottom mdb-color lighten-3 text-center pt-3"
+          ></div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <!-- Card image -->
+          <div class="view overlay">
+            <img
+              class="card-img-top"
+              src="../assets/img/GruposMusculos/Brazo/brazo.jpg"
+              alt="Card image cap"
+            />
+            <a>
+              <div class="mask rgba-white-slight">
+                <!-- Button -->
+                <button class="botonF1" @click="verEjercicios(4)">
+                  <span> >> </span>
+                </button>
+              </div>
+            </a>
+          </div>
+
+          <!-- Card content -->
+          <div class="card-body">
+            <!-- Title -->
+            <h4 class="card-title">Brazo</h4>
+            <hr />
+            <!-- Text -->
+            <p class="card-text">
+              El entrenamiento de los antebrazos, muñecas y manos en todas sus
+              variantes y movimientos te ayudará a mejorar tu agarre, reducir la
+              tensión del codo y la muñeca y aumentar tu flexibilidad y
+              destreza.
+            </p>
+          </div>
+
+          <!-- Card footer -->
+          <div
+            class="rounded-bottom mdb-color lighten-3 text-center pt-3"
+          ></div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <!-- Card image -->
+          <div class="view overlay">
+            <img
+              class="card-img-top"
+              src="../assets/img/GruposMusculos/Espalda/espalda.jpg"
+              alt="Card image cap"
+            />
+            <a>
+              <div class="mask rgba-white-slight">
+                <!-- Button -->
+                <button class="botonF1" @click="verEjercicios(5)">
+                  <span> >> </span>
+                </button>
+              </div>
+            </a>
+          </div>
+
+          <!-- Card content -->
+          <div class="card-body">
+            <!-- Title -->
+            <h4 class="card-title">Espalda</h4>
+            <hr />
+            <!-- Text -->
+            <p class="card-text">
+              La musculatura de la espalda así, no sólo contribuye a estabilizar
+              el cuerpo como lo hacen otros músculos del core sino también,
+              influyen en nuestra postura corporal y dependiendo de cada músculo
+              en particular, ayudan a estabilizar la pelvis, permitir
+              movimientos de hombros y brazos e incluso, de la cabeza.
+            </p>
+          </div>
+
+          <!-- Card footer -->
+          <div
+            class="rounded-bottom mdb-color lighten-3 text-center pt-3"
+          ></div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
-
 <script>
+import router from '../router/index'
+var tipoEjercicio
+var grupoMuscular;
 export default {
-methods:{
-      detalle(){
-        debugger;
-        this.$router.replace({ name: 'HomeExercises', params: 1})
+  
+  name: 'GroupExercises',
+  created() {
+    debugger;
+    tipoEjercicio = this.$router.currentRoute.params.tipoEjercicio;
+  },
+  beforeCreate() {
+  },
+  data: {
+  },
+  methods: {
+    verEjercicios() {
+      debugger;
+      switch (tipoEjercicio) {
+        case 1:
+          this.$router.replace({name: 'ExercisesGym', params: { grupo: tipoEjercicio }});
+          break;
+      
+        case 2:
+          this.$router.replace({name: 'HomeExercises', params: { grupo: tipoEjercicio }});
+          break;
       }
-    }
-	}
-</script>
 
+      tipoEjercicio;
+      grupoMuscular;
+    }
+  }
+}
+</script>
 <style lang="scss" scoped>
 .container-gruop {
   display: block;
@@ -182,6 +327,10 @@ methods:{
   }
   .botonF1:active {
     transform: scale(1.1);
+  }
+  .texto{
+    color: black;
+    -webkit-text-stroke: 0.4px rgb(255, 249, 249);
   }
   @media (max-width: 570px) {
     .card {

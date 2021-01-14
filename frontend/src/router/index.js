@@ -65,9 +65,15 @@ const routes = [
     beforeEnter: multiguard([isLoggedIn]),
   },
   {
-    path: '/groupExercises',
+    path: '/groupExercises/:tipoEjercicio',
     name: 'GroupExercises',
     component: () => import('../views/GroupExercises.vue'),
+    beforeEnter: multiguard([isLoggedIn]),
+  },
+  {
+    path: '/exercisesGym/:grupo',
+    name: 'ExercisesGym',
+    component: () => import('../views/ExercisesGym.vue'),
     beforeEnter: multiguard([isLoggedIn]),
   },
   {
