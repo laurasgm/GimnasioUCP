@@ -15,7 +15,7 @@
             <a>
               <div class="mask rgba-white-slight">
                 <!-- Button -->
-                <button class="botonF1">
+                <button @click="detalle" class="botonF1">
                   <span> >> </span>
                 </button>
               </div>
@@ -37,7 +37,7 @@
           </div>
 
           <!-- Card footer -->
-          <div
+          <div 
             class="rounded-bottom mdb-color lighten-3 text-center pt-3"
           ></div>
         </div>
@@ -54,7 +54,7 @@
             <a>
               <div class="mask rgba-white-slight">
                 <!-- Button -->
-                <button class="botonF1">
+                <button  class="botonF1">
                   <span> >> </span>
                 </button>
               </div>
@@ -126,6 +126,17 @@
     <!-- Card -->
   </div>
 </template>
+
+<script>
+export default {
+methods:{
+      detalle(){
+        debugger;
+        this.$router.replace({ name: 'HomeExercises', params: 1})
+      }
+    }
+	}
+</script>
 
 <style lang="scss" scoped>
 .container-gruop {
