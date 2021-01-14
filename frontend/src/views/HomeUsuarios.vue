@@ -12,7 +12,7 @@
                 mantenerse en movimiento y trabajar el cuerpo
                 de forma fácil, segura y rápida
               </p>
-              <mdb-btn class="btn btn-standar"><mdb-icon icon="clone left" />Entrar</mdb-btn>
+              <mdb-btn class="btn btn-standar" @click="abrirGym(2)"><mdb-icon icon="clone left" />Entrar</mdb-btn>
             </div>
           </div>
         </mdb-card>
@@ -27,7 +27,7 @@
               <p class="textoParrafo2">Rutinas de Gimnasio . Diferentes entrenamientos y sistemas para alcanzar la forma fisica perfecta. 
                 Aprende con estas fantasticas rutinas para el gym
               </p>
-              <mdb-btn class="btn btn-standar" @click="abrirGym"><mdb-icon icon="clone left" />Entrar</mdb-btn>
+              <mdb-btn class="btn btn-standar" @click="abrirGym(1)"><mdb-icon icon="clone left" />Entrar</mdb-btn>
             </div>
           </div>
         </mdb-card>
@@ -60,8 +60,8 @@
 			mdbIcon
     },
     methods:{
-      abrirGym(){
-        this.$router.replace({ name: 'GroupExercises' })
+      abrirGym(tipoEjercicio){
+        this.$router.replace({name: 'GroupExercises', params: { tipoEjercicio: tipoEjercicio }});
       }
     }
 	}
