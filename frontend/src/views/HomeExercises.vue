@@ -1,7 +1,7 @@
 <template>
-  <div class="container-gruop">
-    <h1>Grupos de ejercicios {{pierna}}</h1>
-	<template v-show="pierna">
+  	<div class="container-gruop">
+		<h1>Grupos en casa</h1>
+		<template v-if="tipoEjercicio == grupoMuscular['Pierna'].toString()">
     <!-- Card -->
 			<div class="row">
 				<div class="col-md-4">
@@ -716,32 +716,82 @@
 				</section>
 			</div>
     	</div>
-    	<!-- Card -->
 		</template>
-		<!-- Card -->
-		<div class="row" v-show="!pierna">
-			<div class="col-md-4"  >
-				<section>
-					<div class="card card-cascade">
-						<div class="view overlay view-cascade">
-							<a href="#!">
-								<img  src="../assets/img/home/pierna/abduccion-cadera-boca-abajo.jpg" class="img-fluid" alt="placeholder image with a man">
-								<div class="mask rgba-white-slight waves-effect waves-light"></div>
-							</a>
-						</div>
-						<div class="card-body text-center card-body-cascade">
-							<h4 class="card-title"><strong>Abducción de cadera boca abajo</strong></h4>
-							<h5>10 X 10</h5>
-							<p class="card-text">
-								El movimiento es sencillo –aunque difícil de ejecutar-, intenta abrir y cerrar las piernas mientras las mantienes siempre a la misma altura (paralelas al suelo).
-							</p>
-						</div>
-					</div>
-				</section>
-			</div>
-    	</div>
     	<!-- Card -->
-		
+		<template v-else-if ="tipoEjercicio == grupoMuscular['Hombro'].toString()">
+    <!-- Card -->
+			<div class="row">
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/pierna/sentadilla.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Sentadilla</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Es el ejercicio más básico de calistenia, pero no por ello fácil. Intenta bajar hasta que las nalgas lleguen o supere la altura de las rodillas (90°) sin doblar la espalda. 
+									Puedes utilizar cualquier tipo de lastre (peso extra) para añadirle dificultad al movimiento.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/pierna/lunges.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Lunges</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									En esta variante de lunges –o zancadas– in situ debes permanecer en un mismo punto bajando y subiendo sin separar los pies del suelo. 
+									Después de llegar a cierto número de repeticiones cambias de pierna.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/pierna/calf-raises.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Calf Raises</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									En este ejercicio puedes utilizar el suelo o un escalón para tener mayor rango de movimiento. 
+									También te recomiendo utilizar calzado para que sea más cómodo, levanta los talones manteniendo la punta de los pies pegadas al suelo en todo momento, 
+									extiende por completo las pantorrillas al subir y luego baja.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+			<!-- Card -->
+		</template>
 	</div>
 </template>
 
@@ -750,31 +800,19 @@
 import router from '../router/index'
 var tipoEjercicio
 var grupoMuscular;
-var pierna;
+//https://decalistenia.biz/19-ejercicios-espalda-casa/
 export default {
-  
   name: 'HomeExercises',
-  created() {
-    debugger;
-    tipoEjercicio = this.$router.currentRoute.params.grupo;
-	if(tipoEjercicio === grupoMuscular["Pierna"].toString()){
-		pierna = true;
-	}
-  },
   beforeCreate() {
+	tipoEjercicio = this.$router.currentRoute.params.grupo;
     grupoMuscular = Object.freeze({ "Pierna": 1, "Hombro": 2, "Pecho": 3, "Abdomen": 4, "Brazo": 5, "Espalda": 6 });
-
   },
-  data: () => ({
-    pierna
-  }),
-  methods: {
-    verEjercicios() {
-      debugger;
-      tipoEjercicio;
-      grupoMuscular;
-    }
-  }
+  data: () => {
+	  return {
+		  tipoEjercicio,
+		  grupoMuscular,
+	  }
+  },
 }
 </script>
 
