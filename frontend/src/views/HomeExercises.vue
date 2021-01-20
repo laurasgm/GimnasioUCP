@@ -726,16 +726,15 @@
 						<div class="card card-cascade">
 							<div class="view overlay view-cascade">
 								<a href="#!">
-									<img  src="../assets/img/home/pierna/sentadilla.jpg" class="img-fluid" alt="placeholder image with a man">
+									<img  src="../assets/img/home/hombros/Shoulder-taps.jpg" class="img-fluid" alt="placeholder image with a man">
 									<div class="mask rgba-white-slight waves-effect waves-light"></div>
 								</a>
 							</div>
 							<div class="card-body text-center card-body-cascade">
-								<h4 class="card-title"><strong>Sentadilla</strong></h4>
+								<h4 class="card-title"><strong>Shoulder Taps</strong></h4>
 								<h5>10 X 10</h5>
 								<p class="card-text">
-									Es el ejercicio más básico de calistenia, pero no por ello fácil. Intenta bajar hasta que las nalgas lleguen o supere la altura de las rodillas (90°) sin doblar la espalda. 
-									Puedes utilizar cualquier tipo de lastre (peso extra) para añadirle dificultad al movimiento.
+									Simplemente colócate en posición como si quisieras hacer una flexión de brazos, seguidamente date golpecitos en los hombros alternando los brazos (mano derecha con hombro izquierdo y mano izquierda con hombro derecho).
 								</p>
 							</div>
 						</div>
@@ -750,16 +749,15 @@
 						<div class="card card-cascade">
 							<div class="view overlay view-cascade">
 								<a href="#!">
-									<img  src="../assets/img/home/pierna/lunges.jpg" class="img-fluid" alt="placeholder image with a man">
+									<img  src="../assets/img/home/hombros/Rotaciones-externas-en-plancha.jpg" class="img-fluid" alt="placeholder image with a man">
 									<div class="mask rgba-white-slight waves-effect waves-light"></div>
 								</a>
 							</div>
 							<div class="card-body text-center card-body-cascade">
-								<h4 class="card-title"><strong>Lunges</strong></h4>
+								<h4 class="card-title"><strong>Rotaciones externas en plancha</strong></h4>
 								<h5>10 X 10</h5>
 								<p class="card-text">
-									En esta variante de lunges –o zancadas– in situ debes permanecer en un mismo punto bajando y subiendo sin separar los pies del suelo. 
-									Después de llegar a cierto número de repeticiones cambias de pierna.
+									Ponte en posición boca abajo apoyándote sobre uno de los brazos y con las rodillas –Ver imagen-. Desde esa posición, realiza una rotación de torso, concéntrate en lograr una rotación máxima del hombro.
 								</p>
 							</div>
 						</div>
@@ -773,17 +771,15 @@
 						<div class="card card-cascade">
 							<div class="view overlay view-cascade">
 								<a href="#!">
-									<img  src="../assets/img/home/pierna/calf-raises.jpg" class="img-fluid" alt="placeholder image with a man">
+									<img  src="../assets/img/home/hombros/Pike-pushups.jpg" class="img-fluid" alt="placeholder image with a man">
 									<div class="mask rgba-white-slight waves-effect waves-light"></div>
 								</a>
 							</div>
 							<div class="card-body text-center card-body-cascade">
-								<h4 class="card-title"><strong>Calf Raises</strong></h4>
+								<h4 class="card-title"><strong>Pike Push Up</strong></h4>
 								<h5>10 X 10</h5>
 								<p class="card-text">
-									En este ejercicio puedes utilizar el suelo o un escalón para tener mayor rango de movimiento. 
-									También te recomiendo utilizar calzado para que sea más cómodo, levanta los talones manteniendo la punta de los pies pegadas al suelo en todo momento, 
-									extiende por completo las pantorrillas al subir y luego baja.
+									Las flexiones en pica son ideales para construir unos hombros duros y fuertes, de hecho, es el ejercicio que abre camino hacia las HSPU (flexiones en pino). Por otra parte, pudiera decirse que es la contraparte del press militar de gimnasio, pero en este caso utilizamos nuestro propio peso como resistencia.
 								</p>
 							</div>
 						</div>
@@ -791,6 +787,345 @@
 				</div>
 			</div>
 			<!-- Card -->
+			<!-- Card -->
+			<div class="row">
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/hombros/Press-de-espalda-supino.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Press de espalda supino (Back press supinas) </strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Colócate en el suelo boca arriba, como si fueras a ser crucificado  Presiona con los dorsos de la mano y haz una ligera rotación interna con los brazos al subir.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/hombros/Flexiones-agarre-ancho.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Flexiones con agarre ancho</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Este ejercicio es más complicado que las flexiones estándar debido al poco rango de movimiento que tenemos. Es ideal para fortalecer el deltoides anterior de los hombros.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/hombros/Plank-pushbacks.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Plank Push Backs</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Comienza el movimiento en posición de Planche Lean (hombros más adelantados que las manos y protracción escapular), seguidamente, utilizando los pies deslízate hacia atrás hasta tocar el piso con las piernas. Vuelve a la posición inicial y repite.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+
+			<!-- Card -->
+			<div class="row">
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/hombros/Vertical-en-pared.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Vertical en pared</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Aunque es más difícil ponerse de cara a la pared que de espalda, esta posición es perfecta para acostumbrarse a mantener una postura de pino correcta (sin arquear la espalda). Simplemente aguanta la posición el mayor tiempo posible (manteniendo los codos bloqueados) y verás como tus hombros comienzan a arder.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/hombros/Wall-walks.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Wall Walks</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									La caminata o paseo en pared es excelente para desarrollar fuerza no solo en hombros, sino en trapecios, tríceps y muñecas.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/hombros/Flexiones-a-escuadra-invertida.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Flexiones a escuadra invertida</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Ponte en posición de flexión con los pies en un banco, apuntando los dedos de las manos hacia adelante y los codos hacia adentro. Seguidamente procede a realizar la flexión, manteniendo el abdomen presionado en todo momento, regresa a la posición inicial y repite el movimiento.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+
+			<!-- Card -->
+			<div class="row">
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/hombros/Straddle-sit-pressups.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Straddle Sit Press Ups</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Si no tienes mucha flexibilidad en las piernas, quizás hacer flexiones en straddle sit sea una misión difícil para ti. No obstante, puedes utilizar unos agarres push ups o barras paralelas para facilitar el movimiento.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/hombros/HSPU-Flexiones-en-pared.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>HSPU asistidos en pared</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Separa las manos a la altura de los hombros, con los dedos apuntando hacia adelante, forma un triángulo (con ambas manos y tu cabeza) en la parte baja del movimiento.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/hombros/Flexiones-Wax-off.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Flexiones ‘Wax off’</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Estas flexiones que imitan el movimiento de estar encerando el piso de tu casa, con la única diferencia que el movimiento del brazo en este ejercicio es en dirección contraria a las agujas del reloj, en el otro ejercicio es siguiendo la dirección de las agujas (para trabajar los pectorales).
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+
+			<!-- Card -->
+			<div class="row">
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/hombros/Wall-handstand-walk-lateral.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Lateral Handstand Wall Walk</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									También conocido como paseos laterales en pared parado de manos, este movimiento es excelente para fortalecer todo el tren superior del cuerpo y mejorar el equilibrio.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/hombros/Handstand-pushups-en-pared.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>HSPU de espalda a la pared</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Es el mismo movimiento que el HSPU que viste más arriba en la lista, pero esta vez de espalda y no de frente a la pared. Podemos decir que este ejercicio tiene 2 niveles de dificultad, si te apoyas con las piernas dobladas a la pared, es más fácil que hacerlo con las piernas completamente extendidas.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/hombros/Handstand-shoulder-taps-en-pared.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Handstand Shoulder Taps en pared</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Colócate de cara a la pared, seguidamente date golpecitos en el hombro con una mano mientras te sostienes con la otra.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+
+			<!-- Card -->
+			<div class="row">
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/hombros/Back-bend-handstand-pushups.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Backbend HSPU</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Con todo lo dicho, es imposible pensar que los hombros no recibirán un gran estímulo, sobre todo en su parte Posterior. Del mismo modo, es bueno para fortalecer el core y el resto de músculos de la parte superior del cuerpo.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/hombros/Handstand-pushups.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>HSPU libres </strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Y aquí estamos, ante el ejercicio de peso corporal más efectivo para fortalecer y desarrollar los hombros, y por supuesto, uno de los más complicados de dominar. No sólo por el hecho de que se necesita tener mucha fuerza en brazos y hombros, sino que además, debes dominar el handstand o parada de manos.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/hombros/Elevaciones-laterales.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Elevaciones Laterales</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									no solamente están involucrados los brazos y hombros (deltoides lateral o medio), sino el resto del cuerpo (que actúa como estabilizador).
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
 		</template>
 	</div>
 </template>
