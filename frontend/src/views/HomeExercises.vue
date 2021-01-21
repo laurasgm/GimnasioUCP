@@ -718,7 +718,7 @@
     	</div>
 		</template>
     	<!-- Card -->
-		<template v-else-if ="tipoEjercicio == grupoMuscular['Hombro'].toString()">
+		<template v-if ="tipoEjercicio == grupoMuscular['Hombro'].toString()">
     <!-- Card -->
 			<div class="row">
 				<div class="col-md-4">
@@ -1120,6 +1120,549 @@
 								<h5>10 X 10</h5>
 								<p class="card-text">
 									no solamente están involucrados los brazos y hombros (deltoides lateral o medio), sino el resto del cuerpo (que actúa como estabilizador).
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</template>
+
+		<template v-if ="tipoEjercicio == grupoMuscular['Pecho'].toString()">
+    <!-- Card -->
+			<div class="row">
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/pecho/Flexiones-inclinadas-con-rodillas.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Flexiones inclinadas con rodillas</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Este es el ejercicio más fácil de toda la lista, ideal para aquellos que no han hecho nunca una flexión o sufran de sobrepeso. Igualmente sirve como calentamiento previo a otros ejercicios.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/pecho/Flexiones-con-rodillas.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Flexiones con rodillas</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Una versión más difícil al anterior ejercicio. Igualmente sirve para calentar o como progresión para conseguir flexiones completas.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/pecho/Flexiones.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Flexiones</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									También conocida como flexiones de pecho, flexiones de brazos o flexiones de codo. Es la versión definitiva de las flexiones para trabajar los músculos del pecho.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+			<!-- Card -->
+			<!-- Card -->
+			<div class="row">
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/pecho/Flexiones-declinadas.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Flexiones declinadas</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Mientras más alto este el soporte de los pies más difícil es el movimiento y más intervienen los músculos deltoides (pecho). En cualquier caso es excelente para trabajar pecho y pecho.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/pecho/Flexiones-inclinadas-sobre-barras.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Flexiones inclinadas sobre barra</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Esta variación también la puedes realizar también sobre una silla, mesa, sofá o cualquier superficie alta. A diferencia de las anteriores flexiones inclinadas, estas son sin apoyo en rodillas.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/pecho/Flexiones-Atlas.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong> Flexiones “Atlas” o “Atlante”</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Las flexiones atlas permiten ampliar el rango de recorrido bajando más de la horizontal. En consecuencia se estimulan más fibras del pecho.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+
+			<!-- Card -->
+			<div class="row">
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/pecho/Lizards-Push-Ups.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Lizards Push Ups (Flexiones Lagartija)</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Las Lizard Push Ups simulan el movimiento que realizan las lagartijas. Este ejercicio es excelente para calentar el cuerpo antes de cualquier entrenamiento.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/pecho/Flexiones-rebotando.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Flexiones rebotando</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Es un tipo de flexión explosiva que te sirve para desarrollar fuerza explosiva necesaria para poder realizar ejercicios más complejos.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/pecho/Flexiones-Hindú.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Divebomber Push Ups (Flexiones Hindú)</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Esa variación de flexión es bastante complicada, no tanto por requerir fuerza, sino porque requiere cierto grado de concentración y coordinación corporal.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+
+			<!-- Card -->
+			<div class="row">
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/pecho/Flexiones-Wax-On.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Flexiones Wax On</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Las Flexiones Wax On simulan el movimiento circular que se realiza cuando limpias el piso. Puede que si nunca le hayas pasado cera al piso de tu casa este ejercicio te resulte un poco complicado.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/pecho/Kneeling-One-Arm-Flyes.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong> Kneeling One Arm Flyes (Apertura de rodillas con un brazo)</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Este ejercicio es la versión fácil de las aberturas. Ayúdate colocando las rodillas en el piso.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/pecho/Fondos-para-Pecho.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Fondos para Pecho</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Para activar mejor el músculo pectoral, inclina el tronco hacia adelante al bajar.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+
+			<!-- Card -->
+			<div class="row">
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/pecho/Fondos-en-Barra.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Fondos en Barra</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Los fondos en barra suelen hacerse como una de las principales progresiones para sacar el Muscle Up.También conocido como paseos laterales en pared parado de manos, este movimiento es excelente para fortalecer todo el tren superior del cuerpo y mejorar el equilibrio.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/pecho/Flexiones-con-aplauso.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Flexiones con aplauso</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Una de las variaciones más comunes de flexiones explosivas es la flexión con un aplauso, aunque se puede progresar hasta poder lograr 2, 3 o más aplausos, incluso por detrás de la espalda.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/pecho/Flexiones-inclinadas-con-un-brazo.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Flexiones inclinadas con un brazo</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Este ejercicio sirve como progresión para sacar las flexiones con un brazo. A medida que ganes fuerza puedes hacerlas cada vez más con un soporte más bajo.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+
+			<!-- Card -->
+			<div class="row">
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/pecho/Aperturas-con-un-brazo.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Aperturas con un brazo</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Asegúrate que el piso sea un poco resbaladizo, mientras más lo sea, mayor control tendrás sobre las repeticiones.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/pecho/Archer-Push-Ups.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Archer Push Ups (Flexiones Arquero)</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									A diferencia del ejercicio anterior, en este es tu tronco que se mueve y no los brazos.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/pecho/Sliding-Plank.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Sliding Plank (Plancha deslizante)</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Este ejercicio es similar a la plancha abdominal pero aquí deslizas tus pies. Además de trabajar los pectorales este ejercicio también afecta el dorsal ancho y los deltoides.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/pecho/Stalder-Forward-Lean.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Stalder Forward Lean</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Siéntate en el piso con posición de straddle, progresivamente ve subiendo e inclínate hacia adelante sin despegar los pies del suelo. Como resultado de este ejercicio trabajarás los pectorales y pecho.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/pecho/Flexiones-Superman.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Flexiones Superman</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Una de las flexiones pliométricas más efectivas y difíciles que existe. Excelente para ganar potencia y fuerza en el tren superior (pecho y brazos).
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/pecho/Stalder-Hold.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Stalder Hold</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Para realizar este ejercicio en suelo debes tener flexibilidad en las piernas. Las versiones más fáciles son en agarres push ups o barras paralelas. Mantén esta posición en isométrico el mayor tiempo posible.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/pecho/Flexiones-con-un-brazo.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Flexiones con un brazo</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									La flexión con un brazo es quizás la progresión más difícil de todas las flexiones de la lista.
+									Mucha gente cree que tiene la fuerza suficiente para realizarlas y se lanza a ello sin saber que pueden ser muy lesivas si no se realizan correctamente.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/pecho/Aperturas.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Aperturas</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Este ejercicio es similar a las aperturas para pecho con mancuernas. Utiliza una toalla para poder deslizar las manos fácilmente en el suelo. Una progresión más complicada es hacerlas con apoyo en pies y no en rodillas.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/pecho/Stalder-Forward-Lean.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Flexiones en Stalder</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Este ejercicio es ligeramente parecido al Stalder Hold que te mencioné más arriba. La única diferencia es que harás repeticiones y no isométricos.
 								</p>
 							</div>
 						</div>
