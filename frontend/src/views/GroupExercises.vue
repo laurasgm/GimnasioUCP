@@ -37,7 +37,7 @@
           </div>
 
           <!-- Card footer -->
-          <div
+          <div 
             class="rounded-bottom mdb-color lighten-3 text-center pt-3"
           ></div>
         </div>
