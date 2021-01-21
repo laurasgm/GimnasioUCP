@@ -1054,7 +1054,7 @@
 						<h4 class="card-title"><strong>Sentadilla sumo con kettlebell.</strong></h4>
 						<h5>12 x 12</h5>
 
-						<p class="card-text">Cuando iniciamos la flexión de la cadera (descenso) el glúteo debe desplazarse hacia atrás. La fuerza debemos ejercerla solo con las piernas.
+						<p class="card-text">Cuando iniciamos la flexión de la cadera (descenso) el glúteo debe desplazarse hacia atráss. La fuerza debemos ejercerla solo con las piernas.
 						</p>
 
 						<!--Facebook-->
