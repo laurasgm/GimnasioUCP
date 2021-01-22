@@ -1670,6 +1670,404 @@
 				</div>
 			</div>
 		</template>
+
+		<template v-if ="tipoEjercicio == grupoMuscular['Abdomen'].toString()">
+    <!-- Card -->
+			<div class="row">
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/abdomen/Plancha.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Plancha</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									La plancha abdominal es uno de los mejores ejercicios para fortalecer los músculos abdominales.
+									Apóyate sobre los codos y punta de los pies. Mantén el culo y abdomen apretado en todo momento y hazlo de 30 segundos en adelante.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/abdomen/Torsiones-sentado.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Torsiones sentado</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Las torsiones sentado puedes hacerla agarrando un objeto pesado para sobrecargar más los músculos oblicuos. Si apoyas los pies en el suelo es más sencillo que si los mantienes colgando.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/abdomen/Plancha-dinámica.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Plancha dinámica</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									La plancha dinámica tiene una pequeña variante respecto a la plancha regular. Solo debes bajar y subir las rodillas mientras mantienes el abdomen apretado y el resto del cuerpo inmóvil.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+			<!-- Card -->
+			<!-- Card -->
+			<div class="row">
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/abdomen/Plancha-extendida.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Plancha extendida</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Es importante que mantengas el culo apretado hacia adentro, de manera que no se te arquee la espalda. Intenta aguantar mínimo 15 segundos en esta posición con los brazos lo más alejados posible de ti.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/abdomen/Russian-twists.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Russian twists</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Las russian twists también puedes hacerlas sosteniendo un objeto pesado. A diferencia de las torsiones sentado, este ejercicio lo haces con los brazos completamente extendidos.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/abdomen/Hollow-body-hold.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Hollow body hold</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									En este ejercicio debes mantener toda la espalda y trasero pegado al suelo, evita el arqueo. Mantén los brazos detrás de ti y las piernas totalmente extendidas colgando durante todo el ejercicio.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+
+			<!-- Card -->
+			<div class="row">
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/abdomen/Roll-downs.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Roll downs</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Los roll downs son como un súper crunch. Es un movimiento complicado de realizar porque debes utilizar solamente la fuerza de tu abdomen para subir y bajar, no puedes utilizar los brazos o piernas para impulsarte.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/abdomen/Sliding-crunches.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Sliding crunches</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Asegúrate de utilizar una toalla, alfombra o cualquier objeto resbaladizo para que el ejercicio sea fluido.
+									Intenta no pegar pequeños saltos o impulsarte demasiado, concentra toda la fuerza en el abdomen para contraerte y extenderte.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/abdomen/Plancha-lateral-dinámica.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Plancha lateral dinámica </strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Debes mover únicamente tu cadera para subir y bajar. En esta variante de la plancha trabajarás los oblicuos.
+									Puedes dejar tu brazo colgando en el aire y utilizarlo de palanca, o dejar la mano apoyada sobre la cadera.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+
+			<!-- Card -->
+			<div class="row">
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/abdomen/Pole-climbers.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Pole climbers</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									El pole climbers puedes hacerlo apoyándote sobre un palo de escoba, marco de puerta, respaldar de silla o cualquier objeto que tengas a la mano.
+									Recuerda que estás trabajando el abdomen, por ello trata de utilizarlo más que los brazos en este ejercicio, también mantenlo bajo tensión en todo momento.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/abdomen/Hollow-rock.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong> Hollow rock </strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									El hollow rock es muy similar al hollow body hold en cuanto a la posición inicial, con la pequeña variante que debes balancearte de atrás hacia adelante (manteniendo siempre la forma en C).
+									Recuerda no arquear la espalda, mantén la espalda y trasero contraídos en todo momento.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/abdomen/V-crunches.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>V-crunches</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									El v-crunch es un ejercicio bastante complicado porque debes tener fuerza y coordinación. La idea es que contraigas los brazos y piernas al mismo tiempo para que se encuentren en la parte final del movimiento, no te preocupes si te cuesta mucho, te acostumbrarás después de un tiempo.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+
+			<!-- Card -->
+			<div class="row">
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/abdomen/Kickers.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Kickers</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Este ejercicio kickers o “pateadores” es la típica patada de videojuego de lucha. Es muy interesante y divertido de hacer, pero debes practicarlo para acostumbrarte al movimiento.
+									Básicamente, debes intentar tocar el suelo con el lateral de cada nalga.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/abdomen/Elevaciones-de-pierna-sentado.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Elevaciones de pierna sentado</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Debes utilizar únicamente la fuerza de tu abdomen para subir en este ejercicio, los brazos están principalmente como soportes.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/abdomen/L-Twists.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>L-Twists</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									La única diferencia entre L-Twist vs Russian Twist es la extinción de las piernas. Mantén las rodillas lo más extendidas posibles y utiliza únicamente el culo para apoyarte del suelo.
+									Cuando ya domines el movimiento, puedes utilizar una pesa rusa, disco de mancuerna o garrafa de agua para aumentar la dificultad del ejercicio.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+
+			<!-- Card -->
+			<div class="row">
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/abdomen/Plancha-a-tabla.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong> Plancha a tabla</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Comienzas en la posición de plancha y terminas en la posición de tabla, o lo que es lo mismo, la posición inicial de una flexión de brazos.
+									En este ejercicio debes utilizar la fuerza de tus brazos y hombros para subir y bajar, manteniendo el abdomen contraído en todo momento.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/abdomen/Plancha-en-pared.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Plancha en pared</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Para hacer wall plank necesitas tener bastante fuerza no solo en el abdomen, sino también en los hombros -ya que son los músculos que soportarán la mayor carga-.
+									Lógicamente debes utilizar una pared poco resbaladiza o colocarte calcetines que no te hagan perder la posición.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- Card -->
+			</div>
+		</template>
 	</div>
 </template>
 

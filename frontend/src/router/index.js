@@ -9,7 +9,7 @@ const isNotLogged = (to, from, next) => {
   if (!store.getters.tokenAuth) {
     next()
   } else {
-    next('/users')
+    next('')
   }
 }
 
