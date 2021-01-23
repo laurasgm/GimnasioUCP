@@ -2068,6 +2068,785 @@
 				<!-- Card -->
 			</div>
 		</template>
+
+		<template v-if ="tipoEjercicio == grupoMuscular['Brazo'].toString()">
+    <!-- Card -->
+			<div class="row">
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/brazo/Curl-de-Bíceps-con-un-brazo.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Curl de Bíceps con 1 brazo</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									El primer ejercicio de la lista, es una simulación del Curl de bíceps que se realiza en el gym pero con un ligero cambio, ahora usarás una cuerda atada a cualquier superficie y tu propio cuerpo como peso.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/brazo/Curls-sentado.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Curls sentado</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Siéntate en el suelo como muestra la imagen, y utilizando una cuerda, crea resistencia empujando con las piernas, bien sea en la fase de flexión o de extensión.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/brazo/Curl-de-bíceps-con-ambos-brazos.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Curl de Bíceps con ambos brazos</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Mismo principio que el primer ejercicio de Curl, pero ahora utiliza ambos brazos a la vez.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+			<!-- Card -->
+			<!-- Card -->
+			<div class="row">
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/brazo/Remo-de-Bíceps.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Remo de Bíceps</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Siéntate en el suelo utilizando la pared como apoyo para los pies. Para activar los bíceps, lleva las manos hacia tu pecho.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/brazo/Chin-ups-Horizontales.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Chin Ups horizontales</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									También conocido como Dominadas Australianas, utiliza un agarre supino para activar los músculos de los bíceps.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/brazo/Chin-Ups.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Chin Ups</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Las Chin Ups, también conocidas como Dominadas Supinas (palmas hacia dentro). Realiza un rango completo de movimiento.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+
+			<!-- Card -->
+			<div class="row">
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/brazo/Dominadas-Commando.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Dominadas Commando</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Estas dominadas se realizan con subidas asimétricas, intenta tocar la barra con el hombro en cada subida. Igualmente, realiza un rango completo de movimiento al subir y bajar.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/brazo/Chin-Ups-Horizontales-con-un-Brazo.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Chin Ups horizontales con 1 brazo</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Igual a las Chin Ups horizontales, pero ahora utiliza sólo un brazo y con agarre supino.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/brazo/Remo-de-Bíceps-con-un-brazo.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Remo de Bíceps con 1 brazo</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Mismo principio que el remo de bíceps con ambos brazos, lleva la mano hasta tu pecho para activar el bíceps.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+
+			<!-- Card -->
+			<div class="row">
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/brazo/Headbangers-agarre-supino.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Headbangers</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Este ejercicio es nivel avanzado, hay que tener mucha fuerza en los brazos y dorsales.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/brazo/Plancha-Isométrica-con-dedos.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Plancha Isométrica con dedos</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Cualquier ejercicio que implique hacer fuerza con los dedos de las manos, es excelente para fortalecer los músculos de los antebrazos. En este ejercicio, simplemente intenta aguantar el mayor tiempo posible en la posición.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/brazo/Plank-Pushups.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Plank Pushups</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									En este ejercicio se trabajan no sólo los antebrazos sino también bíceps y tríceps.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+
+			<!-- Card -->
+			<div class="row">
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/brazo/Flexiones-con-dedos.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Flexiones de dedos</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Igual a la flexiones de pecho estándar, pero sólo utilizando los dedos (y no las palmas) de las manos como soporte.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/brazo/Headbangers-agarre-prono.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Headbangers (agarre pronado)</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									El tipo de agarre que se utiliza (prono, neutro o supino) condiciona completamente la forma en que actúa el ejercicio sobre el músculo. En este caso, el agarre pronado afecta directamente la región posterior o dorsal del antebrazo.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/brazo/Planche-Leans.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Planche Leans</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Por último, este movimiento es excelente para fortalecer los hombros, antebrazos y muñecas. De hecho, es una de las primeras progresiones a entrenar para dominar la Full Planche.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+
+			<!-- Card -->
+			<div class="row">
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/brazo/Diamond-push-ups.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Diamond Push Ups</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									un estudio publicado en el Journal of Strength and Conditioning Research en 2005, sugiere que las flexiones con una posición estrecha -flexiones diamante-, activaban mejor el tríceps braquial y el pectoral mayor que utilizando una posición amplia.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/brazo/Extensión-de-tríceps-con-cuerda-opción-fácil.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Extensión de tríceps con cuerda</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Codos doblados con un ángulo aprox. de 90º, rodillas apoyadas en suelo y espalda completamente recta.
+									Sin doblar la espalda, utiliza los tríceps para empujarte hacia arriba, extiende por completo los brazos con los codos viendo hacia afuera.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- Card -->
+			</div>
+		</template>
+
+		<template v-if ="tipoEjercicio == grupoMuscular['Espalda'].toString()">
+    <!-- Card -->
+			<div class="row">
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/espalda/vuelta-al-mundo.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Vuelta al mundo</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Colócate boca abajo en el piso y mueve los brazos en forma circular (parecido al nado estilo mariposa).
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/espalda/prensas-laterales.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong> Prensas laterales</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Esta es la versión fácil del ejercicio. Enfócate en sacar lo más posible el pecho al llegar arriba (retrayendo las escapulas).
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/espalda/aperturas-invertidas.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Aperturas invertidas</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Intenta juntar las escapulas lo más que puedas. Igualmente puedes añadirle dificultad cargando algo de peso con tus manos.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+			<!-- Card -->
+			<!-- Card -->
+			<div class="row">
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/espalda/dominada-australiana.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Dominadas horizontales</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									También conocida como Australian Pull Ups. La opción fácil consiste en usar un agarre en pronación, flexionar las rodillas y apoyándose sobre la planta de los pies.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/espalda/dominada-australiana-avanzada.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Dominadas horizontales(avanzadas)</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Esta versión es más difícil a la anterior, estira las piernas y apóyate sobre los talones. Mientras más alejados coloques los pies de la barra (tu cuerpo más horizontal) más dificultad.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/espalda/dominada-agarre-ancho.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Dominadas horizontales con agarre ancho</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Al igual que las dominadas anteriores pero con agarre más abierto. Puedes jugar con distintos agarres de barra; abiertos, cerrados, pronos o supinos.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+
+			<!-- Card -->
+			<div class="row">
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/espalda/remo.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Remo (fácil)</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Muy parecido a las dominadas australianas fáciles. Utiliza una cuerda, cinta o toalla y átala a la barra, flexiona las rodillas y apóyate sobre la planta de los pies. Mantén las escapulas retraídas en todo momento.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/espalda/press-de-espalda.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Press de espalda</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Esta es la versión difícil de las prensas laterales. Ahora no te apoyarás sobre los codos sino sobre las palmas de las manos con un agarre abierto.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/espalda/press-de-espalda-con-rotación-de-brazos.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Press de espalda con rotación de brazos</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Igual que el ejercicio anterior pero con una variante: comienza apoyando el reverso de tus manos y a medida que subes ve rotando los brazos hasta quedar apoyado sobre las palmas.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+
+			<!-- Card -->
+			<div class="row">
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/espalda/dominada-escapular.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Dominadas escapulares</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Mantén los brazos siempre estirados. Toda la fuerza se realiza con las escapulas, en ningún momento utilices los brazos o piernas para impulsarte.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/espalda/sliding-plank.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Sliding plank (Plancha deslizante)</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Este ejercicio además de los dorsales también trabaja los pectorales y los deltoides.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/espalda/ice-cream-maker.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Ice cream maker</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Comienza con la barbilla sobre la barra y cambia a posición de Front Lever, luego regresa a la posición inicial y repite.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+
+			<!-- Card -->
+			<div class="row">
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/espalda/extensión-de-espalda-extendida.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Extensión de espalda extendida</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Igual que el ejercicio de extensión de espalda, con la diferencia que los brazos van extendidos completamente hacia adelante y no hacia atrás. Utiliza sólo la zona lumbar (no los brazos) para subir.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/espalda/plancha-invertida.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Plancha invertida</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Mantén esta posición por el mayor tiempo posible (isométrico). Puedes realizarlo sobre cualquier superficie, siempre y cuando te queden las piernas colgando en su totalidad.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/espalda/vela-dinámica.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Vela dinámica</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Este ejercicio es el más complicado de la lista. Comienza sentado en el suelo tocando los pies con tus manos, luego procede a rodar sobre tu espalda mientras elevas las piernas, tal como se muestra en la imagen
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+
+			<!-- Card -->
+			<div class="row">
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/espalda/tabla-dinámica.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Tabla dinámica</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									Comienza nuevamente en posición inicial de flexión de brazos, pero al contrario del ejercicio Down Dog Plank, en este bajarás las rodillas hasta que toquen el suelo, sube y repite nuevamente.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+				<!-- Card -->
+
+				<!-- Card -->
+				<div class="col-md-4">
+					<section>
+						<div class="card card-cascade">
+							<div class="view overlay view-cascade">
+								<a href="#!">
+									<img  src="../assets/img/home/espalda/dominada-escapular-horizontal.jpg" class="img-fluid" alt="placeholder image with a man">
+									<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								</a>
+							</div>
+							<div class="card-body text-center card-body-cascade">
+								<h4 class="card-title"><strong>Dominada escapular horizontal</strong></h4>
+								<h5>10 X 10</h5>
+								<p class="card-text">
+									A diferencia del fabricador de helados, digo, el ice cream maker, comenzarás con los brazos totalmente extendidos y se mantendrán así durante todo el movimiento. Utiliza los dorsales para elevar el cuerpo hasta una posición horizontal.
+								</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- Card -->
+			</div>
+		</template>
 	</div>
 </template>
 
@@ -2080,6 +2859,7 @@ var grupoMuscular;
 export default {
   name: 'HomeExercises',
   beforeCreate() {
+	debugger;
 	tipoEjercicio = this.$router.currentRoute.params.grupo;
     grupoMuscular = Object.freeze({ "Pierna": 1, "Hombro": 2, "Pecho": 3, "Abdomen": 4, "Brazo": 5, "Espalda": 6 });
   },

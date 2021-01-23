@@ -6,19 +6,17 @@ import store from '../store'
 Vue.use(VueRouter)
 
 const isNotLogged = (to, from, next) => {
+  debugger;
   if (!store.getters.tokenAuth) {
     next()
-  } else {
-    next('')
-  }
+  } 
 }
 
 const isLoggedIn = (to, from, next) => {
+  debugger;
   if (store.getters.tokenAuth) {
     next()
-  } else {
-    next('/login')
-  }
+  } 
 }
 
 const routes = [
@@ -26,7 +24,6 @@ const routes = [
     path: '/',
     name: 'Home',
     component: () => import('../views/Home.vue'),
-    beforeEnter: multiguard([isNotLogged]),
   },
   {
     path: '/register',
