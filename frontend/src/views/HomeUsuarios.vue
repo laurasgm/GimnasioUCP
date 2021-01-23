@@ -12,7 +12,7 @@
                 mantenerse en movimiento y trabajar el cuerpo
                 de forma fácil, segura y rápida
               </p>
-              <mdb-btn class="btn btn-standar"><mdb-icon icon="clone left" />Entrar</mdb-btn>
+              <mdb-btn class="btn btn-standar" @click="abrirGym(2)"><mdb-icon icon="clone left" />Entrar</mdb-btn>
             </div>
           </div>
         </mdb-card>
@@ -27,7 +27,7 @@
               <p class="textoParrafo2">Rutinas de Gimnasio . Diferentes entrenamientos y sistemas para alcanzar la forma fisica perfecta. 
                 Aprende con estas fantasticas rutinas para el gym
               </p>
-              <mdb-btn class="btn btn-standar" @click="abrirGym"><mdb-icon icon="clone left" />Entrar</mdb-btn>
+              <mdb-btn class="btn btn-standar" @click="abrirGym(1)"><mdb-icon icon="clone left" />Entrar</mdb-btn>
             </div>
           </div>
         </mdb-card>
@@ -60,8 +60,8 @@
 			mdbIcon
     },
     methods:{
-      abrirGym(){
-        this.$router.replace({ name: 'GroupExercises' })
+      abrirGym(tipoEjercicio){
+        this.$router.replace({name: 'GroupExercises', params: { tipoEjercicio: tipoEjercicio }});
       }
     }
 	}
@@ -75,8 +75,9 @@
       background-image: url('../assets/img/1.jpg');
       background-repeat: no-repeat;
       background-attachment: fixed;
-      background-size: cover;
+      background-size: 100%;
       padding-top: 150px;
+      height: 100vh;
       text-align: center;
   .row {
     margin: 0;
@@ -88,6 +89,9 @@
    background-size: 150%;
    background-position: 30% 75%;  
    background-size: cover;
+   border-color: #aaaaaa;
+   border-width: 2px;
+   border-style: solid;
    opacity: 0.9;
 }
 .card2{
@@ -95,6 +99,9 @@
   background-size: 120%;
   background-position: 30% 75%;    
   background-size: cover;
+  border-color: #aaaaaa;
+  border-width: 2px;
+  border-style: solid;
   opacity: 0.9;
 }
 .texto{

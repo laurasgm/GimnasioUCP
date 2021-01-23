@@ -6,19 +6,17 @@ import store from '../store'
 Vue.use(VueRouter)
 
 const isNotLogged = (to, from, next) => {
+  debugger;
   if (!store.getters.tokenAuth) {
     next()
-  } else {
-    next('/users')
-  }
+  } 
 }
 
 const isLoggedIn = (to, from, next) => {
+  debugger;
   if (store.getters.tokenAuth) {
     next()
-  } else {
-    next('/login')
-  }
+  } 
 }
 
 const routes = [
@@ -26,7 +24,6 @@ const routes = [
     path: '/',
     name: 'Home',
     component: () => import('../views/Home.vue'),
-    beforeEnter: multiguard([isNotLogged]),
   },
   {
     path: '/register',
@@ -65,11 +62,23 @@ const routes = [
     beforeEnter: multiguard([isLoggedIn]),
   },
   {
-    path: '/groupExercises',
+    path: '/groupExercises/:tipoEjercicio',
     name: 'GroupExercises',
     component: () => import('../views/GroupExercises.vue'),
     beforeEnter: multiguard([isLoggedIn]),
   },
+  {
+    path: '/exercisesGym/:grupo',
+    name: 'ExercisesGym',
+    component: () => import('../views/ExercisesGym.vue'),
+    beforeEnter: multiguard([isLoggedIn]),
+  },
+  {
+    path: '/homeExercises/:grupo',
+    name: 'HomeExercises',
+    component: () => import('../views/HomeExercises.vue'),
+    beforeEnter: multiguard([isLoggedIn]),
+  }
 ]
 
 const router = new VueRouter({

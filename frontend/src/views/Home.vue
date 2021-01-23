@@ -1,6 +1,4 @@
 <template>
-  <div class="container">
-    <div class="row">
     <div class="container-form text-center">
       <h1 class="title">BIENVENIDO</h1>
       <h1>JOSÉ SPORT GYM</h1>
@@ -11,9 +9,7 @@
       <div @click="$router.push('/register')" class="btn btn-standar">
         REGISTRARSE
       </div>
-      </div>
     </div>
-  </div>
 </template>
 
 <script>
@@ -28,10 +24,9 @@ export default {
   width: 100%;
   background-image: url('../assets/img/1.jpg');
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-size: 100%;
   height: 100vh;
-  background-attachment: fixed;
+  padding-top: 150px;
 }
 
 h1 {
