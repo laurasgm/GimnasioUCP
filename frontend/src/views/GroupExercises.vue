@@ -15,7 +15,7 @@
             <a>
               <div class="mask rgba-white-slight">
                 <!-- Button -->
-                <button class="botonF1" @click="verEjercicios(0)">
+                <button class="botonF1" @click="verEjercicios(1)">
                   <span> >> </span>
                 </button>
               </div>
@@ -54,7 +54,7 @@
             <a>
               <div class="mask rgba-white-slight">
                 <!-- Button -->
-                <button class="botonF1" @click="verEjercicios(1)">
+                <button class="botonF1" @click="verEjercicios(2)">
                   <span> >> </span>
                 </button>
               </div>
@@ -94,7 +94,7 @@
             <a>
               <div class="mask rgba-white-slight">
                 <!-- Button -->
-                <button class="botonF1" @click="verEjercicios(2)">
+                <button class="botonF1" @click="verEjercicios(3)">
                   <span> >> </span>
                 </button>
               </div>
@@ -139,7 +139,7 @@
             <a>
               <div class="mask rgba-white-slight">
                 <!-- Button -->
-                <button class="botonF1" @click="verEjercicios(3)">
+                <button class="botonF1" @click="verEjercicios(4)">
                   <span> >> </span>
                 </button>
               </div>
@@ -179,7 +179,7 @@
             <a>
               <div class="mask rgba-white-slight">
                 <!-- Button -->
-                <button class="botonF1" @click="verEjercicios(4)">
+                <button class="botonF1" @click="verEjercicios(5)">
                   <span> >> </span>
                 </button>
               </div>
@@ -218,7 +218,7 @@
             <a>
               <div class="mask rgba-white-slight">
                 <!-- Button -->
-                <button class="botonF1" @click="verEjercicios(5)">
+                <button class="botonF1" @click="verEjercicios(6)">
                   <span> >> </span>
                 </button>
               </div>
@@ -265,15 +265,15 @@ export default {
   data: {
   },
   methods: {
-    verEjercicios() {
+    verEjercicios(grupoMuscular) {
       debugger;
       switch (tipoEjercicio) {
         case 1:
-          this.$router.replace({name: 'ExercisesGym', params: { grupo: tipoEjercicio }});
+          this.$router.replace({name: 'ExercisesGym', params: { grupo: grupoMuscular }});
           break;
       
         case 2:
-          this.$router.replace({name: 'HomeExercises', params: { grupo: tipoEjercicio }});
+          this.$router.replace({name: 'HomeExercises', params: { grupo: grupoMuscular }});
           break;
       }
 
