@@ -18,7 +18,7 @@
     </div>
     <div id="nav" v-if="condicion1()">
       <div class="logo">
-        <router-link to="/users">
+        <router-link to="/">
           <img
             @click="this.$router.replace({ name: 'Home' })"
             src="./assets/logo.png"
@@ -34,7 +34,7 @@
     </div>
      <div id="nav" v-if="condicion2()">
       <div class="logo">
-        <router-link to="/users">
+        <router-link to="/">
           <img
             @click="this.$router.replace({ name: 'Home' })"
             src="./assets/logo.png"
