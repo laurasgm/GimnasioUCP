@@ -2,6 +2,7 @@
   	<div class="container-gruop">
 		<h1>Grupos en casa</h1>
 		<template v-if="tipoEjercicio == grupoMuscular['Pierna'].toString()">
+			<h2 style="font-size: larger;margin:50px 0px 0px 150px;text-align:left;">DIFICULTAD: Principiante</h2>
     <!-- Card -->
 			<div class="row">
 				<div class="col-md-4">
@@ -145,6 +146,7 @@
 		<!-- Card -->
 
 		<!-- Card -->
+		<h2 style="font-size: larger;margin:50px 0px 0px 150px;text-align:left;">DIFICULTAD: Intermedio</h2>
 		<div class="row">
 			<div class="col-md-4">
 				<section>
@@ -342,6 +344,7 @@
     	</div>
     	<!-- Card -->
 
+		<h2 style="font-size: larger;margin:50px 0px 0px 150px;text-align:left;">DIFICULTAD: Avanzado</h2>
 		<!-- Card -->
 		<div class="row">
 			<div class="col-md-4"  >
@@ -719,6 +722,7 @@
 		</template>
     	<!-- Card -->
 		<template v-if ="tipoEjercicio == grupoMuscular['Hombro'].toString()">
+			<h2 style="font-size: larger;margin:50px 0px 0px 150px;text-align:left;">DIFICULTAD: Principiante</h2>
     <!-- Card -->
 			<div class="row">
 				<div class="col-md-4">
@@ -856,6 +860,7 @@
 			</div>
 
 			<!-- Card -->
+			<h2 style="font-size: larger;margin:50px 0px 0px 150px;text-align:left;">DIFICULTAD: Intermedio</h2>
 			<div class="row">
 				<div class="col-md-4">
 					<section>
@@ -992,6 +997,7 @@
 			</div>
 
 			<!-- Card -->
+			<h2 style="font-size: larger;margin:50px 0px 0px 150px;text-align:left;">DIFICULTAD: Avanzado</h2>
 			<div class="row">
 				<div class="col-md-4">
 					<section>
@@ -1129,6 +1135,7 @@
 		</template>
 
 		<template v-if ="tipoEjercicio == grupoMuscular['Pecho'].toString()">
+			<h2 style="font-size: larger;margin:50px 0px 0px 150px;text-align:left;">DIFICULTAD: Principiante</h2>
     <!-- Card -->
 			<div class="row">
 				<div class="col-md-4">
@@ -1334,6 +1341,7 @@
 			</div>
 
 			<!-- Card -->
+			<h2 style="font-size: larger;margin:50px 0px 0px 150px;text-align:left;">DIFICULTAD: Intermedio</h2>
 			<div class="row">
 				<div class="col-md-4">
 					<section>
@@ -1536,6 +1544,7 @@
 					</section>
 				</div>
 			</div>
+			<h2 style="font-size: larger;margin:50px 0px 0px 150px;text-align:left;">DIFICULTAD: Avanzado</h2>
 			<div class="row">
 				<div class="col-md-4">
 					<section>
@@ -1672,6 +1681,7 @@
 		</template>
 
 		<template v-if ="tipoEjercicio == grupoMuscular['Abdomen'].toString()">
+			<h2 style="font-size: larger;margin:50px 0px 0px 150px;text-align:left;">DIFICULTAD: Principiante</h2>
     <!-- Card -->
 			<div class="row">
 				<div class="col-md-4">
@@ -1810,6 +1820,7 @@
 			</div>
 
 			<!-- Card -->
+			<h2 style="font-size: larger;margin:50px 0px 0px 150px;text-align:left;">DIFICULTAD: Intermedio</h2>
 			<div class="row">
 				<div class="col-md-4">
 					<section>
@@ -1950,6 +1961,7 @@
 			</div>
 
 			<!-- Card -->
+			<h2 style="font-size: larger;margin:50px 0px 0px 150px;text-align:left;">DIFICULTAD: Avanzado</h2>
 			<div class="row">
 				<div class="col-md-4">
 					<section>
@@ -2070,6 +2082,7 @@
 		</template>
 
 		<template v-if ="tipoEjercicio == grupoMuscular['Brazo'].toString()">
+			<h2 style="font-size: larger;margin:50px 0px 0px 150px;text-align:left;">DIFICULTAD: Principiante</h2>
     <!-- Card -->
 			<div class="row">
 				<div class="col-md-4">
@@ -2207,6 +2220,7 @@
 			</div>
 
 			<!-- Card -->
+			<h2 style="font-size: larger;margin:50px 0px 0px 150px;text-align:left;">DIFICULTAD: Intermedio</h2>
 			<div class="row">
 				<div class="col-md-4">
 					<section>
@@ -2343,6 +2357,7 @@
 			</div>
 
 			<!-- Card -->
+			<h2 style="font-size: larger;margin:50px 0px 0px 150px;text-align:left;">DIFICULTAD: Avanzado</h2>
 			<div class="row">
 				<div class="col-md-4">
 					<section>
@@ -2460,6 +2475,7 @@
 		</template>
 
 		<template v-if ="tipoEjercicio == grupoMuscular['Espalda'].toString()">
+			<h2 style="font-size: larger;margin:50px 0px 0px 150px;text-align:left;">DIFICULTAD: Principiante</h2>
     <!-- Card -->
 			<div class="row">
 				<div class="col-md-4">
@@ -2597,6 +2613,7 @@
 			</div>
 
 			<!-- Card -->
+			<h2 style="font-size: larger;margin:50px 0px 0px 150px;text-align:left;">DIFICULTAD: Intermedio</h2>
 			<div class="row">
 				<div class="col-md-4">
 					<section>
@@ -2733,6 +2750,7 @@
 			</div>
 
 			<!-- Card -->
+			<h2 style="font-size: larger;margin:50px 0px 0px 150px;text-align:left;">DIFICULTAD: Avanzado</h2>
 			<div class="row">
 				<div class="col-md-4">
 					<section>

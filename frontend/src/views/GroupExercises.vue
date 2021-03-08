@@ -1,8 +1,30 @@
 <template>
   <div class="container-gruop">
-    <h1>Grupos de ejercicios</h1>
+      <h1> 
+        <div id=nav> 
+          <div class="logo">
+            <router-link to="/homeUsuarios">
+              <img
+                @click="this.$router.replace({ name: 'HomeUsuarios' })"
+                src="../assets/img/pesa.png"
+                alt="logo"
+              />
+            </router-link>
+          </div>
+          <div class="logo">
+             <router-link>
+              <img
+                @click="this.$router.replace({name: 'GroupExercises', params: { tipoEjercicio: tipoEjercicio }});"
+                src="../assets/img/musculo.jpg"
+                alt="logo"
+              />
+            </router-link>
+          </div>
+        </div> 
+        Grupos de ejercicios
+      </h1>
     <!-- Card -->
-    <div class="row">
+    <div class="row" style="margin-top: 80px">
       <div class="col-md-4">
         <div class="card">
           <!-- Card image -->
@@ -343,6 +365,38 @@ export default {
       width: 100%;
       text-align: center;
     }
+  }
+}
+
+#nav {
+  .logo {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 40%;
+    display: inline-block;
+    color: white;
+    img {
+      width: 40px;
+    }
+    .img2{
+      width: 40px;
+      text-align: left;
+    }
+  }
+  .end {
+    width: 60%;
+    display: inline-block;
+    text-align: right;
+  }
+  a {
+    margin-left: 30px;
+    font-weight: bold;
+    color: #ffffff;
   }
 }
 </style>
