@@ -43,6 +43,9 @@
         </router-link>
       </div>
       <div class="end">
+        <router-link to="/homeUsuario">Home</router-link>
+        <router-link to="/groupExercises/1">Grupos ejercicios Gym</router-link>
+        <router-link to="/groupExercises/2">Grupos ejercicios Caseros</router-link>
         <router-link to="/logout">Cerrar Sesion</router-link>
       </div>
     </div>

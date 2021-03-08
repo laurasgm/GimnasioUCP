@@ -1708,6 +1708,727 @@
 		</div>
 	</template>
 
+	<template v-if ="tipoEjercicio == grupoMuscular['Hombro']">
+
+		<!-- Card -->
+		<div class="row">
+		<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Hombro/DumbbellPressMedioConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Dumbbell press medio con mancuerna.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">Manteniendo los codos fijos, exhale mientras levanta las mancuernas con un movimiento circular hasta que casi se toquen entre sí sobre su cabeza. Inhale mientras regresa las mancuernas a la posición inicial.
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+			<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Hombro/ElevacionFrontalAnterior.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Elevación frontal anterior.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">Las mancuernas deben apoyarse junto a las manos sobre los muslos, ligeramente hacia los costados. Inspiramos y comenzamos a contraer los músculos para elevar los brazos hacia adelante mientras espiramos el aire.
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+			<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Hombro/ElevacionFrontalBancoConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Elevación frontal en banco con mancuerna.</strong></h4>
+							<h5>15 x 4</h5>
+
+							<p class="card-text">Levante las mancuernas frente a usted hasta que estén justo por encima de su cabeza mientras exhala. Vuelva a la posición inicial con un suave movimiento mientras inhala.
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+		</div>
+		<div class="row">
+		<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Hombro/ElevacionFrontalConBarra.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Elevación frontal con barra.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">Con los codos ligeramente flexionados, contraer la porción anterior del deltoides para elevar la barra por delante del cuerpo hasta que los brazos queden paralelos con el suelo.
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+			<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Hombro/ElevacionFrontalConBarraZPoleaBaja.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Elevación frontal barra z polea baja.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">Tomas la barra con distancia de un pulgar al centro, pies un poco flexionados y espalda recta antes de empezar el movimiento. Inicia desde la parte inferior con los brazos estirados y los extiendes a la altura de la barbilla, para finalizar deciendes lentamente a la posición inicial.
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+			<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Hombro/ElevacionFrontalConDisco.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Elevación frontal con disco.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">Coge un disco con ambas manos, agarrándolo firmemente de sus lados. Eleva el disco al frente, con los codos desbloqueados, hasta que el disco llegue a la altura de los hombros. Vuelve a bajar el peso de forma controlada sin que el disco llegue a rebotar o descansar en las piernas.
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+		</div>
+		<div class="row">
+		<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Hombro/ElevacionFrontalConPoleaBajaAlternas.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Elevación frontal con polea baja alterna.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">Con una mano tomamos el mago previa carga de la polea, de manera que la palma de la mano mire hacia abajo (pronación), con los brazos a los lados del cuerpo, comenzamos el movimiento. Inspiramos y elevamos un brazo con el codo ligeramente flexionado hasta llegar a la altura de los ojos con las manos.
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+			<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Hombro/ElevacionLateralConPolea.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Elevación lateral con polea.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">Sujeta la polea a un lado de tu cuerpo, con el brazos extendido y agarre neutro. Levanta la polea a un lado de tu cuerpo, a la altura de tu hombro y sin flexionar los codos, luego de una breve pausa bájala lentamente.
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+			<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Hombro/ElevacionPosterioresConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Elevación posteriores con mancuerna.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">Con los codos ligeramente flexionados, sube ambos brazos hasta que tus antebrazos se ubiquen paralelos al piso. En este momento, haz una breve pausa de uno o dos segundos, para, finalmente, volver a la posición inicial.
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+		</div>
+		<div class="row">
+		<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Hombro/FlexionLateralOblicuo.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Flexión lateral con kettlebell.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">Coloca tus piernas a una anchura superior a la de tus hombros, agarra la pesa rusa con una mano y estira el brazo hacia arriba, baja la mano libre hasta tocar el suelo o el pie con la misma. Vuelve a la posición y repite el ejercicio.
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+			<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Hombro/FrontalNeutroBilateralSentado.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Frontal neutro bilateral sentado con mancuerna.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">Los brazos deben estar estirados y la espalda recta. Agarre las mancuernas de modo a que el pulgar permanezca girado hacia adelante. Levante una mancuerna hacia adelante hasta la altura del hombro. Regrese lentamente a la posición inicial y haga el mismo movimiento con la otra mancuerna.
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+			<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Hombro/FrontalNeutroConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Frontal neutro con una mancuerna.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">De pie con las piernas ligeramente separadas, la espada bien recta, abdominales contraídos, una mancuerna apoyada sobre los muslos, manos cruzadas sobre el mango, palmas frente a frente y brazos estirados. Inspirar y elevar la mancuerna hasta la altura de los ojos. 
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+		</div>
+		<div class="row">
+		<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Hombro/PressCubano.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Press cubano.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">Para realizar la rotación cubana debemos coger una mancuerna en cada mano o una barra tomada con ambas manos y elevando los brazos a la altura de los hombros, flexionados hacia abajo y adelante por medio de los codos, realizamos una rotación de los hombros de manera que las manos pasen de estar en dirección al suelo para estar hacia arriba de la cabeza.
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+			<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Hombro/PressMilitarBilateralConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Press militar bilateral con mancuerna.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">Este es muy similiar al press militar, la diferencia es que el ejercicio se realiza cada brazo de manera individual. Desde el hombro inspiramos y elevamos las mancuerna hasta estirar el brazo hacia arriba, verticalmente. Espiramos al finalizar el movimiento mientras iniciamos el descenso a la posición inicial.
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+			<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Hombro/PressMilitarConMancuernasOBarra.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Press militar con mancuerna.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">Desde los hombros inspiramos y elevamos las mancuernas hasta estirar los brazos hacia arriba, verticalmente. Espiramos al finalizar el movimiento mientras iniciamos el descenso a la posición inicial.
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+		</div>
+		<div class="row">
+		<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Hombro/TDeltoidFlyTrx.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>T deltoid fly trx.</strong></h4>
+							<h5>15 x 4</h5>
+
+							<p class="card-text">Con su núcleo comprometido, abra los brazos hacia los lados, como si estuviera haciendo una "T" con los brazos. Asegúrese de mantener la tensión en las correas durante todo el movimiento.
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+		</div>
+	</template>
+
 	<template v-if ="tipoEjercicio == grupoMuscular['Pecho']">
 
 		<!-- Card -->
@@ -3327,7 +4048,7 @@
 		</div>
 	</template>
 
-	<template v-if ="tipoEjercicio == grupoMuscular['Hombro']">
+	<template v-if ="tipoEjercicio == grupoMuscular['Espalda']">
 
 		<!-- Card -->
 		<div class="row">
@@ -3344,7 +4065,7 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Hombro/DumbbellPressMedioConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
+								<img src="../assets/img/GruposMusculos/Espalda/CruceInvertidoEnPoleaAlta.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
 							</a>
 						</div>
@@ -3353,10 +4074,10 @@
 						<!--Card content-->
 						<div class="card-body text-center card-body-cascade">
 							<!--Title-->
-							<h4 class="card-title"><strong>Dumbbell press medio con mancuerna.</strong></h4>
+							<h4 class="card-title"><strong>Cruce invertido en polea alta.</strong></h4>
 							<h5>12 x 4</h5>
 
-							<p class="card-text">Manteniendo los codos fijos, exhale mientras levanta las mancuernas con un movimiento circular hasta que casi se toquen entre sí sobre su cabeza. Inhale mientras regresa las mancuernas a la posición inicial.
+							<p class="card-text">Tira de los cables llevando las manos hacia atrás y ligeramente hacia abajo. Los brazos deben estar prácticamente paralelos al suelo y las manos alineadas con los hombros (el cuerpo en forma de T). Vuelve con los cables a la posición inicial de modo que la mano derecha quede directamente en frente del hombro izquierdo y la mano izquierda en frente del hombro derecho.
 							</p>
 
 							<!--Facebook-->
@@ -3388,7 +4109,7 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Hombro/ElevacionFrontalAnterior.png" class="img-fluid" alt="placeholder image with a man">
+								<img src="../assets/img/GruposMusculos/Espalda/Dominadas.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
 							</a>
 						</div>
@@ -3397,10 +4118,10 @@
 						<!--Card content-->
 						<div class="card-body text-center card-body-cascade">
 							<!--Title-->
-							<h4 class="card-title"><strong>Elevación frontal anterior.</strong></h4>
+							<h4 class="card-title"><strong>Dominadas.</strong></h4>
 							<h5>12 x 4</h5>
 
-							<p class="card-text">Las mancuernas deben apoyarse junto a las manos sobre los muslos, ligeramente hacia los costados. Inspiramos y comenzamos a contraer los músculos para elevar los brazos hacia adelante mientras espiramos el aire.
+							<p class="card-text">Sostenga la barra un poco más del  ancho de los hombros.Cuelgue de la barra con los brazos y hombros totalmente estirados.Exhale mientras que levanta su cuerpo hasta el momento en que su barbilla se eleve sobre la barra.Mantente ahí un par segundos y aprieta los músculos de la espalda,baje su cuerpo hasta el momento en que sus brazos y hombros estén totalmente estirados mientras inhala.
 							</p>
 
 							<!--Facebook-->
@@ -3432,7 +4153,7 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Hombro/ElevacionFrontalBancoConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
+								<img src="../assets/img/GruposMusculos/Espalda/EncofimientoDeHombroConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
 							</a>
 						</div>
@@ -3441,10 +4162,10 @@
 						<!--Card content-->
 						<div class="card-body text-center card-body-cascade">
 							<!--Title-->
-							<h4 class="card-title"><strong>Elevación frontal en banco con mancuerna.</strong></h4>
+							<h4 class="card-title"><strong>Encogimiento de hombros con mancuerna.</strong></h4>
 							<h5>15 x 4</h5>
 
-							<p class="card-text">Levante las mancuernas frente a usted hasta que estén justo por encima de su cabeza mientras exhala. Vuelva a la posición inicial con un suave movimiento mientras inhala.
+							<p class="card-text">Agarramos fuertemente las mancuernas todo lo que podamos con las palmas de las manos mirándose entre sí, Colocamos la espalda recta , hombros hacia atrás ,pecho hacia afuera y  cabeza alta con mirada al frente, Elevamos los hombros  lo máximo intentado contraer el trapecio lo máximo posible, Aguantamos 1 segundo y volvemos a nuestra posición inicial.
 							</p>
 
 							<!--Facebook-->
@@ -3478,7 +4199,7 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Hombro/ElevacionFrontalConBarra.png" class="img-fluid" alt="placeholder image with a man">
+								<img src="../assets/img/GruposMusculos/Espalda/FacePull.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
 							</a>
 						</div>
@@ -3487,10 +4208,10 @@
 						<!--Card content-->
 						<div class="card-body text-center card-body-cascade">
 							<!--Title-->
-							<h4 class="card-title"><strong>Elevación frontal con barra.</strong></h4>
+							<h4 class="card-title"><strong>Face pull.</strong></h4>
 							<h5>12 x 4</h5>
 
-							<p class="card-text">Con los codos ligeramente flexionados, contraer la porción anterior del deltoides para elevar la barra por delante del cuerpo hasta que los brazos queden paralelos con el suelo.
+							<p class="card-text">Ponte en una posición bilateral con una polea situada en frente y por encima del nivel de la cabeza, agarra la polea con los nudillos hacia adentro. Mantén la postura y tira de las cuerdas hasta que los puños terminen al lado de tus oídos. Recuerda mantener los codos abiertos en todo momento y retraer los omóplatos en cada tirón
 							</p>
 
 							<!--Facebook-->
@@ -3522,7 +4243,7 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Hombro/ElevacionFrontalConBarraZPoleaBaja.png" class="img-fluid" alt="placeholder image with a man">
+								<img src="../assets/img/GruposMusculos/Espalda/JalonAgarreAbiertoPoleaAlta.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
 							</a>
 						</div>
@@ -3531,10 +4252,10 @@
 						<!--Card content-->
 						<div class="card-body text-center card-body-cascade">
 							<!--Title-->
-							<h4 class="card-title"><strong>Elevación frontal barra z polea baja.</strong></h4>
+							<h4 class="card-title"><strong>Jalón agarre abierto polea alta.</strong></h4>
 							<h5>12 x 4</h5>
 
-							<p class="card-text">Tomas la barra con distancia de un pulgar al centro, pies un poco flexionados y espalda recta antes de empezar el movimiento. Inicia desde la parte inferior con los brazos estirados y los extiendes a la altura de la barbilla, para finalizar deciendes lentamente a la posición inicial.
+							<p class="card-text">Sujete la barra con un agarre amplio y siéntese manteniendo la parte superior del cuerpo en posición vertical, inclinándose ligeramente hacia atrás desde las caderas. Tire de la barra delante de la cara hasta la parte superior del pecho y haga una ligera pausa. Lentamente suelte la barra de nuevo a la posición inicial estirando los brazos.
 							</p>
 
 							<!--Facebook-->
@@ -3566,7 +4287,7 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Hombro/ElevacionFrontalConDisco.png" class="img-fluid" alt="placeholder image with a man">
+								<img src="../assets/img/GruposMusculos/Espalda/JalonAUnaManoPoleaAlta.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
 							</a>
 						</div>
@@ -3575,10 +4296,10 @@
 						<!--Card content-->
 						<div class="card-body text-center card-body-cascade">
 							<!--Title-->
-							<h4 class="card-title"><strong>Elevación frontal con disco.</strong></h4>
+							<h4 class="card-title"><strong>Jalón a una mano polea alta.</strong></h4>
 							<h5>12 x 4</h5>
 
-							<p class="card-text">Coge un disco con ambas manos, agarrándolo firmemente de sus lados. Eleva el disco al frente, con los codos desbloqueados, hasta que el disco llegue a la altura de los hombros. Vuelve a bajar el peso de forma controlada sin que el disco llegue a rebotar o descansar en las piernas.
+							<p class="card-text">Tira del maneral hacia abajo, girando la mano hacia ti, y manteniendo el codo cerca del costado. Contrae los músculos de la espalda, y no dejes que el torso gire a uno u otro lado.
 							</p>
 
 							<!--Facebook-->
@@ -3612,7 +4333,7 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Hombro/ElevacionFrontalConPoleaBajaAlternas.png" class="img-fluid" alt="placeholder image with a man">
+								<img src="../assets/img/GruposMusculos/Espalda/JalonPoleaAltaAgarreCerrado.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
 							</a>
 						</div>
@@ -3621,10 +4342,10 @@
 						<!--Card content-->
 						<div class="card-body text-center card-body-cascade">
 							<!--Title-->
-							<h4 class="card-title"><strong>Elevación frontal con polea baja alterna.</strong></h4>
+							<h4 class="card-title"><strong>Jalón en polea alta agarre cerrado.</strong></h4>
 							<h5>12 x 4</h5>
 
-							<p class="card-text">Con una mano tomamos el mago previa carga de la polea, de manera que la palma de la mano mire hacia abajo (pronación), con los brazos a los lados del cuerpo, comenzamos el movimiento. Inspiramos y elevamos un brazo con el codo ligeramente flexionado hasta llegar a la altura de los ojos con las manos.
+							<p class="card-text">se procede a inspirar y a tirar de la barra que levanta la polea mientras se flexionan los codos y se desciende por las porciones laterales del cuerpo hasta llegar al nivel del esternón,regresando lentamente a la posición inicial sin permitir que el peso caiga de forma brusca.
 							</p>
 
 							<!--Facebook-->
@@ -3656,7 +4377,7 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Hombro/ElevacionLateralConPolea.png" class="img-fluid" alt="placeholder image with a man">
+								<img src="../assets/img/GruposMusculos/Espalda/LumbarBuenosDias.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
 							</a>
 						</div>
@@ -3665,10 +4386,10 @@
 						<!--Card content-->
 						<div class="card-body text-center card-body-cascade">
 							<!--Title-->
-							<h4 class="card-title"><strong>Elevación lateral con polea.</strong></h4>
+							<h4 class="card-title"><strong>Buenos dias.</strong></h4>
 							<h5>12 x 4</h5>
 
-							<p class="card-text">Sujeta la polea a un lado de tu cuerpo, con el brazos extendido y agarre neutro. Levanta la polea a un lado de tu cuerpo, a la altura de tu hombro y sin flexionar los codos, luego de una breve pausa bájala lentamente.
+							<p class="card-text">Tu torso debe encontrarse paralelo al piso, todo ello sin que la espalda pierda su posición inicial y, eso sí, doblando ligeramente las rodillas.Puedes mantener la posición final por uno o dos segundos, en donde sentirás cómo se tensa tu abdomen. Una vez hecho esto, regresa a la posición de inicio.
 							</p>
 
 							<!--Facebook-->
@@ -3700,7 +4421,7 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Hombro/ElevacionPosterioresConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
+								<img src="../assets/img/GruposMusculos/Espalda/PowerPullTrx.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
 							</a>
 						</div>
@@ -3709,10 +4430,10 @@
 						<!--Card content-->
 						<div class="card-body text-center card-body-cascade">
 							<!--Title-->
-							<h4 class="card-title"><strong>Elevación posteriores con mancuerna.</strong></h4>
+							<h4 class="card-title"><strong>Power pull trx.</strong></h4>
 							<h5>12 x 4</h5>
 
-							<p class="card-text">Con los codos ligeramente flexionados, sube ambos brazos hasta que tus antebrazos se ubiquen paralelos al piso. En este momento, haz una breve pausa de uno o dos segundos, para, finalmente, volver a la posición inicial.
+							<p class="card-text">Tomando la correa TRX extendida, Desde esta posición inicial, comience a inclinarse lentamente hacia atrás y a rotar hacia ese brazo, hasta que termine con ambos brazos extendidos, en forma de T Desde esta posición extendida, regrese a la posición inicial, primero retrayendo y presionando el omóplato del brazo que tira, luego doblando el brazo.
 							</p>
 
 							<!--Facebook-->
@@ -3746,7 +4467,7 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Hombro/FlexionLateralOblicuo.png" class="img-fluid" alt="placeholder image with a man">
+								<img src="../assets/img/GruposMusculos/Espalda/RemoAlCuelloPoleaBaja.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
 							</a>
 						</div>
@@ -3755,10 +4476,10 @@
 						<!--Card content-->
 						<div class="card-body text-center card-body-cascade">
 							<!--Title-->
-							<h4 class="card-title"><strong>Flexión lateral con kettlebell.</strong></h4>
+							<h4 class="card-title"><strong>Remo al cuello con polea baja.</strong></h4>
 							<h5>12 x 4</h5>
 
-							<p class="card-text">Coloca tus piernas a una anchura superior a la de tus hombros, agarra la pesa rusa con una mano y estira el brazo hacia arriba, baja la mano libre hasta tocar el suelo o el pie con la misma. Vuelve a la posición y repite el ejercicio.
+							<p class="card-text">Colócate frente a la máquina con los pies separados a la altura de los hombres y sosten el mango con las palmas mirando hacia tu cuerpo. Sube los brazos hasta que el mango llegue a la altura de tu mentón, los codos deben pasar tu cabeza y ver hacia afuera en todo momento.
 							</p>
 
 							<!--Facebook-->
@@ -3790,7 +4511,7 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Hombro/FrontalNeutroBilateralSentado.png" class="img-fluid" alt="placeholder image with a man">
+								<img src="../assets/img/GruposMusculos/Espalda/RemoAlPechoConBarra.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
 							</a>
 						</div>
@@ -3799,10 +4520,10 @@
 						<!--Card content-->
 						<div class="card-body text-center card-body-cascade">
 							<!--Title-->
-							<h4 class="card-title"><strong>Frontal neutro bilateral sentado con mancuerna.</strong></h4>
+							<h4 class="card-title"><strong>Remo al pecho con barra.</strong></h4>
 							<h5>12 x 4</h5>
 
-							<p class="card-text">Los brazos deben estar estirados y la espalda recta. Agarre las mancuernas de modo a que el pulgar permanezca girado hacia adelante. Levante una mancuerna hacia adelante hasta la altura del hombro. Regrese lentamente a la posición inicial y haga el mismo movimiento con la otra mancuerna.
+							<p class="card-text">Ahora, mientras mantiene el torso inmóvil, Exhale y Levante la barra hacia usted. Mantenga los codos cerca del cuerpo y sólo use los antebrazos para mantener el peso. En la posición de contracción superior, reverenciar los músculos de la espalda y mantener una breve pausa.
 							</p>
 
 							<!--Facebook-->
@@ -3834,7 +4555,7 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Hombro/FrontalNeutroConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
+								<img src="../assets/img/GruposMusculos/Espalda/RemoConBarraInclinado.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
 							</a>
 						</div>
@@ -3843,10 +4564,10 @@
 						<!--Card content-->
 						<div class="card-body text-center card-body-cascade">
 							<!--Title-->
-							<h4 class="card-title"><strong>Frontal neutro con una mancuerna.</strong></h4>
+							<h4 class="card-title"><strong>Remo con barra en banco inclinado.</strong></h4>
 							<h5>12 x 4</h5>
 
-							<p class="card-text">De pie con las piernas ligeramente separadas, la espada bien recta, abdominales contraídos, una mancuerna apoyada sobre los muslos, manos cruzadas sobre el mango, palmas frente a frente y brazos estirados. Inspirar y elevar la mancuerna hasta la altura de los ojos. 
+							<p class="card-text">llévalas sobre tus hombros con los brazos extendidos casi en su totalidad. Una vez hecho esto, el siguiente paso consiste en juntar los omóplatos y sacar un poco el pecho. Luego, vamos a bajar la barra, flexionando los codos, a la altura de los dorsales. Haremos una pequeña pausa y, posteriormente, iniciamos a la posición inicial.
 							</p>
 
 							<!--Facebook-->
@@ -3880,7 +4601,7 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Hombro/PressCubano.png" class="img-fluid" alt="placeholder image with a man">
+								<img src="../assets/img/GruposMusculos/Espalda/RemoConMancuernaEnBanco.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
 							</a>
 						</div>
@@ -3889,10 +4610,10 @@
 						<!--Card content-->
 						<div class="card-body text-center card-body-cascade">
 							<!--Title-->
-							<h4 class="card-title"><strong>Press cubano.</strong></h4>
+							<h4 class="card-title"><strong>Remo con mancuerna en banco.</strong></h4>
 							<h5>12 x 4</h5>
 
-							<p class="card-text">Para realizar la rotación cubana debemos coger una mancuerna en cada mano o una barra tomada con ambas manos y elevando los brazos a la altura de los hombros, flexionados hacia abajo y adelante por medio de los codos, realizamos una rotación de los hombros de manera que las manos pasen de estar en dirección al suelo para estar hacia arriba de la cabeza.
+							<p class="card-text">toma una mancuerna con una mano y apoyando la rodilla y la palma de la mano del lado opuesto sobre un banco plano. La espalda estará fija y el brazo que posee el peso debe quedar extendido por el lateral del cuerpo, luego debemos inspirar y tirar de la mancuerna para elevarla hacia la espalda mientras el brazo permanece paralelo al cuerpo, llevando el codo bien atrás para imitar el gesto de remo.
 							</p>
 
 							<!--Facebook-->
@@ -3924,7 +4645,7 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Hombro/PressMilitarBilateralConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
+								<img src="../assets/img/GruposMusculos/Espalda/RemoEnBarraTAgarreProno.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
 							</a>
 						</div>
@@ -3933,10 +4654,10 @@
 						<!--Card content-->
 						<div class="card-body text-center card-body-cascade">
 							<!--Title-->
-							<h4 class="card-title"><strong>Press militar bilateral con mancuerna.</strong></h4>
+							<h4 class="card-title"><strong>Remo en barra T agarre prono.</strong></h4>
 							<h5>12 x 4</h5>
 
-							<p class="card-text">Este es muy similiar al press militar, la diferencia es que el ejercicio se realiza cada brazo de manera individual. Desde el hombro inspiramos y elevamos las mancuerna hasta estirar el brazo hacia arriba, verticalmente. Espiramos al finalizar el movimiento mientras iniciamos el descenso a la posición inicial.
+							<p class="card-text">colocarse de pie con la barra T entre las piernas, sostener el mango con las palmas mirando hacia abajo y mantener los codos pegados a tu cuerpo. Además, de tener el cuerpo ligeramente inclinado hacia al frente con la espalda erguida y las rodillas flexionadas. De esta manera, podrás levantar el peso con mayor comodidad.
 							</p>
 
 							<!--Facebook-->
@@ -3968,7 +4689,7 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Hombro/PressMilitarConMancuernasOBarra.png" class="img-fluid" alt="placeholder image with a man">
+								<img src="../assets/img/GruposMusculos/Espalda/RemoEnMaquina.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
 							</a>
 						</div>
@@ -3977,10 +4698,10 @@
 						<!--Card content-->
 						<div class="card-body text-center card-body-cascade">
 							<!--Title-->
-							<h4 class="card-title"><strong>Press militar con mancuerna.</strong></h4>
+							<h4 class="card-title"><strong>Remo en maquina.</strong></h4>
 							<h5>12 x 4</h5>
 
-							<p class="card-text">Desde los hombros inspiramos y elevamos las mancuernas hasta estirar los brazos hacia arriba, verticalmente. Espiramos al finalizar el movimiento mientras iniciamos el descenso a la posición inicial.
+							<p class="card-text">Nos sentamos en la maquina de manera tal que nuestro pecho quede totalmente pegado a la maquina, con la espalda recta. Tomamos las barras y la traemos a nuestro pecho, alli la sostenemos por un par de segundos antes de volver a la psoción inicial.
 							</p>
 
 							<!--Facebook-->
@@ -4014,7 +4735,7 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Hombro/TDeltoidFlyTrx.png" class="img-fluid" alt="placeholder image with a man">
+								<img src="../assets/img/GruposMusculos/Espalda/RemoSentadoEnPoleaBaja.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
 							</a>
 						</div>
@@ -4023,10 +4744,1041 @@
 						<!--Card content-->
 						<div class="card-body text-center card-body-cascade">
 							<!--Title-->
-							<h4 class="card-title"><strong>T deltoid fly trx.</strong></h4>
+							<h4 class="card-title"><strong>Remo sentado en polea baja.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">Sosten los codos cerca de su cuerpo, tire de la barra hacia su abdomen mientras exhala, saque el pecho y apriete los músculos de la espalda, cuente un par de segundos, inhale mientras que retorna la barra a la situación inicial (sin curvear la espalda), con los brazos y los hombros estirados hacia adelante.
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+			<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Espalda/RowTrx.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Row trx.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">Acuéstese directamente debajo de la plataforma TRX y las correas. Con las rodillas dobladas y los pies en el suelo, estírese y agarre las asas. Una vez elevado, tire del torso hacia las asas mientras mantiene los codos metidos lo más cerca posible de los costados. Tire hacia arriba hasta que su torso esté alineado desde los hombros hasta las rodillas
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+			<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Espalda/SawPlankOnElbowHandTrx.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Hand trx.</strong></h4>
 							<h5>15 x 4</h5>
 
-							<p class="card-text">Con su núcleo comprometido, abra los brazos hacia los lados, como si estuviera haciendo una "T" con los brazos. Asegúrese de mantener la tensión en las correas durante todo el movimiento.
+							<p class="card-text">Se eleva la cadera en repeticiones, dejando el cuerpo recto Y apoyando el brazo hacia el suelo, tratamos de mantener la posición por un periodo corto, una variante para resistencia y dejar la postura con la cadera levantada. 
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+		</div>
+	</template>
+
+	<template v-if ="tipoEjercicio == grupoMuscular['Brazo']">
+
+		<!-- Card -->
+		<div class="row">
+		<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Brazo/BancoScottConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Banco scott con mancuerna.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">debe estar sentado sobre la máquina, con los brazos completamente apoyados sobre el pupitre que compone el banco Scott agarra la barra Z o recta o en su defecto, dos mancuernas con ambas manos o incluso a mancuerna alternada. Durante la ejecución del ejercicio las palmas deben mirar hacia arriba, sin movilizar los brazos y teniendo ambos estirados mientras se sostiene la carga y se inicia el movimiento.
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+			<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Brazo/BicepsCoracobraquialBilateral.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Coracobraquial bilateral.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">Colócate de lado frente a la polea sujeta uno de los mangos con una mano la palma debe de ir mirando hacia arriba, debes tener la espalda erguida y el pecho hacia afuera para evitar lesiones exhala mientras vas flexionando los codos hasta tus hombros para levanté el peso luego haz lo mismo con tu otra mano.
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+			<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Brazo/BicepsCoracobraquialEnCruz.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Coracobraquial en cruz.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">Colócate en una máquina con la que puedas sujetar ambos mangos. La posición inicial es tomando los dos mangos con las palmas mirando hacia arriba. Asimismo, debes tener la espalda erguida y el pecho hacia afuera para evitar lesiones. Exhala mientras vas flexionando los codos hasta tus hombros para levantar el peso.
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+		</div>
+		<div class="row">
+		<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Brazo/BranquialAnteriorConUnaManoYBarra.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Braquial a una mano con barra.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">Flexiona un poco el codo y toma la barra por todo el centro para mantener el equilibrio. Subimos la barra hata la altura del pecho y decendemos. Primero debemos terminar las repeteciones con uno de los brazos antes de continuar con el otro.
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+			<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Brazo/BranquialConRotacionEnSupinoProno.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Braquial con rotacion en supino prono.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">Sin mover los brazos en balanceo, contrae los brazos a la altura de los hombros.Llegado a este punto, soporta la posición por uno o dos segundos, gira las muñecas para cambiar a un agarre prono y desciende las mancuernas en un movimiento controlado.
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+			<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Brazo/BraquialAnteriorAlternoConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Braquial alternado con mancuerna.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">se deben elevar las mancuernas de forma simultánea, girando las palmas de las manos hacia arriba y hacia afuera. De tal forma, se permite que al final de cada repetición, queden hacia fuera de forma ligera. El bíceps debe ser contraído contando uno, bajando la mancuerna de regreso a la posición inicial.
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+		</div>
+		<div class="row">
+		<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Brazo/CopaConUnaManoConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Copa a una mano con mancuerna.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">Toma una mancuerna y colócate de forma recta con los pies abiertos a la misma altura de los hombros; el agarre puede ser supino, neutro o prono; dependiendo de cómo te sientas más cómodo. Ahora, contrae el bíceps y el tríceps exhalando y llevando tu antebrazo por encima de tu hombro, hasta tu nuca.
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+			<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Brazo/CoraCobraquialEnPoleaAlta.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Coracobraquial en polea alta.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">Con el torso recto, la espalda erguida y las piernas levemente flexionadas, podremos comenzar el ejercicio inspirando y flexionando los codos de manera de llevar las manos hacia el hombro mientras elevamos el peso previamente cargado en la polea.
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+			<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Brazo/CurlBranquialAnteriorConBarraZ.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Curl braquial anterior con barra z.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">Sujeta una barra Z a aproximadamente el ancho de los hombros con un agarre supino. Aprieta los bíceps con fuerza en la parte superior del movimiento y luego baja la barra lentamente a la posición inicial. Repite para las repeticiones deseadas.
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+		</div>
+		<div class="row">
+		<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Brazo/CurlBranquioRadialConBarraRomana.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Curl braquial con barra romana.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">Tomamos la barra por la parte interna, con las manos verticalmente como empuñando un martillo, dejamos los codos un poco flexionados para la posición inicial. empezamos subir hasta la altura del pecho para empezar nuevamente.
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+			<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Brazo/CurlConcentradoConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Curl concentrado con mancuerna.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">El codo del brazo que esté ejecutando el ejercicio, debe ser apoyado en la cara interna del muslo del mismo lado, mientras el brazo se encuentra extendido. A partir de esa posición. Se inspira y se flexiona el codo para poder levantar el peso desde el pie hacia la rodilla contraria.
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+			<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Brazo/CurlDeBicepsEnBancoScott.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Curl en banco scott.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">las palmas deben mirar hacia arriba, sin movilizar los brazos y teniendo ambos estirados mientras se sostiene la carga y se inicia el movimiento. Inspira profundamente y se comienza con la flexión de los codos para poder llevar el peso hacia el nivel del pecho con ambas manos. Mantén ahí 2 segundos
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+		</div>
+		<div class="row">
+		<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Brazo/CurlInvertidoConBarra.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Curl invertido con barra.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">Comienza levantando la barra hasta que tus bíceps se tensen y se encuentren totalmente contraídos. Así, ésta llegará a la altura de tus hombros. Lo recomendado es sostener la posición por lo menos un segundo y luego, con lentitud y en un movimiento controlado, desciende la barra.
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+			<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Brazo/CurlMartilloConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Curl martillo con mancuerna.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">Las palmas de nuestras manos deben estar orientadas hacia el cuerpo durante la ejecución del ejercicio, para permitirnos simular que el martillo sube y baja tan solo con la flexión del codo. Posteriormente espiramos al final del movimiento general, se procede a descender de forma controlada.
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+			<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Brazo/CurlZottamanConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Curl zottman con mancuerna.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">Sin mover los brazos en balanceo, contrae los brazos a la altura de los hombros.Llegado a este punto, soporta la posición por uno o dos segundos, gira las muñecas para cambiar a un agarre prono y desciende las mancuernas en un movimiento controlado.
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+		</div>
+		<div class="row">
+		<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Brazo/ExtensionEnPoleaAlta.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Extensión en polea alta.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">Realiza la flexión de los codos hacia el suelo sin perder la postura. Por otro lado, es importante no empujar hacia abajo la polea con el cuerpo. Solo debes utilizar los antebrazos. De este modo, se ejercitarán los músculos correctos.
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+			<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Brazo/ExtensionenPoleaSobreLaCabeza.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Extensión con polea sobre la cabeza.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">Con la zona de la columna recta, pero sin encontrarse tensa, inclínate hacia tus pies, pero sin sobrepasar los 20 o los 30 grados. Inspira y lleva a cabo a la extensión de forma vertical siempre con ambos codos rozando con tu tronco.
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+			<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Brazo/FondosEnBanco.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Fondos en banco.</strong></h4>
+							<h5>15 x 4</h5>
+
+							<p class="card-text">Para iniciar el ejercicio, toma aire y dobla los codos, bajando de manera lenta hasta sentir una tensión tanto en los tríceps como en los hombros. Deberás bajar cuando más lo permita tu condición.
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+		</div>
+		<div class="row">
+		<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Brazo/PatadaConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Patada con mancuerna.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">Con el brazo pegado al tronco y el codo flexionado, iniciamos la extensión mientras espiramos. El movimiento será lento pero fluido, sin extensión brusca y sin llegar a extender totalmente. El movimiento de flexión lo realizaremos mientras inspiramos, evitando que el codo caiga de la altura del tronco.
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+			<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Brazo/PressAgarreCerrado.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Press agarre cerrado.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">Una vez realicemos la extensión máxima, aguantaremos la posición por uno o dos segundos. Ahora, para completar los movimientos del ejercicio, continuaremos bajando la barra y la llevaremos a la parte inferior del pecho.
+							</p>
+
+							<!--Facebook-->
+							<a type="button" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fab fa-facebook"></i></a>
+							<!--Twitter-->
+							<a type="button" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fab fa-twitter"></i></a>
+							<!--Google +-->
+							<a type="button" class="btn-floating btn-small btn-dribbble waves-effect waves-light"><i class="fab fa-dribbble"></i></a>
+
+						</div>
+						<!--/.Card content-->
+
+					</div>
+					<!--/.Card-->
+
+				</section>
+				<!--Section: Live preview-->
+			</div>
+			<div class="col-md-4">
+				<!--Description-->
+				<p class="description"></p>
+
+				<!--Section: Live preview-->
+				<section>
+
+					<!--Card-->
+					<div class="card card-cascade">
+
+						<!--Card image-->
+						<div class="view overlay view-cascade">
+							<a href="#!">
+								<img src="../assets/img/GruposMusculos/Brazo/PressFransesConBarra.png" class="img-fluid" alt="placeholder image with a man">
+								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+							</a>
+						</div>
+						<!--/.Card image-->
+
+						<!--Card content-->
+						<div class="card-body text-center card-body-cascade">
+							<!--Title-->
+							<h4 class="card-title"><strong>Press frances con barra.</strong></h4>
+							<h5>12 x 4</h5>
+
+							<p class="card-text">Desde allí inspiramos y extendemos los brazos de manera de formar con ellos una perpendicular respecto al cuerpo, cuidando de no separar los codos del cuerpo durante el recorrido.
 							</p>
 
 							<!--Facebook-->
@@ -4053,10 +5805,12 @@
 import router from '../router/index'
 var tipoEjercicio
 var grupoMuscular;
+var rutaAnterior;
 export default {
   
   name: 'ExercisesGym',
   beforeCreate() {
+	  rutaAnterior = this.$router.currentRoute.fullPath;
 	  tipoEjercicio = this.$router.currentRoute.params.grupo;
 	  debugger;
       grupoMuscular = Object.freeze({ "Pierna": 1, "Hombro": 2, "Pecho": 3, "Abdomen": 4, "Brazo": 5, "Espalda": 6 });
