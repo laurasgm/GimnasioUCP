@@ -14,6 +14,9 @@
 
     <modal :width="700" :height="520" name="modal-user">
       <div class="container-modal">
+        <button type="button" class="close" @click="closeModalEdit()" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
         <h3>Datos de usuario</h3>
 
         <div class="d-flex justify-content-between mt-4">
@@ -108,6 +111,9 @@ export default {
           this.$snotify.error('Error al encontrar usuario')
           this.loading = true
         })
+    },
+    closeModalEdit() {
+      this.$modal.hide(`modal-user`);
     },
   },
 }

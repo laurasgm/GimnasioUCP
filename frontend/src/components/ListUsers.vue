@@ -22,6 +22,9 @@
 
           <modal :height="400" :name="'modal' + data.index">
             <div class="container-modal">
+              <button type="button" class="close" @click="closeModalEdit()" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
               <h4>Editar Usuario</h4>
               <div class="form-user mt-5">
                 <div class="item ">
@@ -155,6 +158,10 @@ export default {
       this.$modal.show(`modal${user.index}`)
       this.edit.dni = user.item.Cedula
       this.modalOpen = `modal${user.index}`
+    },
+
+    closeModalEdit() {
+      this.$modal.hide(this.modalOpen)
     },
 
     editUser(user) {
