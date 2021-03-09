@@ -18,7 +18,7 @@
     </div>
     <div id="nav" v-if="condicion1()">
       <div class="logo">
-        <router-link to="/users">
+        <router-link to="/">
           <img
             @click="this.$router.replace({ name: 'Home' })"
             src="./assets/logo.png"
@@ -34,7 +34,7 @@
     </div>
      <div id="nav" v-if="condicion2()">
       <div class="logo">
-        <router-link to="/users">
+        <router-link to="/">
           <img
             @click="this.$router.replace({ name: 'Home' })"
             src="./assets/logo.png"
@@ -43,6 +43,9 @@
         </router-link>
       </div>
       <div class="end">
+        <router-link to="/homeUsuario">Home</router-link>
+        <router-link to="/groupExercises/1">Grupos ejercicios Gym</router-link>
+        <router-link to="/groupExercises/2">Grupos ejercicios Caseros</router-link>
         <router-link to="/logout">Cerrar Sesion</router-link>
       </div>
     </div>
