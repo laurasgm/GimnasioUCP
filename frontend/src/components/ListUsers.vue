@@ -20,10 +20,15 @@
             Eliminar
           </button>
 
-          <modal :height="400" :name="'modal' + data.index">
+          <modal :height="480" :name="'modal' + data.index">
             <div class="container-modal">
               <h4>Editar Usuario</h4>
               <div class="form-user mt-5">
+                <div class="item ">
+                  <small>Recibo de Pago</small>
+                  <br>
+                    <input type="file" accept=".jpg, .png" @change="onFileSelected" >
+                </div>
                 <div class="item ">
                   <small>Nombre</small>
                   <input
@@ -109,6 +114,23 @@ export default {
   },
 
   methods: {
+    //guarda el recibo de pago del usuario 
+    //nota: el recibo lleva por nombre la cedula del usuario
+     onFileSelected (event) 
+     {
+       debugger;
+        const file = event.target.files[0];
+        const formData = new FormData();
+        formData.append("file", file);
+        axios
+        .post('http://localhost:3000/api/reciboPago', formData)
+        .then((res) => {
+          this.$snotify.success('Recibo de Pago guardado exitosamente')
+        })
+        .catch((err) => {
+          this.$snotify.error('No se puedo almacenar el Recibo de Pago', err)
+        })
+    },
     loadData() {
       this.loading = false
       axios

@@ -164,11 +164,12 @@ async function payMonth(req, res) {
   })
 }
 
+
 module.exports = {
   createUserGym,
   listUsers,
   updateUser,
   deleteUser,
   getUser,
-  payMonth,
+  payMonth
 }
