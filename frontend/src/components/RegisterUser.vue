@@ -4,10 +4,25 @@
     <div class="form-container">
       <input v-model="form.name_user" placeholder="Nombre" />
       <input v-model="form.dni" placeholder="Cédula" />
-      <input
+      <!-- <input
         v-model="form.acumulated_suscription"
         placeholder="Meses de Suscripción"
-      />
+      /> -->
+      <select name="select" v-model="form.acumulated_suscription">
+        <option hidden selected value="0">Meses de Suscripción</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+      </select>
       <button @click="addNewUser" class="btn btn-standar mt-4">
         AGREGAR
       </button>
@@ -22,10 +37,15 @@ import { validateName, validateNumber } from '../utils/validations'
 export default {
   name: 'RegisterUser',
   data() {
+    debugger;
     return {
       form: {},
       dniSearch: '',
     }
+  },
+  created() {
+    debugger;
+    this.form.acumulated_suscription = 0;
   },
   methods: {
     addNewUser() {
@@ -74,9 +94,8 @@ export default {
   margin-left: auto;
   text-align: center;
   padding: 40px;
-  input {
+  input, select {
     font-family: 'Muli', sans-serif;
-
     color: white;
     padding: 10px;
     border-radius: 3px;
@@ -94,6 +113,14 @@ export default {
     font-weight: 600;
     opacity: 0.9 !important;
     color: rgb(255, 255, 255);
+  }
+  option { 
+    color:black; 
+    background-color: rgba(134, 125, 125, 0.253); 
+  }
+  option:hover { 
+    color: black; 
+    background-color: #47ba4b !important; 
   }
 }
 </style>

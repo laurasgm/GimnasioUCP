@@ -3,11 +3,26 @@
     <h2>Renovar Usuario</h2>
     <div class="form-container">
       <input v-model="form.dni" placeholder="Cédula" type="number" />
-      <input
+      <!-- <input
         v-model="form.months"
         type="number"
         placeholder="Meses de Suscripción"
-      />
+      /> -->
+      <select name="select" v-model="form.months">
+        <option hidden selected value="0">Meses de Suscripción</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+      </select>
       <button v-if="loading" @click="renewUser" class="btn btn-standar mt-4">
         RENOVAR
       </button>
@@ -27,6 +42,10 @@ export default {
       form: {},
       loading: true,
     }
+  },
+  created() {
+    debugger;
+    this.form.months = 0;
   },
   methods: {
     renewUser() {
@@ -71,7 +90,7 @@ export default {
   margin-left: auto;
   text-align: center;
   padding: 40px;
-  input {
+  input, select {
     font-family: 'Muli', sans-serif;
 
     color: white;
@@ -91,6 +110,10 @@ export default {
     font-weight: 600;
     opacity: 0.9 !important;
     color: rgb(255, 255, 255);
+  }
+  option { 
+    color:black; 
+    background-color: rgba(134, 125, 125, 0.253); 
   }
 }
 </style>
