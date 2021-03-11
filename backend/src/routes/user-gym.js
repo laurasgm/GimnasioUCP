@@ -5,10 +5,11 @@ import {
   updateUser,
   deleteUser,
   getUser,
-  payMonth,
+  payMonth
 } from '../contoller/user-gym'
 import { userExist } from '../middlewares/user-gym'
 const router = Router()
+const multer  = require('multer');
 
 // Rutas disponibles para la administración de usuarios
 router.post('/user', userExist, createUserGym)
@@ -17,4 +18,21 @@ router.put('/user', updateUser)
 router.delete('/user/:dni', deleteUser)
 router.get('/user/:dni', getUser)
 router.post('/pay/months/:dni', payMonth)
+
+var storage = multer.diskStorage({
+  destination: function (req, file, cb) {
+    cb(null, 'uploads')
+  },
+  filename: function (req, file, cb) {
+    cb(null, file.originalname)
+  }
+})
+
+const upload = multer({ storage: storage });
+
+router.post('/reciboPago', upload.single('file'), (req, res) => {
+  res.status(200).send({ message : 'File upload' })
+});
+
+
 export default router
