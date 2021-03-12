@@ -14,6 +14,9 @@
 
     <modal :width="700" :height="600" name="modal-user">
       <div class="container-modal">
+        <button type="button" class="close" @click="closeModalEdit()" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
         <h3>Datos de usuario</h3>
         <div class="logo">
           <img
@@ -125,6 +128,9 @@ export default {
           this.$snotify.error('Error al encontrar usuario')
           this.loading = true
         })
+    },
+    closeModalEdit() {
+      this.$modal.hide(`modal-user`);
     },
     mostrarRecibo(cedula){
       this.$modal.show(`modal-recibo`)

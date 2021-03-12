@@ -24,6 +24,9 @@
           </button>
           <modal :height="320" :name="'modal' + data.index">
             <div class="container-modal">
+              <button type="button" class="close" @click="closeModalEdit()" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
               <h4>Editar Recurso</h4>
               <div class="form-container">
                 <small>Referencia</small>
@@ -111,6 +114,7 @@ export default {
           this.loading = true
         })
     },
+    
     compare(a, b) {
       if (a.id_resource < b.id_resource) {
         return -1
@@ -135,6 +139,9 @@ export default {
     openModalEdit(resource) {
       this.$modal.show(`modal${resource.index}`)
       this.modalOpen = `modal${resource.index}`
+    },
+    closeModalEdit() {
+      this.$modal.hide(this.modalOpen)
     },
     editResource(resource) {
       this.edit.name_resource = resource.Nombre
