@@ -12,13 +12,19 @@
       </div>
     </div>
 
-    <modal :width="700" :height="520" name="modal-user">
+    <modal :width="700" :height="600" name="modal-user">
       <div class="container-modal">
         <button type="button" class="close" @click="closeModalEdit()" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
         <h3>Datos de usuario</h3>
-
+        <div class="logo">
+          <img
+            @click="mostrarRecibo(user.dni)" 
+            src="../assets/icono-recibo.png"
+            alt="logo"
+          />
+      </div>
         <div class="d-flex justify-content-between mt-4">
           <div class="line">
             Cédula:
@@ -63,6 +69,17 @@
           </p>
         </div>
       </div>
+    </modal>
+    
+    <modal :width="700" :height="600" name="modal-recibo">
+        <div class="container-modal">
+            <div class="logo">
+              <img
+                :src="user.dni + '.png'"
+                alt="logo"
+              />
+          </div>
+        </div>
     </modal>
   </div>
 </template>
@@ -115,6 +132,9 @@ export default {
     closeModalEdit() {
       this.$modal.hide(`modal-user`);
     },
+    mostrarRecibo(cedula){
+      this.$modal.show(`modal-recibo`)
+    }
   },
 }
 </script>
@@ -155,6 +175,14 @@ export default {
     color: rgb(255, 255, 255);
   }
 }
+ .logo {
+    width: 40%;
+    display: inline-block;
+    color: white;
+    img {
+      width: 80px;
+    }
+  }
 .container-modal {
   h3 {
     color: $principal-color;
