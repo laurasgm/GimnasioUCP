@@ -1,26 +1,6 @@
 <template>
   <div class="container-gruop">
       <h1> 
-        <div id=nav> 
-          <div class="logo">
-            <router-link to="/homeUsuarios">
-              <img
-                @click="this.$router.replace({ name: 'HomeUsuarios' })"
-                src="../assets/img/pesa.png"
-                alt="logo"
-              />
-            </router-link>
-          </div>
-          <div class="logo">
-             <router-link>
-              <img
-                @click="this.$router.replace({name: 'GroupExercises', params: { tipoEjercicio: tipoEjercicio }});"
-                src="../assets/img/musculo.jpg"
-                alt="logo"
-              />
-            </router-link>
-          </div>
-        </div> 
         Grupos de ejercicios
       </h1>
     <!-- Card -->
