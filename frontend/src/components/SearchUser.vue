@@ -20,7 +20,7 @@
         <h3>Datos de usuario</h3>
         <div class="logo">
           <img
-            @click="mostrarRecibo(user.dni)" 
+            @click="mostrarRecibo()" 
             src="../assets/icono-recibo.png"
             alt="logo"
           />
@@ -75,7 +75,7 @@
         <div class="container-modal">
             <div class="logo">
               <img
-                :src="user.dni + '.png'"
+                v-bind:src= "'@'+image" 
                 alt="logo"
               />
           </div>
@@ -97,6 +97,7 @@ export default {
       user: {},
       loading: true,
       state: 'Activa',
+      image: ''
     }
   },
   computed: {
@@ -132,8 +133,22 @@ export default {
     closeModalEdit() {
       this.$modal.hide(`modal-user`);
     },
-    mostrarRecibo(cedula){
-      this.$modal.show(`modal-recibo`)
+    mostrarRecibo(){
+     debugger;
+      axios
+        .get(`http://localhost:3000/api/pathRecibo/${this.form.dni}`)
+        .then((response) => {
+          debugger;
+          if (response.data) {
+            this.image = response.data.path;
+            this.$modal.show(`modal-recibo`)
+          } else {
+            this.$snotify.error('No se encuentra el archivo de recibo')
+          }
+        })
+        .catch((error) => {
+          this.$snotify.error('Error al encontrar archivo de recibo')
+        })
     }
   },
 }
