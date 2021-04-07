@@ -72,14 +72,12 @@
     </modal>
     
     <modal :width="700" :height="600" name="modal-recibo">
-        <div class="container-modal">
-            <div class="logo">
-              <img
-                v-bind:src= "'@'+image" 
-                alt="logo"
-              />
-          </div>
-        </div>
+      <img
+          width="600" 
+          height="500"
+        :src= "image" 
+        alt="logo"
+      />
     </modal>
   </div>
 </template>
@@ -135,22 +133,10 @@ export default {
     },
     mostrarRecibo(){
      debugger;
-      axios
-        .get(`http://localhost:3000/api/pathRecibo/${this.form.dni}`)
-        .then((response) => {
-          debugger;
-          if (response.data) {
-            this.image = response.data.path;
-            this.$modal.show(`modal-recibo`)
-          } else {
-            this.$snotify.error('No se encuentra el archivo de recibo')
-          }
-        })
-        .catch((error) => {
-          this.$snotify.error('Error al encontrar archivo de recibo')
-        })
-    }
-  },
+     this.image = 'http://127.0.0.1:8082/' + this.form.dni + '.png'
+     this.$modal.show(`modal-recibo`);
+    },
+  }
 }
 </script>
 
