@@ -118,9 +118,5 @@ export default {
     color:black; 
     background-color: rgba(134, 125, 125, 0.253); 
   }
-  option:hover { 
-    color: black; 
-    background-color: #47ba4b !important; 
-  }
 }
 </style>
