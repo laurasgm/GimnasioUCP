@@ -74,6 +74,12 @@ const routes = [
     beforeEnter: multiguard([isLoggedIn]),
   },
   {
+    path: '/exercisesPersonalized',
+    name: 'ExercisesPersonalized',
+    component: () => import('../views/ExercisesPersonalized.vue'),
+    beforeEnter: multiguard([isLoggedIn]),
+  },
+  {
     path: '/homeExercises/:grupo',
     name: 'HomeExercises',
     component: () => import('../views/HomeExercises.vue'),

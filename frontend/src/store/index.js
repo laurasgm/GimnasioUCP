@@ -23,8 +23,10 @@ export default new Vuex.Store({
     },
 
     DELETE_CREDENTIALS(state) {
-      state.tokenAuth = ''
-      localStorage.removeItem('tokenAuth')
+      state.tokenAuth = '';
+      localStorage.removeItem('tokenAuth');
+      localStorage.removeItem('usuario');
+      
     },
 
     DELETE_ADMIN(state) {

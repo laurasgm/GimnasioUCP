@@ -19,8 +19,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/AduccionPoleaBaja.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="AduccionPoleaBaja" src="../assets/img/GruposMusculos/Pierna/AduccionPoleaBaja.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('AduccionPoleaBaja', 'Aducción en polea baja.', '12 x 12', 'La pierna es llevada desde la máquina, hacia el centro del cuerpo y por delante de la otra pierna que se encuentra apoyada en el suelo.', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -63,8 +69,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/BalonPilates.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="BalonPilates" src="../assets/img/GruposMusculos/Pierna/BalonPilates.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('BalonPilates', 'Sentado en maquina o balón pilates.', '12 x 12', 'Debemos separar las piernas al máximo mientras empujamos los cojines que están sobre la cara externa de nuestras piernas y después, regresar lentamente a la posición inicial.', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -107,8 +119,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/CrulFlexionMaquinaFemural.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="CrulFlexionMaquinaFemural" src="../assets/img/GruposMusculos/Pierna/CrulFlexionMaquinaFemural.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('CrulFlexionMaquinaFemural', 'Curl flexión femoral en maquina.', '12 x 12', 'Inicia tirando del peso con tus pantorrillas, sintiendo la presión en los isquiotibiales. Haz esto hasta el punto de máxima extensión para ti.', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -153,8 +171,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/CurlNordico.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="CurlNordico" src="../assets/img/GruposMusculos/Pierna/CurlNordico.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('CurlNordico', 'Curl nórdico', '12 x 12', 'Nos colocaremos apoyados con las rodillas en el suelo, el vertical, y procederemos a descender hacia abajo lentamente.', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -197,8 +221,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/CurlNordicoInverso.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="CurlNordicoInverso" src="../assets/img/GruposMusculos/Pierna/CurlNordicoInverso.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('CurlNordicoInverso', 'Curl nórdico inverso', '12 x 12', 'Mueva lentamente su cuerpo hacia atrás tanto como pueda doblando las rodillas mientras inhala. Regrese a la posición inicial mientras exhala.', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -241,8 +271,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/CurlSentadoMaquina.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="CurlSentadoMaquina" src="../assets/img/GruposMusculos/Pierna/CurlSentadoMaquina.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('CurlSentadoMaquina', 'Curl femural sentado en maquina', '12 x 12', 'extiende las piernas en su totalidad a la vez que aspiras.			Sostén el peso por uno o dos segundos y vuelve a la posición inicial.', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -288,8 +324,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/ElevacionTalonesMaquina.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="ElevacionTalonesMaquina" src="../assets/img/GruposMusculos/Pierna/ElevacionTalonesMaquina.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('ElevacionTalonesMaquina', 'Elevación de talones en maquina', '15 x 15', 'Utilizando las pantorrillas, levante los talones con un movimiento fuerte mientras exhala. Vuelva a la posición inicial con un suave movimiento mientras inhala.', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -332,8 +374,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/ElevacionTalonesSentados.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="ElevacionTalonesSentados" src="../assets/img/GruposMusculos/Pierna/ElevacionTalonesSentados.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('ElevacionTalonesSentados', 'Elevación de talones sentado', '20 x 20', 'Sube los talones por la flexión de la planta de los pies. Luego bájalos hasta la posición inicia.', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -344,7 +392,7 @@
 							<h4 class="card-title"><strong>Elevación de talones sentado</strong></h4>
 							<h5>20 x 20</h5>
 
-							<p class="card-text">Sube los talones por la flexión de la planta de los pies. Luego bájalos hasta la posición inicia
+							<p class="card-text">Sube los talones por la flexión de la planta de los pies. Luego bájalos hasta la posición inicia.
 							</p>
 
 							<!--Facebook-->
@@ -376,8 +424,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/ExtensionPiernaMaquina.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="ExtensionPiernaMaquina" src="../assets/img/GruposMusculos/Pierna/ExtensionPiernaMaquina.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('ExtensionPiernaMaquina', 'Extensión de pierna en maquina', '12 x 12', 'realizar una extensión de rodilla de manera de levantar el peso con las piernas hasta que éstas queden horizontales y luego comenzamos un descenso lento y controlado.', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -422,8 +476,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/HipThurst.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="HipThurst" src="../assets/img/GruposMusculos/Pierna/HipThurst.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('HipThurst', 'Hip thrust.', '12 x 12', 'Agarramos la barra con ambas manos para que no se mueva de su sitio y para evitar que ruede hacia arriba, y extendemos la cadera de modo que nuestro cuerpo forme una línea recta.', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -466,8 +526,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/LumbaresBuenosDias.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="LumbaresBuenosDias" src="../assets/img/GruposMusculos/Pierna/LumbaresBuenosDias.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('LumbaresBuenosDias', 'Buenos días.', '10 x 10', 'Para iniciar con el ejercicio propiamente, bajaremos el tronco hacia adelante, siempre manteniendo la espalda en una posición erecta, a manera de una reverencia, por ultimo regresamos a la posixión de inicio.', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -510,8 +576,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/MaquinaExtensorGluteo.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="MaquinaExtensorGluteo" src="../assets/img/GruposMusculos/Pierna/MaquinaExtensorGluteo.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('MaquinaExtensorGluteo', 'Maquina extensor gluteo', '15 x 15', 'Nos posicionamos en la maquina, y extendemos la pierna, al volver a la posicion inicial lo haremos lentamente sin dejarla caer por el peso.', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -556,8 +628,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/MaquinaTotalHiit.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="MaquinaTotalHiit" src="../assets/img/GruposMusculos/Pierna/MaquinaTotalHiit.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('MaquinaTotalHiit', 'Maquina total hiit.', '12 x 12', 'Juntamos los muslos de manera que las rodillas o los cojines que están delante de ellas se unan en el centro, delante nuestro. Sostenemos la posición unos segundos y lentamente regresamos a la posición inicial.', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -600,8 +678,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/OverheadSquatTrx.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="OverheadSquatTrx" src="../assets/img/GruposMusculos/Pierna/OverheadSquatTrx.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('OverheadSquatTrx', 'overhead squat trx', '15 x 15', 'Consiste en realizar una sentadilla manteniendo los extremos del trx sujetos con las manos arriba.', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -644,8 +728,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/PatadaPoleaBaja.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="PatadaPoleaBaja" src="../assets/img/GruposMusculos/Pierna/PatadaPoleaBaja.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('PatadaPoleaBaja', 'Patada de gluteo en polea baja.', '12 x 12', 'La idea es que eleves la pierna por la extensión de la cadera y evitar la flexión de la rodilla.', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -690,8 +780,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/PesoMuertoBarra.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="PesoMuertoBarra" src="../assets/img/GruposMusculos/Pierna/PesoMuertoBarra.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('PesoMuertoBarra', 'Peso muerto con barra.', '12 x 12', 'A través de los talones, mueva la barra hacia arriba extendiendo sus caderas y rodillas al mismo tiempo mientras exhala y regrese a la posición inicial.', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -734,8 +830,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/PesoMuertoRumano.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="PesoMuertoRumano" src="../assets/img/GruposMusculos/Pierna/PesoMuertoRumano.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('PesoMuertoRumano', 'Peso muerto rumano.', '12 x 12', 'Procedemos a tirar las caderas hacia atrás mientras descendemos, una vez que hayamos extendido la cadera por completo, contraemos los glúteos fuertemente y regresamos a  la posición inicial.', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -778,8 +880,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/PrensaElevacionTalones.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="PrensaElevacionTalones" src="../assets/img/GruposMusculos/Pierna/PrensaElevacionTalones.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('PrensaElevacionTalones', 'Elevación de talones en prensa.', '12 x 12', 'Respira profundamente, mantén la respiración y extiende los pies de forma lenta o moderada; completando un recorrido de 45 grados con la máquina.', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -824,8 +932,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/PressSentadillaKettlebell.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="PressSentadillaKettlebell" src="../assets/img/GruposMusculos/Pierna/PressSentadillaKettlebell.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('PressSentadillaKettlebell', 'Press sentadilla con kettlebell.', '12 x 12', 'Con la espalda recta agáchate y agarra con seguridad la pesa rusa. De un movimiento explosivo levántala y estira el brazo.', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -868,8 +982,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/SentadillaFrontalBarra.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="SentadillaFrontalBarra" src="../assets/img/GruposMusculos/Pierna/SentadillaFrontalBarra.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('SentadillaFrontalBarra', 'Sentadilla forntal con barra.', '12 x 12', 'Colócate debajo de la barra y déjala encima del deltoides, tomas aire y comienzas a descender manteniendo la postura correcta.', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -912,8 +1032,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/SentadillaHaka.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="SentadillaHaka" src="../assets/img/GruposMusculos/Pierna/SentadillaHaka.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('SentadillaHaka', 'Sentadilla haka', '12 x 12', 'Inicia el ejercicio flexionando tus piernas hasta que los muslos queden paralelos a la plataforma. Las rodillas tienen que formar un ángulo de 90 grados y deben quedar en línea con los dedos del pie.', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -958,8 +1084,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/SentadillaKettlebell.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="SentadillaKettlebell" src="../assets/img/GruposMusculos/Pierna/SentadillaKettlebell.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('SentadillaKettlebell', 'Sentadilla haka', '12 x 12', 'Inicia el ejercicio flexionando tus piernas hasta que los muslos queden paralelos a la plataforma. Las rodillas tienen que formar un ángulo de 90 grados y deben quedar en línea con los dedos del pie.', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -1002,8 +1134,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/SentadillaKettlebell2.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="SentadillaKettlebell2" src="../assets/img/GruposMusculos/Pierna/SentadillaKettlebell2.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('SentadillaKettlebell2', 'Sentadilla con kettlebell.', '12 x 12', 'Mientras bajas hasta estar en una posición de 90 grados, paralelo al suelo, mantén los codos por delante, a la altura de las rodillas aproximadamente.', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -1046,8 +1184,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/SentadillaKettlebellSumo.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="SentadillaKettlebellSumo" src="../assets/img/GruposMusculos/Pierna/SentadillaKettlebellSumo.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('SentadillaKettlebellSumo', 'Sentadilla sumo con kettlebell.', '12 x 12', 'Cuando iniciamos la flexión de la cadera (descenso) el glúteo debe desplazarse hacia atráss. La fuerza debemos ejercerla solo con las piernas.', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -1092,8 +1236,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/SentadillaLateral.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="SentadillaLateral" src="../assets/img/GruposMusculos/Pierna/SentadillaLateral.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('SentadillaLateral', 'Sentadilla lateral.', '12 x 4', 'párate derecho con las piernas abiertas, dobla una pierna por la rodilla, mientras que la otra la mantenemos estirada. Los pies estarán pegados al suelo durante este movimiento.', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -1136,8 +1286,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/SentadillaMaquina45Grados.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="SentadillaMaquina45Grados" src="../assets/img/GruposMusculos/Pierna/SentadillaMaquina45Grados.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('SentadillaMaquina45Grados', 'entadilla maquina 45°', '12 x 4', 'Se ubica en la máquina postura recta luego de esto debe desender y ascender repetir varias veces.', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -1180,8 +1336,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/SentadillaMaquinaSmith.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="SentadillaMaquinaSmith" src="../assets/img/GruposMusculos/Pierna/SentadillaMaquinaSmith.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('SentadillaMaquinaSmith', 'Sentadilla maquina smith.', '12 x 4', 'Doble las rodillas y baje las piernas hasta que los muslos queden paralelos al suelo mientras inhala. En un movimiento rápido, regrese a la posición inicial presionando principalmente desde los talones mientras exhala.', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -1226,8 +1388,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/SentadillaMixta.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="SentadillaMixta" src="../assets/img/GruposMusculos/Pierna/SentadillaMixta.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('SentadillaMixta', 'Sentadilla mixta.', '12 x 4', 'Sin descripcion por ahora.', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -1270,8 +1438,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/SentadillaPesoCorporal.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="SentadillaPesoCorporal" src="../assets/img/GruposMusculos/Pierna/SentadillaPesoCorporal.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('SentadillaPesoCorporal', 'Sentadilla con peso corporal.', '12 x 4', 'Flexionando simultáneamente las caderas y las rodillas, asegurándose de descender cuando menos hasta el momento en que los muslos estén paralelos al piso. Volver a posición inicial', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -1314,8 +1488,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/SentadillaSissy.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="SentadillaSissy" src="../assets/img/GruposMusculos/Pierna/SentadillaSissy.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('SentadillaSissy', 'Sentadilla sissy.', '12 x 4', 'Doblar las rodillas hacia delante para permitir que el cuerpo caiga hacia atrás mientras se elevan los talones del suelo.	al tener la rodillas flexionadas nos devolvemos a la posición inicial.', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -1361,8 +1541,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/SentadillaSumo.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="SentadillaSumo" src="../assets/img/GruposMusculos/Pierna/SentadillaSumo.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('SentadillaSumo', 'Sentadilla sumo', '12 x 4', 'Separa las piernas al doble de la anchura de los hombros, Orienta las puntas de los pies hacia el exterior en un ángulo de 45º. Flexiona las rodillas hasta los 90º luego vuelve a la posición inicial y repite el ejercicio', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -1405,8 +1591,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/SentadillaUnaPierna.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="SentadillaUnaPierna" src="../assets/img/GruposMusculos/Pierna/SentadillaUnaPierna.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('SentadillaUnaPierna', 'Sentadilla a una pierna.', '12 x 4', 'Levante una pierna enfrente suyo. Balancee la pierna contraria, flexione las rodillas y lentamente baje el cuerpo hasta que el talón de la pierna extendida toque ligeramente el piso. Haga una pausa y luego empújese hacia atrás para volver a la posición inicial', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -1449,8 +1641,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/SingleLegSquatTrx.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="SingleLegSquatTrx" src="../assets/img/GruposMusculos/Pierna/SingleLegSquatTrx.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('SingleLegSquatTrx', 'Single leg squat trx.', '12 x 4', 'Levanta una de las piernas  luego Flexiona la rodilla de la pierna que está apoyada acercando los glúteos al suelo echa el cuerpo hacia atrás manteniendo la espalda recta. Lentamente vuelve a la posición inicial.', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -1495,8 +1693,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/SlideLegExcentrico.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="SlideLegExcentrico" src="../assets/img/GruposMusculos/Pierna/SlideLegExcentrico.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('SlideLegExcentrico', 'Slide leg excéntrico', '12 x 4', 'Eleva una pierna del suelo. Aguanta la excéntrica con la pierna de apoyo y recupera con ambas piernas.', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -1539,8 +1743,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/SquatTrx.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="SquatTrx" src="../assets/img/GruposMusculos/Pierna/SquatTrx.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('SquatTrx', 'Squat trx', '12 x 4', 'El movimiento consiste en bajar desde la posición erguida, flexionando rodillas y cadera, hasta colocar los muslos paralelos al suelo, mirando hacia el frente y manteniendo la espalda recta', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -1583,8 +1793,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/SuspendedLungeTrx.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="SuspendedLungeTrx" src="../assets/img/GruposMusculos/Pierna/SuspendedLungeTrx.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('SuspendedLungeTrx', 'Suspended lunge trx', '12 x 4', 'Doble la rodilla derecha y báje lentamente hasta que la parte superior del muslo esté paralela al suelo. Haga una pausa y regrese a la posición inicial', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -1630,8 +1846,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/TijeraBulgara.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="TijeraBulgara" src="../assets/img/GruposMusculos/Pierna/TijeraBulgara.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('TijeraBulgara', 'Tijera búlgara.', '12 x 4', 'En posición de zancada, con la pierna trasera elevada, inspiraremos mientras realizamos la fase excéntrica e iremos descendiendo mediante la flexión de la rodilla, la cadera y el tobillo.', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -1674,8 +1896,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pierna/TijeraConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="TijeraConMancuerna" src="../assets/img/GruposMusculos/Pierna/TijeraConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('TijeraConMancuerna', 'Tijera con mancuerna', '12 x 4', 'Baja las caderas hasta que el muslo adelantado esté casi paralelo al suelo. Empuja con el talón delantero y estira las caderas y las rodillas para volver a la posición inicial, repetir con el otro costado.', 1)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -1725,8 +1953,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Hombro/DumbbellPressMedioConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="DumbbellPressMedioConMancuerna" src="../assets/img/GruposMusculos/Hombro/DumbbellPressMedioConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('DumbbellPressMedioConMancuerna', 'Dumbbell press medio con mancuerna.', '12 x 4', 'Manteniendo los codos fijos, exhale mientras levanta las mancuernas con un movimiento circular hasta que casi se toquen entre sí sobre su cabeza. Inhale mientras regresa las mancuernas a la posición inicial.', 2)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -1769,8 +2003,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Hombro/ElevacionFrontalAnterior.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="ElevacionFrontalAnterior" src="../assets/img/GruposMusculos/Hombro/ElevacionFrontalAnterior.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('ElevacionFrontalAnterior', 'Elevación frontal anterior.', '12 x 4', 'Las mancuernas deben apoyarse junto a las manos sobre los muslos, ligeramente hacia los costados. Inspiramos y comenzamos a contraer los músculos para elevar los brazos hacia adelante mientras espiramos el aire.', 2)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -1813,8 +2053,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Hombro/ElevacionFrontalBancoConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="ElevacionFrontalBancoConMancuerna" src="../assets/img/GruposMusculos/Hombro/ElevacionFrontalBancoConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('ElevacionFrontalBancoConMancuerna', 'Elevación frontal en banco con mancuerna.', '12 x 4', 'Levante las mancuernas frente a usted hasta que estén justo por encima de su cabeza mientras exhala. Vuelva a la posición inicial con un suave movimiento mientras inhala.', 2)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -1859,8 +2105,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Hombro/ElevacionFrontalConBarra.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="ElevacionFrontalConBarra" src="../assets/img/GruposMusculos/Hombro/ElevacionFrontalConBarra.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('ElevacionFrontalConBarra', 'Elevación frontal con barra.', '12 x 4', 'Con los codos ligeramente flexionados, contraer la porción anterior del deltoides para elevar la barra por delante del cuerpo hasta que los brazos queden paralelos con el suelo.', 2)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -1903,8 +2155,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Hombro/ElevacionFrontalConBarraZPoleaBaja.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="ElevacionFrontalConBarraZPoleaBaja" src="../assets/img/GruposMusculos/Hombro/ElevacionFrontalConBarraZPoleaBaja.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('ElevacionFrontalConBarraZPoleaBaja', 'Elevación frontal barra z polea baja.', '12 x 4', 'Tomas la barra con distancia de un pulgar al centro, pies un poco flexionados y espalda recta antes de empezar el movimiento. Inicia desde la parte inferior con los brazos estirados y los extiendes a la altura de la barbilla, para finalizar deciendes lentamente a la posición inicial.', 2)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -1947,8 +2205,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Hombro/ElevacionFrontalConDisco.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="ElevacionFrontalConDisco" src="../assets/img/GruposMusculos/Hombro/ElevacionFrontalConDisco.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('ElevacionFrontalConDisco', 'Elevación frontal con disco.', '12 x 4', 'Coge un disco con ambas manos, agarrándolo firmemente de sus lados. Eleva el disco al frente, con los codos desbloqueados, hasta que el disco llegue a la altura de los hombros. Vuelve a bajar el peso de forma controlada sin que el disco llegue a rebotar o descansar en las piernas.', 2)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -1993,8 +2257,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Hombro/ElevacionFrontalConPoleaBajaAlternas.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="ElevacionFrontalConPoleaBajaAlternas" src="../assets/img/GruposMusculos/Hombro/ElevacionFrontalConPoleaBajaAlternas.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('ElevacionFrontalConPoleaBajaAlternas', 'Elevación frontal con polea baja alterna.', '12 x 4', 'Con una mano tomamos el mago previa carga de la polea, de manera que la palma de la mano mire hacia abajo (pronación), con los brazos a los lados del cuerpo, comenzamos el movimiento. Inspiramos y elevamos un brazo con el codo ligeramente flexionado hasta llegar a la altura de los ojos con las manos.', 2)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -2037,8 +2307,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Hombro/ElevacionLateralConPolea.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="ElevacionLateralConPolea" src="../assets/img/GruposMusculos/Hombro/ElevacionLateralConPolea.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('ElevacionLateralConPolea', 'Elevación lateral con polea.', '12 x 4', 'Sujeta la polea a un lado de tu cuerpo, con el brazos extendido y agarre neutro. Levanta la polea a un lado de tu cuerpo, a la altura de tu hombro y sin flexionar los codos, luego de una breve pausa bájala lentamente.', 2)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -2081,8 +2357,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Hombro/ElevacionPosterioresConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="ElevacionPosterioresConMancuerna" src="../assets/img/GruposMusculos/Hombro/ElevacionPosterioresConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('ElevacionPosterioresConMancuerna', 'Elevación posteriores con mancuerna.', '12 x 4', 'Con los codos ligeramente flexionados, sube ambos brazos hasta que tus antebrazos se ubiquen paralelos al piso. En este momento, haz una breve pausa de uno o dos segundos, para, finalmente, volver a la posición inicial.', 2)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -2127,8 +2409,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Hombro/FlexionLateralOblicuo.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="FlexionLateralOblicuo" src="../assets/img/GruposMusculos/Hombro/FlexionLateralOblicuo.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('FlexionLateralOblicuo', 'Flexión lateral con kettlebell.', '12 x 4', 'Coloca tus piernas a una anchura superior a la de tus hombros, agarra la pesa rusa con una mano y estira el brazo hacia arriba, baja la mano libre hasta tocar el suelo o el pie con la misma. Vuelve a la posición y repite el ejercicio.', 2)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -2171,8 +2459,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Hombro/FrontalNeutroBilateralSentado.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="FrontalNeutroBilateralSentado" src="../assets/img/GruposMusculos/Hombro/FrontalNeutroBilateralSentado.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('FrontalNeutroBilateralSentado', 'Frontal neutro bilateral sentado con mancuerna.', '12 x 4', 'Los brazos deben estar estirados y la espalda recta. Agarre las mancuernas de modo a que el pulgar permanezca girado hacia adelante. Levante una mancuerna hacia adelante hasta la altura del hombro. Regrese lentamente a la posición inicial y haga el mismo movimiento con la otra mancuerna.', 2)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -2215,8 +2509,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Hombro/FrontalNeutroConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="FrontalNeutroConMancuerna" src="../assets/img/GruposMusculos/Hombro/FrontalNeutroConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('FrontalNeutroConMancuerna', 'Frontal neutro con una mancuerna.', '12 x 4', 'De pie con las piernas ligeramente separadas, la espada bien recta, abdominales contraídos, una mancuerna apoyada sobre los muslos, manos cruzadas sobre el mango, palmas frente a frente y brazos estirados. Inspirar y elevar la mancuerna hasta la altura de los ojos.', 2)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -2261,8 +2561,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Hombro/PressCubano.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="PressCubano" src="../assets/img/GruposMusculos/Hombro/PressCubano.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('PressCubano', 'Press cubano.', '12 x 4', 'Para realizar la rotación cubana debemos coger una mancuerna en cada mano o una barra tomada con ambas manos y elevando los brazos a la altura de los hombros, flexionados hacia abajo y adelante por medio de los codos, realizamos una rotación de los hombros de manera que las manos pasen de estar en dirección al suelo para estar hacia arriba de la cabeza.', 2)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -2305,8 +2611,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Hombro/PressMilitarBilateralConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="PressMilitarBilateralConMancuerna" src="../assets/img/GruposMusculos/Hombro/PressMilitarBilateralConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('PressMilitarBilateralConMancuerna', 'Press militar bilateral con mancuerna.', '12 x 4', 'Este es muy similiar al press militar, la diferencia es que el ejercicio se realiza cada brazo de manera individual. Desde el hombro inspiramos y elevamos las mancuerna hasta estirar el brazo hacia arriba, verticalmente. Espiramos al finalizar el movimiento mientras iniciamos el descenso a la posición inicial.', 2)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -2349,8 +2661,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Hombro/PressMilitarConMancuernasOBarra.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="PressMilitarConMancuernasOBarra" src="../assets/img/GruposMusculos/Hombro/PressMilitarConMancuernasOBarra.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('PressMilitarConMancuernasOBarra', 'Press militar con mancuerna.', '12 x 4', 'Desde los hombros inspiramos y elevamos las mancuernas hasta estirar los brazos hacia arriba, verticalmente. Espiramos al finalizar el movimiento mientras iniciamos el descenso a la posición inicial.', 2)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -2395,8 +2713,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Hombro/TDeltoidFlyTrx.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="TDeltoidFlyTrx" src="../assets/img/GruposMusculos/Hombro/TDeltoidFlyTrx.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('TDeltoidFlyTrx', 'T deltoid fly trx.', '15 x 4', 'Con su núcleo comprometido, abra los brazos hacia los lados, como si estuviera haciendo una T con los brazos. Asegúrese de mantener la tensión en las correas durante todo el movimiento.', 2)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -2446,8 +2770,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pecho/AperturaPeck.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="AperturaPeck" src="../assets/img/GruposMusculos/Pecho/AperturaPeck.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('AperturaPeck', 'Aperturas peck.', '15 x 4', 'Para completar el ejercicio, jalaremos con fuerza, tensando un poco las muñecas y un algo más los antebrazos. Aunque no debe buscarse llevar los puños hasta el pecho si es que se siente demasiada tensión en los grupos musculares; sobre todo si esto ocurre en los brazos.', 3)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -2490,8 +2820,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pecho/Crosover.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="Crosover" src="../assets/img/GruposMusculos/Pecho/Crosover.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('Crosover', 'Crosever.', '12 x 4', 'Contrae los pectorales y estira los brazos juntos delante de ti con una ligera inclinación hacia delante de la cintura para arriba. Haz una pausa y luego vuelve lentamente a la posición de inicio.', 3)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -2534,8 +2870,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pecho/CruceEnPoleaBaja.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="CruceEnPoleaBaja" src="../assets/img/GruposMusculos/Pecho/CruceEnPoleaBaja.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('CruceEnPoleaBaja', 'Cruce en polea baja.', '15 x 4', 'Con una ligera flexión en los codos para evitar el estrés en el tendón del bíceps, extenderemos los brazos hacia el centro en ambos lados hasta que sintamos un estiramiento en el pecho. Inhalamos a medida que se realiza esta parte del movimiento.', 3)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -2580,8 +2922,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pecho/CruceEnPoleaMedia.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="CruceEnPoleaMedia" src="../assets/img/GruposMusculos/Pecho/CruceEnPoleaMedia.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('CruceEnPoleaMedia', 'Cruce en polea media.', '12 x 4', 'Con los puños cerrados y sin modificar la flexión de los codos, movilizamos los brazos desde arriba hacia adelante del torso mientras realizamos un cruce de polea, pasando una mano por encima de otra. Inspiramos al final del movimientos y comenzamos el regreso de manera controlada a la posición inicial.', 3)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -2624,8 +2972,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pecho/CurlInclinadoConMancuernas.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="CurlInclinadoConMancuernas" src="../assets/img/GruposMusculos/Pecho/CurlInclinadoConMancuernas.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('CurlInclinadoConMancuernas', 'Curl inclinado con mancuerna.', '12 x 4', 'Flexione el codo y lleve una pesa hacia el hombro. Haga una pausa y a continuación baje el brazo para volver a la posición inicial.', 3)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -2668,8 +3022,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pecho/Flexiones.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="Flexiones" src="../assets/img/GruposMusculos/Pecho/Flexiones.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('Flexiones', 'Flexiones', '20 x 4', 'Baje el cuerpo hasta que el pecho esté cerca del piso asegurándose de flexionar los codos a los lados del torso. Haga una pausa y empújese a la posición inicial.', 3)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -2714,8 +3074,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pecho/FlexionesConAplauso.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="FlexionesConAplauso" src="../assets/img/GruposMusculos/Pecho/FlexionesConAplauso.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('FlexionesConAplauso', 'Flexiones con aplauso.', '20 x 4', 'Una vez que su torso haya llegado al suelo, tome fuerzas y eleve su cuerpo con un movimiento explosivo y dé un aplauso por abajo del torso, luego, rápidamente coloque las manos y brazos en la posición inicial.', 3)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -2758,8 +3124,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pecho/FondosBarrasParalelas.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="FondosBarrasParalelas" src="../assets/img/GruposMusculos/Pecho/FondosBarrasParalelas.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('FondosBarrasParalelas', 'Fondos con barras paralelas.', '12 x 4', 'Dobla los codos y baja el cuerpo hasta que la parte superior de los brazos esté en paralelo al suelo. Deja que el torso se incline hacia delante hasta que el pecho esté casi en paralelo al suelo.', 3)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -2802,8 +3174,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pecho/FondosCodosAbiertos.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="FondosCodosAbiertos" src="../assets/img/GruposMusculos/Pecho/FondosCodosAbiertos.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('FondosCodosAbiertos', 'Fondos codos abiertos.', '12 x 4', 'Inspiramos y flexionamos los codos de manera de que el pecho descienda hasta el nivel de las barras, siempre conservando las piernas y el torso inmóvil. Sólo debe moverse el cuerpo hacia abajo y arriba por la flexión de brazos.', 3)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -2848,8 +3226,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pecho/FondosEnMaquina.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="FondosEnMaquina" src="../assets/img/GruposMusculos/Pecho/FondosEnMaquina.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('FondosEnMaquina', 'Fondos en maquina.', '12 x 4', 'Inhale durante el descenso. Contrayendo sus tríceps y pectorales, presione la parte superior de su cuerpo hacia la posición inicial mientras exhala. Asegúrate de empujar tu cuerpo hacia arriba y separar las orejas de los hombros durante el ascenso.', 3)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -2892,8 +3276,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pecho/PechoConBalonPilates.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="PechoConBalonPilates" src="../assets/img/GruposMusculos/Pecho/PechoConBalonPilates.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('FondosEnMaquina', 'Pecho con balón pilates.', '15 x 4', 'Boca abajo, apoya los muslos y rodillas en la parte superior de la bola, esfuérzate por extender los brazos y baja lentamente hacia abajo después de una breve pausa. Toma aire mientras empujas y suéltalo lentamente mientras regresas a la posición inicial.', 3)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -2936,8 +3326,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pecho/PressBancoPlano.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="PressBancoPlano" src="../assets/img/GruposMusculos/Pecho/PressBancoPlano.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('PressBancoPlano', 'Press banco plano con barra.', '12 x 4', 'Desde allí debemos inspirar y descender lentamente la barra hacia el pecho, sin despegar la espalda del banco. Una vez la barra esté sobre el pecho debemos empujar hacia arriba mientras espiramos y subimos lentamente los brazos.', 3)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -2982,8 +3378,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pecho/PressDeclinadoConBarra.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="PressDeclinadoConBarra" src="../assets/img/GruposMusculos/Pecho/PressDeclinadoConBarra.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('PressDeclinadoConBarra', 'Press declinado con barra.', '12 x 4', 'Utilizaremos un agarre un poco más ancho  que los hombros.	Inspiramos, y descendemos lentamente la barra hasta que roce  la parte inferior de nuestro pecho. Levantamos nuevamente a la posición inicial y lo mantenemos durante 1 seg para empezar nuevamente.', 3)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -3027,8 +3429,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pecho/PressHammerDeclinada.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="PressHammerDeclinada" src="../assets/img/GruposMusculos/Pecho/PressHammerDeclinada.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('PressHammerDeclinada', 'Press hammer declinada.', '12 x 4', 'Hacer press con trayecto del movimiento predeterminado por la máquina hasta que los codos estén extendidos pero sin bloquear. Lentamente, bajar la barra hasta la posición sin permitir que entre dos repeticiones el peso descanse sobre la sujeción.', 3)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -3073,6 +3481,12 @@
 							<a href="#!">
 								<img src="../assets/img/GruposMusculos/Pecho/PressInclinadoConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('PressInclinadoConMancuerna', 'Press inclinado con mancuerna.', '12 x 4', 'Cuando des inicio con el levantamiento de las pesas, no te olvides de llevar a cabo una correcta respiración; hazlo a la vez que llevas las mancuernas hacia arriba, así como hacia adentro. En el momento de máxima extensión en vertical, expira todo el aire de tus pulmones.', 3)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -3117,8 +3531,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pecho/PulloverConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="PulloverConMancuerna" src="../assets/img/GruposMusculos/Pecho/PulloverConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('PulloverConMancuerna', 'Pullover con mancuerna.', '12 x 4', 'Nos recostamos y estiramos los brazos. Desde allí debemos inspirar y bajar la mancuerna por detrás de la cabeza mientras flexionamos ligeramente los codos para después volver lentamente a la posición inicial mientras exhalamos el aire.', 3)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -3161,8 +3581,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pecho/PushUpTrx.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="PushUpTrx" src="../assets/img/GruposMusculos/Pecho/PushUpTrx.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('PushUpTrx', 'Push up trx.', '15 x 4', 'Flexiona los codos haciendo descender el torso hacia el suelo, hasta quedar lo más cerca posible de éste sin apoyarte. Recupera la posición inicial estirando nuevamente los brazos. Mantén la alineación del cuerpo en todo momento, sin dejar caer los glúteos.', 3)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -3205,8 +3631,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Pecho/SupermanTrx.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="SupermanTrx" src="../assets/img/GruposMusculos/Pecho/SupermanTrx.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('SupermanTrx', 'Superman trx.', '15 x 4', 'Nos colocaremos de pie, con manos en el TRX y brazos extendidos, inclinando el cuerpo hacia adelante para que todo el peso recaiga en los brazos y desde allí, llevamos ambos brazos para arriba mientras contraemos zona media para no caernos.', 3)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -3256,8 +3688,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Abdomen/AbSliderCoaster.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="AbSliderCoaster" src="../assets/img/GruposMusculos/Abdomen/AbSliderCoaster.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('AbSliderCoaster', 'AB slider coaster.', '20 x 4', 'ponte de rodillas coloca la manos en las agarraderas un máquina, luego balanceate  de derecha a izquierda templando el abdomen.', 4)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -3300,8 +3738,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Abdomen/BalonPilates.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="BalonPilates" src="../assets/img/GruposMusculos/Abdomen/BalonPilates.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('BalonPilates', 'Balón pilates.', '12 x 4', 'Para este tenemos gran variedad de ejercicios, simples, sencillos pero eficaces con el balón de pilates.', 4)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -3344,8 +3788,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Abdomen/BottomsUp.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="BottomsUp" src="../assets/img/GruposMusculos/Abdomen/BottomsUp.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('BottomsUp', 'Bottoms up.', '15 x 4', 'Tomamos posición acostados boca arriba en el suelo o en una alfombrilla para yoga. Colocando las piernas completamente rectas y los brazos a los costados. Esta será la posición inicial.', 4)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -3390,8 +3840,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Abdomen/BottomsUp2.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="BottomsUp2" src="../assets/img/GruposMusculos/Abdomen/BottomsUp2.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('BottomsUp2', 'Bottoms up.', '15 x 4', 'posición acostados boca arriba en el suelo  Empezamos el movimiento, doblando las rodillas en dirección al pecho arqueando cadera y rodillas, luego  estiramos las piernas sobre nosotros de tal manera que estas queden perpendiculares con el suelo.', 4)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -3434,8 +3890,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Abdomen/CrunchEnPoleaAlta.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="CrunchEnPoleaAlta" src="../assets/img/GruposMusculos/Abdomen/CrunchEnPoleaAlta.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('CrunchEnPoleaAlta', 'Crunch en polea alta.', '12 x 4', 'Asegúrate que las palmas estén frente a frente empuñando los extremos de la cuerda y justo detrás de tu cuello, toma una distancia prudente de la máquina en la que puedas sentir la tensión de la cuerda Deberás comenzar apretando tus abdominales llevando el peso hacia adelante buscando que tu cabeza se acerque al suelo.', 4)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -3478,8 +3940,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Abdomen/Cruzado.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="Cruzado" src="../assets/img/GruposMusculos/Abdomen/Cruzado.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('Cruzado', 'Abdomen cruzado.', '15 x 4', 'acuesta boca arriba dobla las rodilla. Procede a mover la rodilla izquierda hacia el hombro izquierdo. Asegúrate de intentar tocarte la rodilla con el codo, seguidamente exhala mientras lo vas haciendo, luego vuelve a la posición inicial', 4)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -3524,8 +3992,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Abdomen/FlexionLarteralConKettlebell.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="FlexionLarteralConKettlebell" src="../assets/img/GruposMusculos/Abdomen/FlexionLarteralConKettlebell.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('FlexionLarteralConKettlebell', 'Flexión lateral kettlebell.', '12 x 4', 'Mientras rotas tu pecho a la izquierda, necesitas mirar tu pesa rusa a medida que alcanzas tu pie derecho con tu mano derecha.Después de pausar por unos cuantos segundos, deberías regresar a tu posición', 4)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -3568,8 +4042,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Abdomen/MancuernaOblicuoExterno.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="MancuernaOblicuoExterno" src="../assets/img/GruposMusculos/Abdomen/MancuernaOblicuoExterno.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('MancuernaOblicuoExterno', 'Oblicuo mancuerna.', '12 x 4', 'párate con los pies separados al ancho de los hombros, sujeta con una de las manos la mancuerna flexiona el torso hacia el lado donde sujetas el peso vuelve a posición inicial y haz lo mismo con. La otra mano.', 4)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -3612,8 +4092,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Abdomen/MountainClimberTrx.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="MountainClimberTrx" src="../assets/img/GruposMusculos/Abdomen/MountainClimberTrx.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('MountainClimberTrx', 'Mountain climber trx.', '12 x 4', 'Las piernas se colocan una extendida y otra flexionada, apoyando las puntas de los pies en el trx. Acercamos de forma alternativa las rodillas al pecho, haciendo un movimiento similar a como si estuviéramos corriendo, o más bien escalando.', 4)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -3658,8 +4144,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Abdomen/MovimientoLateralDeCaderaEnMaquina.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="MovimientoLateralDeCaderaEnMaquina" src="../assets/img/GruposMusculos/Abdomen/MovimientoLateralDeCaderaEnMaquina.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('MovimientoLateralDeCaderaEnMaquina', 'Movimiento lateral en maquina.', '12 x 4', 'Nos posicionamos en la maquina, elevando las piernas en posicion de 90°, tratando de mantener las rodillas estaticas hacemos un movimiento de pendulo, contrayendo los musculos del abdomen.', 4)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -3702,8 +4194,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Abdomen/Oblicuo.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="Oblicuo" src="../assets/img/GruposMusculos/Abdomen/Oblicuo.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('Oblicuo', 'Oblicuo.', '20 x 4', 'Para iniciar con el ejercicio propiamente, tomamos una posición con la rodillas un poco flexionadas y las manos en la cabeza, haciendo un movimiento cruzado (intentando alcanzar los codos con nuestra rollida contaria).', 4)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -3746,8 +4244,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Abdomen/ObliqueCrunchTrx.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="ObliqueCrunchTrx" src="../assets/img/GruposMusculos/Abdomen/ObliqueCrunchTrx.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('ObliqueCrunchTrx', 'Oblique crunch trx.', '20 x 4', 'Inicia la posición en plancha con los pies en el TRX y las manos apoyadas en el suelo manteniendo el cuerpo alineado. Una vez tengas controlada la postura inicial, luego proceda a llevar las rodillas hacia un hombro, en un movimiento de arco paralelo al piso, enfocándose en involucrar los abdominales', 4)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -3792,8 +4296,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Abdomen/Plancha.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="Plancha" src="../assets/img/GruposMusculos/Abdomen/Plancha.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('Plancha', 'Plancha.', '3 x 1 min ó 6 px 20 seg', 'Coloca tu cuerpo en paralelo al suelo. Apóyate sólo en tus antebrazos y en las puntas de los pies. Los codos deben estar justo por debajo de los hombros, y el cuerpo debe trazar una línea recta, pero respetando la curvatura natural de tu columna. Mantén la posición.', 4)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -3836,8 +4346,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Abdomen/PlantPendulumTrx.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="PlantPendulumTrx" src="../assets/img/GruposMusculos/Abdomen/PlantPendulumTrx.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('PlantPendulumTrx', 'Plant pendulum trx.', '12 x 4', 'colócate en posición de lagartija con los pies en las correas TRX, la parte inferior de la espalda plana y las manos directamente debajo de los hombros, Usando sus abdominales, tire de su cuerpo hacia arriba en una posición de lucio contraiga los abdominales luego vuelve a posición inicial.', 4)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -3880,8 +4396,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Abdomen/RotacioLateralPaletaAlta.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="RotacioLateralPaletaAlta" src="../assets/img/GruposMusculos/Abdomen/RotacioLateralPaletaAlta.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('RotacioLateralPaletaAlta', 'Rotación lateral polea alta.', '15 x 4', 'Flexionamos lateralmente el torso  mientras levantamos el peso de la polea alta, inclinándonos hacia el lado de la polea, con el codo siempre flexionado que debe descender por el lateral del cuerpo como si se dirigiera hacia la cadera regresa lentamente a la posición inicial.', 4)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -3926,8 +4448,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Abdomen/RotacionMedialConDisco.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="RotacionMedialConDisco" src="../assets/img/GruposMusculos/Abdomen/RotacionMedialConDisco.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('RotacionMedialConDisco', 'Rotación medial con disco.', '15 x 4', 'Coloquese de pie con sus dos manos debe sostener el disco quedando el disco a la altura del pecho, luego gire el torso del cuerpo hacia el lado derecho y luego hacia el lado izquierdo teniendo en cuenta que no debe permitir que sus pies deben quedar firmes al piso.', 4)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -3970,8 +4498,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Abdomen/RuedaAbdominalPie.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="RuedaAbdominalPie" src="../assets/img/GruposMusculos/Abdomen/RuedaAbdominalPie.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('RuedaAbdominalPie', 'Rueda abdominal de pie.', '12 x 4', 'Coloca tu cuerpo el paralelo al suelo el cuerpo debe trazar una línea recta. Los brazos deben estar totalmente extendidos y la espalda recta, pero respetando las curvaturas naturales. Debes notar una gran tensión en el abdomen, los glúteos y el pectoral.', 4)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -4014,8 +4548,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Abdomen/RuedaAbdominalRodillas.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="RuedaAbdominalRodillas" src="../assets/img/GruposMusculos/Abdomen/RuedaAbdominalRodillas.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('RuedaAbdominalRodillas', 'Rueda abdominal de rodillas.', '15 x 4', 'Ponte de rodillas,  coloca las manos en las agarraderas de la rueda. Tensiona el abdomen, pero no aguantes la respiración. No encojas los hombros. Deslízate, rodando hacia delante pero sin exagerar el desplazamiento. Hazlo de una manera suave y controlada.', 4)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -4065,8 +4605,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Espalda/CruceInvertidoEnPoleaAlta.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="CruceInvertidoEnPoleaAlta" src="../assets/img/GruposMusculos/Espalda/CruceInvertidoEnPoleaAlta.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('CruceInvertidoEnPoleaAlta', 'Cruce invertido en polea alta.', '12 x 4', 'Tira de los cables llevando las manos hacia atrás y ligeramente hacia abajo. Los brazos deben estar prácticamente paralelos al suelo y las manos alineadas con los hombros (el cuerpo en forma de T). Vuelve con los cables a la posición inicial de modo que la mano derecha quede directamente en frente del hombro izquierdo y la mano izquierda en frente del hombro derecho.', 5)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -4109,8 +4655,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Espalda/Dominadas.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="Dominadas" src="../assets/img/GruposMusculos/Espalda/Dominadas.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('Dominadas', 'Dominadas.', '12 x 4', 'Sostenga la barra un poco más del  ancho de los hombros.Cuelgue de la barra con los brazos y hombros totalmente estirados.Exhale mientras que levanta su cuerpo hasta el momento en que su barbilla se eleve sobre la barra.Mantente ahí un par segundos y aprieta los músculos de la espalda,baje su cuerpo hasta el momento en que sus brazos y hombros estén totalmente estirados mientras inhala.', 5)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -4153,8 +4705,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Espalda/EncofimientoDeHombroConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="EncofimientoDeHombroConMancuerna" src="../assets/img/GruposMusculos/Espalda/EncofimientoDeHombroConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('EncofimientoDeHombroConMancuerna', 'Encogimiento de hombros con mancuerna.', '15 x 4', 'Agarramos fuertemente las mancuernas todo lo que podamos con las palmas de las manos mirándose entre sí, Colocamos la espalda recta , hombros hacia atrás ,pecho hacia afuera y  cabeza alta con mirada al frente, Elevamos los hombros  lo máximo intentado contraer el trapecio lo máximo posible, Aguantamos 1 segundo y volvemos a nuestra posición inicial.', 5)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -4199,8 +4757,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Espalda/FacePull.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="FacePull" src="../assets/img/GruposMusculos/Espalda/FacePull.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('FacePull', 'Face pull.', '12 x 4', 'Ponte en una posición bilateral con una polea situada en frente y por encima del nivel de la cabeza, agarra la polea con los nudillos hacia adentro. Mantén la postura y tira de las cuerdas hasta que los puños terminen al lado de tus oídos. Recuerda mantener los codos abiertos en todo momento y retraer los omóplatos en cada tirón', 5)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -4243,8 +4807,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Espalda/JalonAgarreAbiertoPoleaAlta.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="JalonAgarreAbiertoPoleaAlta" src="../assets/img/GruposMusculos/Espalda/JalonAgarreAbiertoPoleaAlta.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('JalonAgarreAbiertoPoleaAlta', 'Jalón agarre abierto polea alta.', '12 x 4', 'Sujete la barra con un agarre amplio y siéntese manteniendo la parte superior del cuerpo en posición vertical, inclinándose ligeramente hacia atrás desde las caderas. Tire de la barra delante de la cara hasta la parte superior del pecho y haga una ligera pausa. Lentamente suelte la barra de nuevo a la posición inicial estirando los brazos.', 5)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -4287,8 +4857,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Espalda/JalonAUnaManoPoleaAlta.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="JalonAUnaManoPoleaAlta" src="../assets/img/GruposMusculos/Espalda/JalonAUnaManoPoleaAlta.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('JalonAUnaManoPoleaAlta', 'Jalón a una mano polea alta.', '12 x 4', 'Tira del maneral hacia abajo, girando la mano hacia ti, y manteniendo el codo cerca del costado. Contrae los músculos de la espalda, y no dejes que el torso gire a uno u otro lado.', 5)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -4333,8 +4909,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Espalda/JalonPoleaAltaAgarreCerrado.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="JalonPoleaAltaAgarreCerrado" src="../assets/img/GruposMusculos/Espalda/JalonPoleaAltaAgarreCerrado.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('JalonPoleaAltaAgarreCerrado', 'Jalón en polea alta agarre cerrado.', '12 x 4', 'se procede a inspirar y a tirar de la barra que levanta la polea mientras se flexionan los codos y se desciende por las porciones laterales del cuerpo hasta llegar al nivel del esternón,regresando lentamente a la posición inicial sin permitir que el peso caiga de forma brusca.', 5)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -4377,8 +4959,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Espalda/LumbarBuenosDias.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="LumbarBuenosDias" src="../assets/img/GruposMusculos/Espalda/LumbarBuenosDias.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('LumbarBuenosDias', 'Buenos dias.', '12 x 4', 'Tu torso debe encontrarse paralelo al piso, todo ello sin que la espalda pierda su posición inicial y, eso sí, doblando ligeramente las rodillas.Puedes mantener la posición final por uno o dos segundos, en donde sentirás cómo se tensa tu abdomen. Una vez hecho esto, regresa a la posición de inicio.', 5)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -4421,8 +5009,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Espalda/PowerPullTrx.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="PowerPullTrx" src="../assets/img/GruposMusculos/Espalda/PowerPullTrx.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('PowerPullTrx', 'Power pull trx.', '12 x 4', 'Tomando la correa TRX extendida, Desde esta posición inicial, comience a inclinarse lentamente hacia atrás y a rotar hacia ese brazo, hasta que termine con ambos brazos extendidos, en forma de T Desde esta posición extendida, regrese a la posición inicial, primero retrayendo y presionando el omóplato del brazo que tira, luego doblando el brazo.', 5)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -4467,8 +5061,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Espalda/RemoAlCuelloPoleaBaja.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="RemoAlCuelloPoleaBaja" src="../assets/img/GruposMusculos/Espalda/RemoAlCuelloPoleaBaja.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('RemoAlCuelloPoleaBaja', 'Remo al cuello con polea baja.', '12 x 4', 'Colócate frente a la máquina con los pies separados a la altura de los hombres y sosten el mango con las palmas mirando hacia tu cuerpo. Sube los brazos hasta que el mango llegue a la altura de tu mentón, los codos deben pasar tu cabeza y ver hacia afuera en todo momento.', 5)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -4511,8 +5111,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Espalda/RemoAlPechoConBarra.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="RemoAlPechoConBarra" src="../assets/img/GruposMusculos/Espalda/RemoAlPechoConBarra.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('RemoAlPechoConBarra', 'Remo al pecho con barra.', '12 x 4', 'Ahora, mientras mantiene el torso inmóvil, Exhale y Levante la barra hacia usted. Mantenga los codos cerca del cuerpo y sólo use los antebrazos para mantener el peso. En la posición de contracción superior, reverenciar los músculos de la espalda y mantener una breve pausa.', 5)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -4555,8 +5161,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Espalda/RemoConBarraInclinado.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="RemoConBarraInclinado" src="../assets/img/GruposMusculos/Espalda/RemoConBarraInclinado.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('RemoConBarraInclinado', 'Remo con barra en banco inclinado.', '12 x 4', 'llévalas sobre tus hombros con los brazos extendidos casi en su totalidad. Una vez hecho esto, el siguiente paso consiste en juntar los omóplatos y sacar un poco el pecho. Luego, vamos a bajar la barra, flexionando los codos, a la altura de los dorsales. Haremos una pequeña pausa y, posteriormente, iniciamos a la posición inicial.', 5)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -4601,8 +5213,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Espalda/RemoConMancuernaEnBanco.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="RemoConMancuernaEnBanco" src="../assets/img/GruposMusculos/Espalda/RemoConMancuernaEnBanco.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('RemoConMancuernaEnBanco', 'Remo con mancuerna en banco.', '12 x 4', 'toma una mancuerna con una mano y apoyando la rodilla y la palma de la mano del lado opuesto sobre un banco plano. La espalda estará fija y el brazo que posee el peso debe quedar extendido por el lateral del cuerpo, luego debemos inspirar y tirar de la mancuerna para elevarla hacia la espalda mientras el brazo permanece paralelo al cuerpo, llevando el codo bien atrás para imitar el gesto de remo.', 5)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -4645,8 +5263,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Espalda/RemoEnBarraTAgarreProno.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="RemoEnBarraTAgarreProno" src="../assets/img/GruposMusculos/Espalda/RemoEnBarraTAgarreProno.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('RemoEnBarraTAgarreProno', 'Remo en barra T agarre prono.', '12 x 4', 'colocarse de pie con la barra T entre las piernas, sostener el mango con las palmas mirando hacia abajo y mantener los codos pegados a tu cuerpo. Además, de tener el cuerpo ligeramente inclinado hacia al frente con la espalda erguida y las rodillas flexionadas. De esta manera, podrás levantar el peso con mayor comodidad.', 5)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -4689,8 +5313,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Espalda/RemoEnMaquina.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="RemoEnMaquina" src="../assets/img/GruposMusculos/Espalda/RemoEnMaquina.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('RemoEnMaquina', 'Remo en maquina.', '12 x 4', 'Nos sentamos en la maquina de manera tal que nuestro pecho quede totalmente pegado a la maquina, con la espalda recta. Tomamos las barras y la traemos a nuestro pecho, alli la sostenemos por un par de segundos antes de volver a la psoción inicial.', 5)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -4735,8 +5365,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Espalda/RemoSentadoEnPoleaBaja.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="RemoSentadoEnPoleaBaja" src="../assets/img/GruposMusculos/Espalda/RemoSentadoEnPoleaBaja.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('RemoSentadoEnPoleaBaja', 'Remo sentado en polea baja.', '12 x 4', 'Sosten los codos cerca de su cuerpo, tire de la barra hacia su abdomen mientras exhala, saque el pecho y apriete los músculos de la espalda, cuente un par de segundos, inhale mientras que retorna la barra a la situación inicial (sin curvear la espalda), con los brazos y los hombros estirados hacia adelante.', 5)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -4779,8 +5415,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Espalda/RowTrx.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="RowTrx" src="../assets/img/GruposMusculos/Espalda/RowTrx.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('RowTrx', 'Row trx.', '12 x 4', 'Acuéstese directamente debajo de la plataforma TRX y las correas. Con las rodillas dobladas y los pies en el suelo, estírese y agarre las asas. Una vez elevado, tire del torso hacia las asas mientras mantiene los codos metidos lo más cerca posible de los costados. Tire hacia arriba hasta que su torso esté alineado desde los hombros hasta las rodillas', 5)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -4823,8 +5465,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Espalda/SawPlankOnElbowHandTrx.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="SawPlankOnElbowHandTrx" src="../assets/img/GruposMusculos/Espalda/SawPlankOnElbowHandTrx.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('SawPlankOnElbowHandTrx', 'Hand trx.', '15 x 4', 'Se eleva la cadera en repeticiones, dejando el cuerpo recto Y apoyando el brazo hacia el suelo, tratamos de mantener la posición por un periodo corto, una variante para resistencia y dejar la postura con la cadera levantada. ', 5)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -4874,8 +5522,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Brazo/BancoScottConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="BancoScottConMancuerna" src="../assets/img/GruposMusculos/Brazo/BancoScottConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('BancoScottConMancuerna', 'Banco scott con mancuerna.', '12 x 4', 'debe estar sentado sobre la máquina, con los brazos completamente apoyados sobre el pupitre que compone el banco Scott agarra la barra Z o recta o en su defecto, dos mancuernas con ambas manos o incluso a mancuerna alternada. Durante la ejecución del ejercicio las palmas deben mirar hacia arriba, sin movilizar los brazos y teniendo ambos estirados mientras se sostiene la carga y se inicia el movimiento.', 6)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -4918,8 +5572,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Brazo/BicepsCoracobraquialBilateral.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="BicepsCoracobraquialBilateral" src="../assets/img/GruposMusculos/Brazo/BicepsCoracobraquialBilateral.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('BicepsCoracobraquialBilateral', 'Coracobraquial bilateral.', '12 x 4', 'Colócate de lado frente a la polea sujeta uno de los mangos con una mano la palma debe de ir mirando hacia arriba, debes tener la espalda erguida y el pecho hacia afuera para evitar lesiones exhala mientras vas flexionando los codos hasta tus hombros para levanté el peso luego haz lo mismo con tu otra mano.', 6)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -4962,8 +5622,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Brazo/BicepsCoracobraquialEnCruz.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="BicepsCoracobraquialEnCruz" src="../assets/img/GruposMusculos/Brazo/BicepsCoracobraquialEnCruz.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('BicepsCoracobraquialEnCruz', 'Coracobraquial en cruz.', '12 x 4', 'Colócate en una máquina con la que puedas sujetar ambos mangos. La posición inicial es tomando los dos mangos con las palmas mirando hacia arriba. Asimismo, debes tener la espalda erguida y el pecho hacia afuera para evitar lesiones. Exhala mientras vas flexionando los codos hasta tus hombros para levantar el peso.', 6)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -5008,8 +5674,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Brazo/BranquialAnteriorConUnaManoYBarra.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="BranquialAnteriorConUnaManoYBarra" src="../assets/img/GruposMusculos/Brazo/BranquialAnteriorConUnaManoYBarra.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('BranquialAnteriorConUnaManoYBarra', 'Braquial a una mano con barra.', '12 x 4', 'Flexiona un poco el codo y toma la barra por todo el centro para mantener el equilibrio. Subimos la barra hata la altura del pecho y decendemos. Primero debemos terminar las repeteciones con uno de los brazos antes de continuar con el otro..', 6)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -5052,8 +5724,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Brazo/BranquialConRotacionEnSupinoProno.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="BranquialConRotacionEnSupinoProno" src="../assets/img/GruposMusculos/Brazo/BranquialConRotacionEnSupinoProno.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('BranquialConRotacionEnSupinoProno', 'Braquial con rotacion en supino prono.', '12 x 4', 'Sin mover los brazos en balanceo, contrae los brazos a la altura de los hombros.Llegado a este punto, soporta la posición por uno o dos segundos, gira las muñecas para cambiar a un agarre prono y desciende las mancuernas en un movimiento controlado.', 6)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -5096,8 +5774,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Brazo/BraquialAnteriorAlternoConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="BraquialAnteriorAlternoConMancuerna" src="../assets/img/GruposMusculos/Brazo/BraquialAnteriorAlternoConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('BraquialAnteriorAlternoConMancuerna', 'Braquial alternado con mancuerna.', '12 x 4', 'se deben elevar las mancuernas de forma simultánea, girando las palmas de las manos hacia arriba y hacia afuera. De tal forma, se permite que al final de cada repetición, queden hacia fuera de forma ligera. El bíceps debe ser contraído contando uno, bajando la mancuerna de regreso a la posición inicial.', 6)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -5142,8 +5826,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Brazo/CopaConUnaManoConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="CopaConUnaManoConMancuerna" src="../assets/img/GruposMusculos/Brazo/CopaConUnaManoConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('CopaConUnaManoConMancuerna', 'Copa a una mano con mancuerna.', '12 x 4', 'Toma una mancuerna y colócate de forma recta con los pies abiertos a la misma altura de los hombros; el agarre puede ser supino, neutro o prono; dependiendo de cómo te sientas más cómodo. Ahora, contrae el bíceps y el tríceps exhalando y llevando tu antebrazo por encima de tu hombro, hasta tu nuca.', 6)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -5186,8 +5876,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Brazo/CoraCobraquialEnPoleaAlta.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="CoraCobraquialEnPoleaAlta" src="../assets/img/GruposMusculos/Brazo/CoraCobraquialEnPoleaAlta.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('CoraCobraquialEnPoleaAlta', 'Coracobraquial en polea alta.', '12 x 4', 'Con el torso recto, la espalda erguida y las piernas levemente flexionadas, podremos comenzar el ejercicio inspirando y flexionando los codos de manera de llevar las manos hacia el hombro mientras elevamos el peso previamente cargado en la polea.', 6)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -5230,8 +5926,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Brazo/CurlBranquialAnteriorConBarraZ.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="CurlBranquialAnteriorConBarraZ" src="../assets/img/GruposMusculos/Brazo/CurlBranquialAnteriorConBarraZ.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('CurlBranquialAnteriorConBarraZ', 'Curl braquial anterior con barra z.', '12 x 4', 'Sujeta una barra Z a aproximadamente el ancho de los hombros con un agarre supino. Aprieta los bíceps con fuerza en la parte superior del movimiento y luego baja la barra lentamente a la posición inicial. Repite para las repeticiones deseadas.', 6)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -5276,8 +5978,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Brazo/CurlBranquioRadialConBarraRomana.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="CurlBranquioRadialConBarraRomana" src="../assets/img/GruposMusculos/Brazo/CurlBranquioRadialConBarraRomana.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('CurlBranquioRadialConBarraRomana', 'Curl braquial con barra romana.', '12 x 4', 'Tomamos la barra por la parte interna, con las manos verticalmente como empuñando un martillo, dejamos los codos un poco flexionados para la posición inicial. empezamos subir hasta la altura del pecho para empezar nuevamente.', 6)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -5320,8 +6028,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Brazo/CurlConcentradoConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="CurlConcentradoConMancuerna" src="../assets/img/GruposMusculos/Brazo/CurlConcentradoConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('CurlConcentradoConMancuerna', 'Curl concentrado con mancuerna.', '12 x 4', 'El codo del brazo que esté ejecutando el ejercicio, debe ser apoyado en la cara interna del muslo del mismo lado, mientras el brazo se encuentra extendido. A partir de esa posición. Se inspira y se flexiona el codo para poder levantar el peso desde el pie hacia la rodilla contraria.', 6)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -5364,8 +6078,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Brazo/CurlDeBicepsEnBancoScott.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="CurlDeBicepsEnBancoScott" src="../assets/img/GruposMusculos/Brazo/CurlDeBicepsEnBancoScott.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('CurlDeBicepsEnBancoScott', 'Curl en banco scott.', '12 x 4', 'las palmas deben mirar hacia arriba, sin movilizar los brazos y teniendo ambos estirados mientras se sostiene la carga y se inicia el movimiento. Inspira profundamente y se comienza con la flexión de los codos para poder llevar el peso hacia el nivel del pecho con ambas manos. Mantén ahí 2 segundos', 6)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -5410,8 +6130,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Brazo/CurlInvertidoConBarra.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="CurlInvertidoConBarra" src="../assets/img/GruposMusculos/Brazo/CurlInvertidoConBarra.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('CurlInvertidoConBarra', 'Curl invertido con barra.', '12 x 4', 'Comienza levantando la barra hasta que tus bíceps se tensen y se encuentren totalmente contraídos. Así, ésta llegará a la altura de tus hombros. Lo recomendado es sostener la posición por lo menos un segundo y luego, con lentitud y en un movimiento controlado, desciende la barra.', 6)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -5454,8 +6180,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Brazo/CurlMartilloConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="CurlMartilloConMancuerna" src="../assets/img/GruposMusculos/Brazo/CurlMartilloConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('CurlMartilloConMancuerna', 'Curl martillo con mancuerna.', '12 x 4', 'Las palmas de nuestras manos deben estar orientadas hacia el cuerpo durante la ejecución del ejercicio, para permitirnos simular que el martillo sube y baja tan solo con la flexión del codo. Posteriormente espiramos al final del movimiento general, se procede a descender de forma controlada.', 6)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -5498,8 +6230,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Brazo/CurlZottamanConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="CurlZottamanConMancuerna" src="../assets/img/GruposMusculos/Brazo/CurlZottamanConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('CurlZottamanConMancuerna', 'Curl zottman con mancuerna.', '12 x 4', 'Sin mover los brazos en balanceo, contrae los brazos a la altura de los hombros.Llegado a este punto, soporta la posición por uno o dos segundos, gira las muñecas para cambiar a un agarre prono y desciende las mancuernas en un movimiento controlado.', 6)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -5544,8 +6282,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Brazo/ExtensionEnPoleaAlta.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="ExtensionEnPoleaAlta" src="../assets/img/GruposMusculos/Brazo/ExtensionEnPoleaAlta.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('ExtensionEnPoleaAlta', 'Extensión en polea alta.', '12 x 4', 'Realiza la flexión de los codos hacia el suelo sin perder la postura. Por otro lado, es importante no empujar hacia abajo la polea con el cuerpo. Solo debes utilizar los antebrazos. De este modo, se ejercitarán los músculos correctos.', 6)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -5588,8 +6332,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Brazo/ExtensionenPoleaSobreLaCabeza.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="ExtensionenPoleaSobreLaCabeza" src="../assets/img/GruposMusculos/Brazo/ExtensionenPoleaSobreLaCabeza.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('ExtensionenPoleaSobreLaCabeza', 'Extensión con polea sobre la cabeza.', '12 x 4', 'Con la zona de la columna recta, pero sin encontrarse tensa, inclínate hacia tus pies, pero sin sobrepasar los 20 o los 30 grados. Inspira y lleva a cabo a la extensión de forma vertical siempre con ambos codos rozando con tu tronco.', 6)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -5632,8 +6382,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Brazo/FondosEnBanco.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="FondosEnBanco" src="../assets/img/GruposMusculos/Brazo/FondosEnBanco.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('FondosEnBanco', 'Fondos en banco.', '12 x 4', 'Para iniciar el ejercicio, toma aire y dobla los codos, bajando de manera lenta hasta sentir una tensión tanto en los tríceps como en los hombros. Deberás bajar cuando más lo permita tu condición.', 6)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -5678,8 +6434,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Brazo/PatadaConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="PatadaConMancuerna" src="../assets/img/GruposMusculos/Brazo/PatadaConMancuerna.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('PatadaConMancuerna', 'Patada con mancuerna.', '12 x 4', 'Con el brazo pegado al tronco y el codo flexionado, iniciamos la extensión mientras espiramos. El movimiento será lento pero fluido, sin extensión brusca y sin llegar a extender totalmente. El movimiento de flexión lo realizaremos mientras inspiramos, evitando que el codo caiga de la altura del tronco.', 6)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -5722,8 +6484,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Brazo/PressAgarreCerrado.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="PressAgarreCerrado" src="../assets/img/GruposMusculos/Brazo/PressAgarreCerrado.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('PressAgarreCerrado', 'Press agarre cerrado.', '12 x 4', 'Una vez realicemos la extensión máxima, aguantaremos la posición por uno o dos segundos. Ahora, para completar los movimientos del ejercicio, continuaremos bajando la barra y la llevaremos a la parte inferior del pecho.', 6)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -5766,8 +6534,14 @@
 						<!--Card image-->
 						<div class="view overlay view-cascade">
 							<a href="#!">
-								<img src="../assets/img/GruposMusculos/Brazo/PressFransesConBarra.png" class="img-fluid" alt="placeholder image with a man">
+								<img id="PressFransesConBarra" src="../assets/img/GruposMusculos/Brazo/PressFransesConBarra.png" class="img-fluid" alt="placeholder image with a man">
 								<div class="mask rgba-white-slight waves-effect waves-light"></div>
+								<div class="mask rgba-white-slight">
+									<!-- Button -->
+									<button class="botonF1" @click="agregarRutinaPersonalizada('PressFransesConBarra', 'Press frances con barra.', '12 x 4', 'Desde allí inspiramos y extendemos los brazos de manera de formar con ellos una perpendicular respecto al cuerpo, cuidando de no separar los codos del cuerpo durante el recorrido.', 6)">
+									<span> + </span>
+									</button>
+								</div>
 							</a>
 						</div>
 						<!--/.Card image-->
@@ -5802,16 +6576,22 @@
   </div>
 </template>
 <script>
+var $;
 import router from '../router/index'
 var tipoEjercicio
 var grupoMuscular;
 var rutaAnterior;
+var ejerciciosPersonalizados = [];
+var usuario;
 export default {
   
   name: 'ExercisesGym',
   beforeCreate() {
 	  rutaAnterior = this.$router.currentRoute.fullPath;
 	  tipoEjercicio = this.$router.currentRoute.params.grupo;
+	  debugger;
+      this.ejerciciosPersonalizados = JSON.parse(localStorage.getItem('exercises'));
+	  this.usuario = localStorage.getItem('usuario');
 	  debugger;
       grupoMuscular = Object.freeze({ "Pierna": 1, "Hombro": 2, "Pecho": 3, "Abdomen": 4, "Brazo": 5, "Espalda": 6 });
   },
@@ -5822,6 +6602,64 @@ export default {
 	  }
   },
   methods: {
+	  agregarRutinaPersonalizada(idImagen, titulo, repeticiones, descripcion, grupoEjecicio) {
+		  debugger;
+		  	var indexEjercicio = -1;
+			var indexUsuario = -1;
+			var crearEnLocalStorage = false;
+			if (this.ejerciciosPersonalizados !== undefined && this.ejerciciosPersonalizados !== null) {
+				indexUsuario = this.ejerciciosPersonalizados.findIndex(exercise => exercise.usuario === this.usuario);
+				if (indexUsuario !== -1 && this.ejerciciosPersonalizados[indexUsuario] !== undefined && this.ejerciciosPersonalizados[indexUsuario] !== null) {
+					indexEjercicio = this.ejerciciosPersonalizados[indexUsuario].ejercicios.findIndex(ejercicio => ejercicio.titulo === titulo && ejercicio.grupoEjecicio === grupoEjecicio);
+				} else {
+					this.ejerciciosPersonalizados[indexUsuario] = [];
+				}
+
+			} else {
+				crearEnLocalStorage = true;
+				this.ejerciciosPersonalizados = [];
+			}
+			if(indexUsuario === -1 || indexEjercicio === -1) {
+				if (indexUsuario === -1) {
+					var datos = {
+						usuario: this.usuario,
+						ejercicios: [{
+						img: document.getElementById(idImagen).src,
+						titulo: titulo,
+						repeticiones: repeticiones,
+						descripcion: descripcion,
+						grupoEjecicio: grupoEjecicio
+						}]
+					};
+					this.ejerciciosPersonalizados.push(datos);
+				} else {
+					if (indexEjercicio === -1 && this.ejerciciosPersonalizados[indexUsuario].ejercicios.length <= 8) {
+						this.ejerciciosPersonalizados[indexUsuario].ejercicios.push({
+							img: document.getElementById(idImagen).src,
+							titulo: titulo,
+							repeticiones: repeticiones,
+							descripcion: descripcion,
+							grupoEjecicio: grupoEjecicio
+							});
+					} else {
+						if (this.ejerciciosPersonalizados[indexUsuario].ejercicios.length === 8) {
+	            			this.$snotify.error('No puede agregar mas ehercicios a su rutina');
+						}
+						if (indexEjercicio !== -1) {
+	            			this.$snotify.error('Ya agrego este ejercicio a su rutina');
+						}
+					}
+				}
+
+				if (!crearEnLocalStorage) {
+					localStorage.removeItem('exercises');
+				}
+				const registros = JSON.stringify(this.ejerciciosPersonalizados);
+				localStorage.setItem('exercises', registros);
+	            this.$snotify.success('El ejercicio se agrega a tu lista correctamente');
+			}
+
+	  }
   }
 }
 </script>
@@ -5838,6 +6676,36 @@ export default {
   .row {
     margin: 0;
     padding: 50px 10% 0px 10%;
+  }
+  button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 50%;
+    padding: 5px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  .botonF1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background: #f44336;
+    right: 0;
+    top: 220px;
+    position: absolute;
+    // margin-right: 16px;
+    // margin-bottom: 30%;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 36px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transition: 0.3s;
+  }
+  .botonF1:active {
+    transform: scale(1.1);
   }
   @media (max-width: 570px) {
     .card {

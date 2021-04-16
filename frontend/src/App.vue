@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav" v-if="!tokenAuth">
-      <div class="logo">
+      <div class="logo" v-if="condicion1()">
         <router-link to="/">
           <img
             @click="this.$router.replace({ name: 'Home' })"
@@ -33,7 +33,7 @@
       </div>
     </div>
      <div id="nav" v-if="condicion2()">
-      <div class="logo">
+      <div class="logo2">
         <router-link to="/">
           <img
             @click="this.$router.replace({ name: 'Home' })"
@@ -42,10 +42,11 @@
           />
         </router-link>
       </div>
-      <div class="end">
+      <div class="end2">
         <router-link to="/homeUsuario">Home</router-link>
-        <router-link to="/groupExercises/1">Grupos ejercicios Gym</router-link>
-        <router-link to="/groupExercises/2">Grupos ejercicios Caseros</router-link>
+        <router-link to="/groupExercises/1">Grupos ejercicios Gym</router-link> |
+        <router-link to="/groupExercises/2">Grupos ejercicios Caseros</router-link> |
+        <router-link to="/exercisesPersonalized">Ejercicios personalizados</router-link> |
         <router-link to="/logout">Cerrar Sesion</router-link>
       </div>
     </div>
@@ -110,8 +111,21 @@ export default {
       width: 80px;
     }
   }
+  .logo2 {
+    width: 15%;
+    display: inline-block;
+    color: white;
+    img {
+      width: 80px;
+    }
+  }
   .end {
     width: 60%;
+    display: inline-block;
+    text-align: right;
+  }
+  .end2 {
+    width: 85% !important;
     display: inline-block;
     text-align: right;
   }

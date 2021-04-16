@@ -47,6 +47,7 @@ export default {
             }else{
               this.$router.replace({ name: 'HomeUsuario' })
             }
+				    localStorage.setItem('usuario', this.form.email);
             this.loading = true
           })
           .catch((error) => {
