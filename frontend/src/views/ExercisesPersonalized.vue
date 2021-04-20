@@ -21,7 +21,7 @@
 								<div class="mask rgba-white-slight">
 									<!-- Button -->
 									<button class="botonF1" @click="eliminarEjercicio(index)">
-                    <!-- <font-awesome-icon icon="home"/> -->
+                      <font-awesome-icon icon="trash" class="small"/>
 									</button>
 								</div>
 							</a>
@@ -60,6 +60,7 @@
 </template>
 <script src="https://kit.fontawesome.com/2a6ca77ca9.js" crossorigin="anonymous"></script>
 <script>
+require('../plugin/fontawesome');
 // require('./plugins/fontawesome');
 var ejerciciosPersonalizados = [];
 var ejercicios = [];
