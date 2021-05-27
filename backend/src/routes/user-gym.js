@@ -29,10 +29,8 @@ var storage = multer.diskStorage({
   },
   filename: function (req, file, cb) {
     let pathImage = path.join(__dirname, '..', '..', 'uploads', file.originalname + '.png')
-    console.log(pathImage)
     if(fs.existsSync(pathImage))
     {
-      console.log("hola");
       fs.unlink(pathImage);
     }
     cb(null, file.originalname)
