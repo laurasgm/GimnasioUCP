@@ -28,6 +28,12 @@ un modulo de autenticación para administradores, y el manejo de flujo de invent
   npm run serve
 ```
 
+- Server 
+```bash
+  cd backend
+  http-server .\uploads\
+```
+
 ## Caracteristicas Funcionales
 
 La aplicación esta desarrollada en dos módulos, backend y frontend.
