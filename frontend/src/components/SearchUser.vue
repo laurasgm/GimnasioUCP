@@ -72,11 +72,14 @@
     </modal>
     
     <modal :width="700" :height="600" name="modal-recibo">
+      <button type="button" class="close" @click="closeModalImage()" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+      </button>
       <img
           width="600" 
           height="500"
         :src= "image" 
-        alt="logo"
+        id="testimg"
       />
     </modal>
   </div>
@@ -129,11 +132,20 @@ export default {
         })
     },
     closeModalEdit() {
+      debugger;
       this.$modal.hide(`modal-user`);
+    },
+     closeModalImage() {
+      debugger;
+      var timestamp = new Date().getTime();     
+      var el = document.getElementById("testimg");     
+      el.src = 'http://127.0.0.1:8082/' + this.form.dni + '.png?t=' + timestamp; 
+      this.$modal.hide(`modal-recibo`);
     },
     mostrarRecibo(){
      debugger;
-     this.image = 'http://127.0.0.1:8082/' + this.form.dni + '.png'
+     var timestamp = new Date().getTime();     
+     this.image = 'http://127.0.0.1:8082/' + this.form.dni + '.png?t='+ timestamp; 
      this.$modal.show(`modal-recibo`);
     },
   }

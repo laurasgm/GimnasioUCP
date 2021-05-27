@@ -11,6 +11,7 @@ import { userExist } from '../middlewares/user-gym'
 const router = Router()
 const multer  = require('multer');
 const path = require('path')
+const fs = require('fs')
 
 // Rutas disponibles para la administración de usuarios
 router.post('/user', userExist, createUserGym)
@@ -27,6 +28,13 @@ var storage = multer.diskStorage({
     cb(null, 'uploads')
   },
   filename: function (req, file, cb) {
+    let pathImage = path.join(__dirname, '..', '..', 'uploads', file.originalname + '.png')
+    console.log(pathImage)
+    if(fs.existsSync(pathImage))
+    {
+      console.log("hola");
+      fs.unlink(pathImage);
+    }
     cb(null, file.originalname)
   }
 })
@@ -36,17 +44,6 @@ const upload = multer({ storage: storage });
 router.post('/reciboPago', upload.single('file'), (req, res) => {
   res.status(200).send({ message : 'File upload' })
 });
-
-
-// router.get('/pathRecibo/:dni', 
-//   function getPathImage (req, res){
-//     let { dni } = req.params
-//     //let pathImage = path.join(__dirname, '..', '..', 'uploads', dni + '.png')
-//     //let pathImage = path.join('http://127.0.0.1:8082', dni + '.png' )
-//     return res.status(200).send({
-//       path: pathImage,
-//     })
-//   });
 
 
 export default router
