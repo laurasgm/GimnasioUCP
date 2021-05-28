@@ -18,7 +18,7 @@ router.post(
   }
 )
 
-// Methodo para realizar inicio de sesión
+// Metodo para realizar inicio de sesión
 router.post('/login', login)
 
 export default router

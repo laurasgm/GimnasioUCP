@@ -35,18 +35,7 @@ const upload = multer({ storage: storage });
 
 router.post('/reciboPago', upload.single('file'), (req, res) => {
   res.status(200).send({ message : 'File upload' })
+  
 });
-
-
-// router.get('/pathRecibo/:dni', 
-//   function getPathImage (req, res){
-//     let { dni } = req.params
-//     //let pathImage = path.join(__dirname, '..', '..', 'uploads', dni + '.png')
-//     //let pathImage = path.join('http://127.0.0.1:8082', dni + '.png' )
-//     return res.status(200).send({
-//       path: pathImage,
-//     })
-//   });
-
 
 export default router

@@ -2,6 +2,8 @@ import moment from 'moment'
 import UserGym from '../database/lib/user-gym'
 
 const userGym = UserGym()
+const fs = require('fs')
+const path = require('path')
 
 // Los controladores de rutas
 async function createUserGym(req, res) {
@@ -104,9 +106,15 @@ async function getUser(req, res) {
 
   try {
     let user = await userGym.getUserByDni(dni)
+    let existeRecibo = false;
     if (!user) user = {}
+    let pathImage = path.join(__dirname, '..', '..', 'uploads', dni + '.png');
+    existeRecibo = fs.existsSync(pathImage);
+    console.log(existeRecibo);
+    console.log(pathImage);
     return res.status(200).send({
       user: user,
+      tieneRecibo: existeRecibo
     })
   } catch (err) {
     return res.status(500).send({

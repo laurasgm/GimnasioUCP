@@ -93,6 +93,7 @@ export default {
     return {
       form: {},
       user: {},
+      tieneRecibo: false,
       loading: true,
       state: 'Activa',
       image: ''
@@ -111,7 +112,7 @@ export default {
         .then((response) => {
           if (response.data.user.id_user) {
             this.user = response.data.user
-
+            this.tieneRecibo = response.data.tieneRecibo;
             this.state = this.getStateSuscription(
               this.user.last_date_in,
               this.user.acumulated_suscription
@@ -133,8 +134,13 @@ export default {
     },
     mostrarRecibo(){
      debugger;
-     this.image = 'http://127.0.0.1:8082/' + this.form.dni + '.png'
-     this.$modal.show(`modal-recibo`);
+      if (this.tieneRecibo) {
+        debugger;
+        this.image = 'http://127.0.0.1:8080/' + this.form.dni + '.png'
+        this.$modal.show(`modal-recibo`);
+      } else {
+          this.$snotify.error('El usuario no tiene un recibo');
+      }
     },
   }
 }

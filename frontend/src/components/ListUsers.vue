@@ -13,7 +13,7 @@
       >
         <template #cell(Acción)="data">
           <!-- `data.value` is the value after formatted by the Formatter -->
-          <button class="btn btn-warning" @click="openModalEdit(data)">
+          <button class="btn btn-standar" style="padding: 5px 10px 5px 10px !important; color: white" @click="openModalEdit(data)">
             Editar
           </button>
           <button class="btn btn-danger ml-2" @click="deleteUser(data)">
