@@ -25,49 +25,169 @@
             alt="logo"
           />
       </div>
-        <div class="d-flex justify-content-between mt-4">
-          <div class="line">
-            Cédula:
+      <div class="row">
+        <div class="col-md-6">
+          <div class="d-flex justify-content-between mt-4">
+            <div class="line">
+              Cédula:
+            </div>
+            <p>{{ user.dni }}</p>
           </div>
-          <p>{{ user.dni }}</p>
+
+        </div>
+        <div class="col-md-6">
+          <div class="d-flex justify-content-between mt-4">
+            <div class="line">
+              Nombre:
+            </div>
+            <p>{{ user.name_user }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="d-flex justify-content-between">
+            <div class="line">
+              Primera Suscripción:
+            </div>
+            <p>{{ user.date_in }}</p>
+          </div>
+
+        </div>
+        <div class="col-md-6">
+          <div class="d-flex justify-content-between">
+            <div class="line">
+              Última Suscripción:
+            </div>
+            <p>{{ user.last_date_in }}</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="d-flex justify-content-between">
+            <div class="line">
+              Meses de Suscripción:
+            </div>
+            <p>{{ user.acumulated_suscription }}</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="d-flex justify-content-between">
+            <div class="line">
+              Dirección:
+            </div>
+            <p>
+              {{ user.direccion }}
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="d-flex justify-content-between">
+            <div class="line">
+              Teléfono:
+            </div>
+            <p >
+              {{ user.telefono }}
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="d-flex justify-content-between">
+            <div class="line">
+              Email:
+            </div>
+            <p >
+              {{ user.email }}
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="d-flex justify-content-between">
+            <div class="line">
+              Peso:
+            </div>
+            <p >
+              {{ user.peso }} kg
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="d-flex justify-content-between">
+            <div class="line">
+              Altura:
+            </div>
+            <p >
+              {{ user.altura }} m
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="d-flex justify-content-between">
+            <div class="line">
+              Talla pecho:
+            </div>
+            <p >
+              {{ user.talla_pecho }} cm
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="d-flex justify-content-between">
+            <div class="line">
+              Talla cadera:
+            </div>
+            <p >
+              {{ user.talla_cadera }} cm
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="d-flex justify-content-between">
+            <div class="line">
+              Talla brazo:
+            </div>
+            <p >
+              {{ user.talla_brazo }} cm
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="d-flex justify-content-between">
+            <div class="line">
+              Talla cintura:
+            </div>
+            <p >
+              {{ user.talla_cintura }} cm
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+        <div class="row">
+          <div class="col-md-6">
+          <div class="d-flex justify-content-between">
+            <div class="line">
+              Estado:
+            </div>
+            <p v-bind:class="isActive ? 'text-green' : 'text-red'">
+              {{ state }}
+            </p>
+          </div>
+        </div>
         </div>
 
-        <div class="d-flex justify-content-between">
-          <div class="line">
-            Nombre:
-          </div>
-          <p>{{ user.name_user }}</p>
-        </div>
-
-        <div class="d-flex justify-content-between">
-          <div class="line">
-            Primera Suscripción:
-          </div>
-          <p>{{ user.date_in }}</p>
-        </div>
-
-        <div class="d-flex justify-content-between">
-          <div class="line">
-            Última Suscripción:
-          </div>
-          <p>{{ user.last_date_in }}</p>
-        </div>
-
-        <div class="d-flex justify-content-between">
-          <div class="line">
-            Meses de Suscripción:
-          </div>
-          <p>{{ user.acumulated_suscription }}</p>
-        </div>
-
-        <div class="d-flex justify-content-between">
-          <div class="line">
-            Estado:
-          </div>
-          <p v-bind:class="isActive ? 'text-green' : 'text-red'">
-            {{ state }}
-          </p>
-        </div>
+        
       </div>
     </modal>
     
@@ -140,7 +260,7 @@ export default {
       debugger;
       var timestamp = new Date().getTime();     
       var el = document.getElementById("testimg");     
-      el.src = 'http://127.0.0.1:8082/' + this.form.dni + '.png?t=' + timestamp; 
+      el.src = 'http://127.0.0.1:8081/' + this.form.dni + '.png?t=' + timestamp; 
       this.$modal.hide(`modal-recibo`);
     },
     mostrarRecibo(){
@@ -148,7 +268,7 @@ export default {
       if (this.tieneRecibo) {
         debugger;
         var timestamp = new Date().getTime();     
-        this.image = 'http://127.0.0.1:8082/' + this.form.dni + '.png?t='+ timestamp; 
+        this.image = 'http://127.0.0.1:8081/' + this.form.dni + '.png?t='+ timestamp; 
         this.$modal.show(`modal-recibo`);
       } else {
           this.$snotify.error('El usuario no tiene un recibo');
@@ -208,7 +328,7 @@ export default {
     font-size: 3.4rem;
   }
   padding: 50px;
-  font-size: 1.8rem;
+  font-size: 1rem;
   .d-flex {
     padding: 0 20px 0 20px;
   }

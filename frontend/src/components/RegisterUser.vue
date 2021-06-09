@@ -2,27 +2,75 @@
   <div>
     <h2>Agregar Nuevo Usuario</h2>
     <div class="form-container">
-      <input v-model="form.name_user" placeholder="Nombre" />
-      <input v-model="form.dni" placeholder="Cédula" />
+      <div class="row">
+        <div class="col-md-6">
+          <input v-model="form.name_user" placeholder="Nombre" />
+        </div>
+        <div class="col-md-6">
+          <input v-model="form.dni" placeholder="Cédula" />
+        </div>
+      </div>
+      <div class="row">
+        <di class="col-md-6">
+          <input v-model="form.direccion" type="text" maxlength="100" placeholder="Dirección" />
+        </di>
+        <di class="col-md-6">
+          <input v-model="form.telefono" type="text" maxlength="15" placeholder="Teléfono" />
+        </di>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <input v-model="form.email" type="text" maxlength="50" placeholder="email" />
+        </div>
+        <div class="col-md-6">
+          <input v-model="form.peso" placeholder="Peso (Kg)" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <input v-model="form.altura" placeholder="Altura (m)" />
+        </div>
+        <div class="col-md-6">
+          <input v-model="form.talla_pecho" placeholder="Talla pecho (cm)" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <input v-model="form.talla_cintura" placeholder="Talla cintura (cm)" />
+        </div>
+        <div class="col-md-6">
+          <input v-model="form.talla_cadera" placeholder="Talla caderas (cm)" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <input v-model="form.talla_brazo" placeholder="Talla brazo (cm)" />
+        </div>
+        <div class="col-md-6">
+          <select name="select" v-model="form.acumulated_suscription">
+            <option hidden selected value="0">Meses de Suscripción</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+          </select>
+        </div>
+      </div>
+  
       <!-- <input
         v-model="form.acumulated_suscription"
         placeholder="Meses de Suscripción"
       /> -->
-      <select name="select" v-model="form.acumulated_suscription">
-        <option hidden selected value="0">Meses de Suscripción</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>
-        <option value="7">7</option>
-        <option value="8">8</option>
-        <option value="9">9</option>
-        <option value="10">10</option>
-        <option value="11">11</option>
-        <option value="12">12</option>
-      </select>
+      
+
       <button @click="addNewUser" class="btn btn-standar mt-4">
         AGREGAR
       </button>
@@ -64,7 +112,9 @@ export default {
       } else {
         this.form.date_in = moment().format('DD/MM/YYYY')
         this.form.last_date_in = moment().format('DD/MM/YYYY')
-        this.form.id_gym = 1
+        this.form.id_gym = 1;
+        debugger;
+        console.log(this.form);
         axios
           .post('http://localhost:3000/api/user', this.form)
           .then(() => {

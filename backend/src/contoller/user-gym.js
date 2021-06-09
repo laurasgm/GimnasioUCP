@@ -14,6 +14,15 @@ async function createUserGym(req, res) {
     date_in,
     acumulated_suscription,
     last_date_in,
+    direccion,
+    telefono,
+    email,
+    peso,
+    altura,
+    talla_pecho,
+    talla_cadera,
+    talla_brazo,
+    talla_cintura
   } = req.body
   try {
     let user = await userGym.createUser(
@@ -22,7 +31,16 @@ async function createUserGym(req, res) {
       id_gym,
       date_in,
       acumulated_suscription,
-      last_date_in
+      last_date_in,
+      direccion,
+      telefono,
+      email,
+      peso,
+      altura,
+      talla_pecho,
+      talla_cadera,
+      talla_brazo,
+      talla_cintura
     )
     return res.status(201).send({
       message: 'Usuario almacenado exitosamente',
@@ -51,14 +69,37 @@ async function listUsers(req, res) {
 }
 
 async function updateUser(req, res) {
-  let { name_user, dni, new_dni, acumulated_suscription } = req.body
+  let { 
+    name_user, 
+    dni, 
+    new_dni, 
+    acumulated_suscription, 
+    direccion,
+    telefono,
+    email,
+    peso,
+    altura,
+    talla_pecho,
+    talla_cadera,
+    talla_brazo,
+    talla_cintura } = req.body
+    console.log(req.body);
   if (!new_dni) new_dni = dni
   try {
     let user = await userGym.updateUser(
       name_user,
       dni,
       new_dni,
-      acumulated_suscription
+      acumulated_suscription,
+      direccion,
+      telefono,
+      email,
+      peso,
+      altura,
+      talla_pecho,
+      talla_cadera,
+      talla_brazo,
+      talla_cintura
     )
     if (!user)
       return res.status(404).send({

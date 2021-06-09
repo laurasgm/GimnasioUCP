@@ -53,10 +53,10 @@ export default {
 .container-user {
   display: block;
   width: 100%;
-  background-image: url('../assets/img/1.jpg');
+  background-image: url("../assets/img/1.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
-  height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
   padding-top: 150px;
   text-align: center;
   .row {
@@ -78,4 +78,19 @@ export default {
 h1 {
   color: white;
 }
+@media (max-width: 570px) {
+    .card {
+      margin-top: 20px;
+    }
+    .container-gruop {
+      background-color: url("../assets/img/1.jpg");
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+      text-align: center;
+    }
+  }
 </style>

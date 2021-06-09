@@ -6633,7 +6633,7 @@ export default {
 					};
 					this.ejerciciosPersonalizados.push(datos);
 				} else {
-					if (indexEjercicio === -1 && this.ejerciciosPersonalizados[indexUsuario].ejercicios.length <= 8) {
+					if (indexEjercicio === -1 && this.ejerciciosPersonalizados[indexUsuario].ejercicios.length < 10) {
 						this.ejerciciosPersonalizados[indexUsuario].ejercicios.push({
 							img: document.getElementById(idImagen).src,
 							titulo: titulo,
@@ -6641,9 +6641,10 @@ export default {
 							descripcion: descripcion,
 							grupoEjecicio: grupoEjecicio
 							});
+							this.$snotify.success('El ejercicio se agrega a tu lista correctamente');
 					} else {
-						if (this.ejerciciosPersonalizados[indexUsuario].ejercicios.length === 8) {
-	            			this.$snotify.error('No puede agregar mas ehercicios a su rutina');
+						if (this.ejerciciosPersonalizados[indexUsuario].ejercicios.length === 10) {
+	            			this.$snotify.error('No puede agregar mas ejercicios a su rutina');
 						}
 						if (indexEjercicio !== -1) {
 	            			this.$snotify.error('Ya agrego este ejercicio a su rutina');
@@ -6656,7 +6657,7 @@ export default {
 				}
 				const registros = JSON.stringify(this.ejerciciosPersonalizados);
 				localStorage.setItem('exercises', registros);
-	            this.$snotify.success('El ejercicio se agrega a tu lista correctamente');
+	            
 			}
 
 	  }

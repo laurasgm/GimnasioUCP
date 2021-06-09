@@ -20,7 +20,7 @@
             Eliminar
           </button>
 
-          <modal :height="480" :name="'modal' + data.index">
+          <modal :height="700" :name="'modal' + data.index">
             <div class="container-modal">
               <button type="button" class="close" @click="closeModalEdit()" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
@@ -32,35 +32,162 @@
                   <br>
                     <input type="file" accept=".jpg, .png" @change="onFileSelected" >
                 </div>
-                <div class="item ">
-                  <small>Nombre</small>
-                  <input
-                    class="form-control"
-                    type="text"
-                    v-bind:value="data.item.Nombre"
-                    v-on:input="data.item.Nombre = $event.target.value"
-                  />
-                </div>
-                <div class="item">
-                  <small>Cédula</small>
-                  <input
-                    class="form-control"
-                    type="number"
-                    v-bind:value="data.item.Cedula"
-                    v-on:input="data.item.Cedula = $event.target.value"
-                  />
-                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="item ">
+                      <small>Nombre</small>
+                      <input
+                        class="form-control"
+                        type="text"
+                        v-bind:value="data.item.Nombre"
+                        v-on:input="data.item.Nombre = $event.target.value"
+                      />
+                    </div>
 
-                <div class="item">
-                  <small>Meses Pagados</small>
-                  <input
-                    class="form-control input-group-prepend"
-                    type="text"
-                    v-bind:value="data.item.Meses_pagados"
-                    v-on:input="data.item.Meses_pagados = $event.target.value"
-                  />
-                </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="item">
+                      <small>Cédula</small>
+                      <input
+                        class="form-control"
+                        type="number"
+                        v-bind:value="data.item.Cedula"
+                        v-on:input="data.item.Cedula = $event.target.value"
+                      />
+                    </div>
 
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="item">
+                      <small>Dirección</small>
+                      <input
+                        class="form-control"
+                        type="text"
+                        v-bind:value="data.item.direccion"
+                        v-on:input="data.item.direccion = $event.target.value"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="item">
+                      <small>Teléfono</small>
+                      <input
+                        class="form-control"
+                        type="text"
+                        v-bind:value="data.item.telefono"
+                        v-on:input="data.item.telefono = $event.target.value"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="item">
+                      <small>Email</small>
+                      <input
+                        class="form-control"
+                        type="text"
+                        v-bind:value="data.item.email"
+                        v-on:input="data.item.email = $event.target.value"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="item">
+                      <small>Peso</small>
+                      <input
+                        class="form-control"
+                        type="number"
+                        v-bind:value="data.item.peso"
+                        v-on:input="data.item.peso = $event.target.value"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row"> 
+                  <div class="col-md-6">
+                    <div class="item">
+                      <small>Altura</small>
+                      <input
+                        class="form-control"
+                        type="number"
+                        v-bind:value="data.item.altura"
+                        v-on:input="data.item.altura = $event.target.value"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="item">
+                      <small>Talla pecho</small>
+                      <input
+                        class="form-control"
+                        type="number"
+                        v-bind:value="data.item.talla_pecho"
+                        v-on:input="data.item.talla_pecho = $event.target.value"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="item">
+                      <small>Talla cadera</small>
+                      <input
+                        class="form-control"
+                        type="number"
+                        v-bind:value="data.item.talla_cadera"
+                        v-on:input="data.item.talla_cadera = $event.target.value"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="item">
+                      <small>Talla brazo</small>
+                      <input
+                        class="form-control"
+                        type="number"
+                        v-bind:value="data.item.talla_brazo"
+                        v-on:input="data.item.talla_brazo = $event.target.value"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="item">
+                      <small>Talla cintura</small>
+                      <input
+                        class="form-control"
+                        type="number"
+                        v-bind:value="data.item.talla_cintura"
+                        v-on:input="data.item.talla_cintura = $event.target.value"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="item">
+                      <small>Meses Pagados</small>
+                      <select name="select" class="form-control" v-bind:value="data.item.Meses_pagados"
+                        v-on:input="data.item.Meses_pagados = $event.target.value">
+                        <option hidden selected value="0">Meses de Suscripción</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
                 <button
                   v-if="!loadingModal"
                   @click="editUser(data.item)"
@@ -176,6 +303,15 @@ export default {
           Fecha_de_Expiración: fechaTmp.toLocaleDateString(),
           Meses_pagados: index.acumulated_suscription,
           Estado: state,
+          direccion: index.direccion,
+          telefono: index.telefono,
+          email: index.email,
+          peso: index.peso,
+          altura: index.altura,
+          talla_pecho: index.talla_pecho,
+          talla_cadera: index.talla_cadera,
+          talla_brazo: index.talla_brazo,
+          talla_cintura: index.talla_cintura,
           Acción: 'Eliminar',
         }
       })
@@ -195,7 +331,16 @@ export default {
       this.edit.name_user = user.Nombre
       this.edit.new_dni = user.Cedula
       this.edit.acumulated_suscription = user.Meses_pagados
-      this.edit.id_gym = 1
+      this.edit.id_gym = 1;
+      this.edit.direccion = user.direccion;
+      this.edit.telefono = user.telefono;
+      this.edit.email = user.email;
+      this.edit.peso = user.peso;
+      this.edit.altura = user.altura;
+      this.edit.talla_pecho = user.talla_pecho;
+      this.edit.talla_cadera = user.talla_cadera;
+      this.edit.talla_brazo = user.talla_brazo;
+      this.edit.talla_cintura = user.talla_cintura;
       axios
         .put('http://localhost:3000/api/user', this.edit)
         .then((res) => {

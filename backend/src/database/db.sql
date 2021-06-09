@@ -62,3 +62,29 @@ insert into gym (name_gym) values ('JOSE SPORT GYM');
 alter table admin
 add administrador BOOLEAN DEFAULT FALSE ;
 
+alter table user_gym
+add direccion varchar(100);
+
+alter table user_gym
+add telefono varchar(15);
+
+alter table user_gym
+add email varchar(50);
+
+alter table user_gym
+add peso double precision;
+
+alter table user_gym
+add altura double precision;
+
+alter table user_gym
+add talla_pecho double precision;
+
+alter table user_gym
+add talla_cadera double precision;
+
+alter table user_gym
+add talla_brazo double precision;
+
+alter table user_gym
+add talla_cintura double precision;
